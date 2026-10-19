@@ -1,4 +1,4 @@
-# 🔥 inkle-to-card
+# 🃏 inkle-to-card
 
 **Turn any inkle belt pattern into a complete card (tablet) weaving setup —
 threading draft, colors, positions, turning chart, and a crystal-clear
