@@ -26,6 +26,7 @@ One command, one PDF, everything the loom asks of you:
 - **R7 Materials** — warp length (1.2 × finished + 50 cm), yarn per color, card count
 - **R8 Notation legend** — A–D labels, F/B, S/Z, and the mark-your-cards habit
 - **R9 Warnings** — twist buildup, grain mismatch, and low value contrast
+- **R10 Palette** — the black-and-white-photo test as a value ladder, plus per-color yarn in meters and yards
 
 ## Quickstart
 
@@ -34,7 +35,9 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -e .
 .venv/bin/inkletocard demo --list          # three starter patterns
 .venv/bin/inkletocard demo first-band      # writes first-band.pdf
+.venv/bin/inkletocard check my-draft.json   # loom-side facts + all warnings, no PDF
 .venv/bin/inkletocard convert my-draft.json -o belt.pdf
+.venv/bin/inkletocard convert my-draft.json --repeats 6 --finished-in 78 -o belt.pdf
 ```
 
 No PDF? Add `--no-pdf` and read the full deck summary and an ASCII preview
@@ -68,6 +71,9 @@ Full grammar and every error message: `docs/DRAFT-FORMAT.md`.
 - **Mapping B (`--mapping B`)** — four ends per card, a quarter as wide and
   a quarter the thread, with each card's holes arranged so the 8-pick
   4F-4B cycle shows your four colors in draft order.
+- **Card-pack math** — commercial card packs hold 25: Mapping A covers 25 ends
+  per pack, Mapping B covers 100. The converter warns with pack counts, and
+  `--repeats N` charts N full 8-pick cycles instead of one.
 
 ## Color help built in
 

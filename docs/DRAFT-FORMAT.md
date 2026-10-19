@@ -113,3 +113,15 @@ top-to-bottom hole-row order. The imported deck gets the reverse-engineered
 inkle view (one end per hole, surface order D,C,B,A per card), so the
 materials page counts threads exactly; `--save-draft` writes that view as
 normal draft JSON.
+
+
+## Units and the check command (v0.4)
+
+- `--finished-in INCHES` is the imperial twin of `--finished-cm` (give one
+  or the other). The materials page shows warp length in cm and inches and
+  yarn per color in meters and yards.
+- `inkletocard check DRAFT [--mapping A|B]` prints the loom-side facts - end
+  and heddle counts, colors with hex and counts, stripe blocks, the card
+  count for the chosen mapping, and every warning the PDF would carry -
+  without building anything. Invalid drafts exit 1 with the full problem
+  list; valid drafts exit 0 (warnings included, not fatal).

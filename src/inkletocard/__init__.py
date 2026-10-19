@@ -7,7 +7,7 @@ band face, and renders a PDF report a weaver can follow at the loom.
 
 Evidence base: research/RESEARCH.md (grounded citations).
 """
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 
 from .models import (
     HOLE_ORDER,

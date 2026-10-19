@@ -208,3 +208,23 @@ imported drafts round-trip through the JSON format.
 
 **Acceptance:** importer + CLI tests green (159 total); research section 13
 citation-verified; assumptions printed in deck warnings and PDF page R9.
+
+
+---
+
+## Prompt 13 (v0.4.0, executed 2026-10-18) - Five improvements batch
+
+1. **Card-pack guidance** - engine warns with pack counts (25-card commercial
+   packs) for both mappings; research section 11's Mapping-A pack math
+   corrected (25 ends per pack under A, not 100 - that was B math).
+2. **Imperial units** - `--finished-in` (mutually exclusive with
+   `--finished-cm`); materials report and page now show cm+in and m+yd.
+3. **Palette page R10** - swatches, per-color threads/yards, luminance with
+   plain-language value words, and the dark-to-light value ladder (the
+   black-and-white-photo test, research section 12) rendered in the PDF.
+4. **`--repeats N`** - chart N 8-pick 4F-4B cycles; turning chart scales rows
+   and caps at 64 picks with a repeats note; preview caps at 64 rows too.
+5. **`check` command** - no-PDF loom-side gate: validation, counts, stripe
+   blocks, card count, every warning; exit 1 on invalid drafts.
+
+**Acceptance:** 179 tests green; each improvement committed separately; tagged v0.4.0.
