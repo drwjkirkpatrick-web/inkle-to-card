@@ -23,12 +23,13 @@ render them as a PDF report.
 - [x] Prompt 4: turning sequences + twist accounting (turning.py)
 - [x] Prompt 5: band face simulator (simulate.py)
 - [x] Prompt 6: color utilities (colors.py) - value contrast, ladder, suggestions
+- [x] Prompt 7: PDF report part 1 (report.py) - R1 title, R2 threading table, R3 deck summary, R4 start position
 
 ### In Progress
-- [ ] Prompt 7: PDF report part 1 (report.py)
+- [ ] Prompt 8: PDF report part 2 (R5-R9 in report.py)
 
 ### Not Started
-- [ ] Prompts 8-10 (see PROMPTS.md dependency table)
+- [ ] Prompts 9-10 (see PROMPTS.md dependency table)
 
 ## 3. Architecture & Key Decisions
 | Decision | Rationale | Date |
@@ -44,7 +45,7 @@ render them as a PDF report.
 - **Risk:** value-contrast warning threshold uncalibrated - pick 1.8:1 default, revisit in P6 tests.
 
 ## 5. Next Step (only ONE)
-> **Next:** Execute Prompt 7 (report.py + tests/test_report.py) per PROMPTS.md.
+> **Next:** Execute Prompt 8 (report.py R5-R9 + tests) per PROMPTS.md.
 
 ## 6. Environment & Tooling Notes
 - Python 3.14.7; project venv at .venv (`.venv/bin/python -m pytest -q`)
