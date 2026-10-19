@@ -59,6 +59,7 @@ def convert_draft(draft: InkleDraft, mapping: str = "A") -> CardDeck:
             "one card threaded with four threads of the same color - about 4x the "
             "thread of an inkle band of the same width."
         ]
+        warnings.extend(_pack_warnings(len(cards), alt_cards=-(-len(draft.ends) // 4)))
         return CardDeck(
             draft_name=draft.name,
             mapping="A",
@@ -101,6 +102,7 @@ def convert_draft(draft: InkleDraft, mapping: str = "A") -> CardDeck:
                 f"The last card was padded with {padded} extra end(s) of the edge color "
                 f"{edge_color!r} so all four of its holes carry a thread."
             )
+        warnings.extend(_pack_warnings(len(cards)))
         return CardDeck(
             draft_name=draft.name,
             mapping="B",
@@ -110,3 +112,30 @@ def convert_draft(draft: InkleDraft, mapping: str = "A") -> CardDeck:
         )
 
     raise ValueError(f"mapping must be 'A' or 'B', not {mapping!r}")
+
+
+def _pack_warnings(n_cards: int, alt_cards: int | None = None) -> list[str]:
+    """Card-count guidance from research section 11: commercial packs hold 25.
+
+    alt_cards: how many cards the OTHER mapping would need (used by Mapping A
+    to suggest the narrower option).
+    """
+    import math
+
+    warnings: list[str] = []
+    if n_cards > 25:
+        packs = math.ceil(n_cards / 25)
+        text = (
+            f"Card-pack math: this band needs {n_cards} cards; commercial packs hold 25 "
+            "(Schacht, Lacis, Hendrickson) - that is "
+            f"{packs} pack{'s' if packs != 1 else ''}"
+        )
+        if alt_cards and alt_cards != n_cards and alt_cards <= 25:
+            text += f"; Mapping B would weave it on {alt_cards} cards (one pack)"
+        warnings.append(text + ".")
+        if n_cards > 100:
+            warnings.append(
+                f"{n_cards} cards is a very long pack - consider wooden tablets, "
+                "a narrower draft, or Mapping B."
+            )
+    return warnings

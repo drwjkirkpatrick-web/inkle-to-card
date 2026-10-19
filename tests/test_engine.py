@@ -110,3 +110,27 @@ class TestDeckShape:
         rebuilt = CardDeck.from_dict(deck.to_dict())
         assert rebuilt == deck
         assert rebuilt.cards[0].hole_colors == deck.cards[0].hole_colors
+
+
+class TestCardPackGuidance:
+    def test_mapping_a_over_25_ends_needs_two_packs(self):
+        deck = convert_draft(make_draft(40), mapping="A")
+        pack_warnings = [w for w in deck.warnings if "Card-pack" in w]
+        assert pack_warnings, deck.warnings
+        assert "40 cards" in pack_warnings[0] and "2 packs" in pack_warnings[0]
+        assert "Mapping B would weave it on 10 cards (one pack)" in pack_warnings[0]
+
+    def test_small_draft_has_no_pack_warning(self):
+        deck = convert_draft(make_draft(17), mapping="A")
+        assert not any("Card-pack" in w for w in deck.warnings)
+
+    def test_mapping_b_pack_warning_without_alt(self):
+        colors = ["navy"] * 100 + ["cream"] * 20
+        deck = convert_draft(make_draft(120, colors=colors), mapping="B")
+        pack_warnings = [w for w in deck.warnings if "Card-pack" in w]
+        assert pack_warnings and "30 cards" in pack_warnings[0] and "2 packs" in pack_warnings[0]
+        assert "Mapping B would" not in pack_warnings[0]
+
+    def test_very_long_pack_gets_extra_note(self):
+        deck = convert_draft(make_draft(104), mapping="A")
+        assert any("very long pack" in w for w in deck.warnings)

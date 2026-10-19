@@ -45,7 +45,7 @@ A fiber-arts retailer currently offers five commercial styles, 25 cards per pack
 
 DIY cards remain the classic starting point: cut a square about 5 cm on each side from cardboard or old playing cards, punch four holes in the corners, and round the corners off; historically tablets were made of bone or wood, and perhaps also of leather or horn.[39][6] A first band needs only 8 tablets, one shuttle, and two colors of yarn.[39] Six- and eight-hole cards are in modern use for advanced patterning.[14] Cards are usually marked with colors or stripes so their facings and orientations can be easily noticed - a habit the PDF legend should teach.[5]
 
-Program implication: the converter targets the square four-hole card as its default hardware assumption (a 25-card pack covers bands up to 100 ends under Mapping A), states card count as one card per inkle end, and follows the A-D labeling embodied by Hendrickson's cards and the standard notation.[31][8]
+Program implication: the converter targets the square four-hole card as its default hardware assumption (corrected 2026-10-18: a 25-card pack covers bands up to 25 ends under Mapping A - one card per end - or 100 ends under Mapping B), states card count as one card per inkle end, and follows the A-D labeling embodied by Hendrickson's cards and the standard notation.[31][8]
 
 ## 12. Color selection guidance (palette module and PDF color notes)
 
