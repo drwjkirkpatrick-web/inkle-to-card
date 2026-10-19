@@ -1,0 +1,206 @@
+[![Phiala's String Page – Fiber arts online since 1996](https://stringpage.com//assets/img/logo.png)](https://stringpage.com/ "Phiala's String Page – Fiber arts online since 1996")
+
+![](https://stringpage.com/images/logo.png)
+
+## Introduction
+
+Card weaving, also known as tablet weaving, is a method of producing
+narrow textiles such as straps, belts and trim. Most card woven bands
+are very strong and sturdy. Card woven bands can range from simple and
+easy to elaborately patterned and very time consuming. I'll focus on
+the easiest types, but I will tell you where to find out more about the
+more complicated types of card weaving.
+
+The oldest known reliable evidence for card weaving comes from about 400
+B.C. Several cards and some card woven material was found at an
+archeological site in Spain. In period, card weaving was most highly
+developed in northern Europe, especially in Scandinavia, and was also
+used by the Anglo-Saxons. Many medieval pieces were ornate silk
+ecclesiastical vestments, or wrist and head bands brocaded with gold or
+silver, but others were much simpler. These may have been used as belts
+or straps. Card woven borders were sometimes woven into larger textiles.
+This helped to set the warp spacing and provided sturdy selvages.
+
+## Materials
+
+Cards can be made of thin sturdy cardboard, or even thin wood. The
+material must be smooth enough that it won't catch the yarn. An easy
+set of weaving cards can be made from an old set of playing cards. Index
+cards also work, but aren't very sturdy. What ever the material, the
+cards should be cut into squares about 5-6 cm on a side, and a hole
+punched in each corner. Make sure the holes are smooth and nearly round,
+or you will have trouble turning the cards. It also helps to round the
+corners.
+
+![weaving tablet](https://www.stringpage.com/assets/images/tw/card.png)
+
+A wide range of yarns work well for card weaving. Whatever you choose
+must be fairly sturdy. The warp (the yarn strung thru the cards) will be
+under a lot of tension and friction, so it can't be anything fuzzy or
+easy to break, although fuzzy yarns can be used in the weft. I've found
+that cotton crocheting string works well (and is cheap and easy to find)
+but embroidery floss can also be used, or any sturdy yarn.
+
+## Setting Up
+
+The first step (after making cards, finding yarn and picking a project)
+is to cut the warp. The length of each warp string should be the
+intended length of the finished piece plus 20% for take-up, plus 50 cm
+for room for the cards, starting and ending knots, etc. This is
+important, so I'll repeat it:
+
+warp length = 1.2 x final length + 50 cm
+
+One warp yarn will be strung through each hole in every card. A card can
+be strung from left to right (Z-threaded) or right to left (S-threaded),
+but all four holes must be strung in the same direction or the card
+won't turn. When you look at the cards from above, the yarn will be on
+a slight diagonal, either in the same direction as the middle line of a
+Z, or the same direction as the middle part of an S. It's probably
+easiest to tie each set of four warp yarns together after you thread a
+card. When all the cards are threaded, tie a big knot at the beginning
+and the end to hold everything together.
+
+![threading direction](https://www.stringpage.com/assets/images/tw/threaddir.png)
+
+The weft is the yarn that is passed back and forth between the warp
+threads, and holds the whole thing together. It will normally only show
+at the sides of the band. Take a fairly long piece of string (but not
+too long or it gets unmanageable) of the same color as the strings in
+the edge cards, and wind it around a shuttle or make in into a
+butterfly. Now you are ready to weave!
+
+## Weaving
+
+Tie the far end of the warp to something sturdy, like a doorknob or a
+chair. Either hold the other end or attach it to your belt. The cards
+should all be in a pack with one set of edges flat towards you. Pass one
+end of the weft through the shed, which is the gap between the warp
+threads in the top holes of the cards and those in the bottom holes.
+Leave about 2 cm or so sticking out of the weft. Turn the entire pack of
+cards one-quarter turn, either forward (away from you) or backwards
+(towards yourself). The direction depends on the pattern. Pack the new
+shed towards yourself, wither with your finger or something smooth and
+flat, like the back of a knife blade, and pass the weft through again.
+Don't pull the weft all the way tight yet- leave a little loop sticking
+out. Now repeat the following steps:
+
+1. Turn the cards.
+2. Pack the shed.
+3. Tighten the previous weft shot just to the edge of the band.
+4. Pass a new weft shot through the shed.
+
+Continue until the band is the length you’d like. Easy, isn’t it?
+
+## Finishing
+
+Trim can be cut into lengths and sewn on, as long as the ends are firmly
+sewn down. For straps or belts, you can leave extra and make tassels or
+braids, or hem the ends. Or for a belt, you may want to attach a ring to
+one end. Just don’t forget to take the cards off!
+
+## Threaded-in Patterns
+
+Now that you know the mechanics of card weaving, you probably want to
+know how to make neat patterns, right? The easiest type of pattern is
+the threaded-in pattern, where the design is created by threading
+different colors of yard in the same card, and all the cards are turned
+in the same direction. These patterns are not medieval! Most period
+patterns involve some amount of individual manipulation of the cards.
+Any of the references at the end can give you more suggestions about
+medieval card weaving.
+
+Card weaving projects are usually set up from a pattern. The conventions
+I use are similar to those used by Collingwood and other authors in this
+area. Each hole in the card is given a letter to identify it. You don’t
+need to write these on the card unless you really want to, but it is
+useful to mark to top of each card in some way. Most commercial cards
+are marked. Looking at the card from the left, the letters are:
+
+```
+                                      D   A
+                                      C   B
+```
+
+A pattern will show the order of the cards, what color weft to string
+through each hole, and the threading direction, and can be drawn quickly
+on graph paper, with each column of four squares indicating the four
+holes of one card. A \ below a column indicates that card is
+S-threaded, and a / indicates a Z-threaded card. The following sample
+pattern would be for four cards with dark threads in their B holes and
+light threads in the remaining holes. The left two cards are S-threaded,
+and the right cards are Z-threaded.
+
+```
+                                    O    O    O    O    D
+                                    O    O    O    O    C
+                                    X    X    X    X    B
+                                    O    O    O    O    A
+                                    \    \    /    /
+```
+
+I have made a page with a few [sample threaded-in\\
+patterns](https://www.stringpage.com/assets/images/tw/patterns.png), and descriptions of the bands they will
+produce. Notice that for a Z-diagonal stripe to have smooth edges on the
+front of the band, the cards must be S-threaded and turned forwards. If
+S-threaded cards are turned backwards, a smooth S-diagonal stripe will
+result. The opposite is true for Z-threaded cards: if turned forwards,
+they will produce a clean S-diagonal. This effect is caused by the
+twisting together of the four threads in each card. Patterns with no
+diagonal lines usually work best with alternating Z and S-threaded
+cards.
+
+### More Complicated Patterns
+
+One of the most common individual card manipulations is the twist.
+Simply rotate a card around its vertical axis. This changes the
+threading direction of the card as well as the color position. (Note: In
+some cases twisting the card is equivalent to turning it in the opposite
+direction. A Z-threaded card turned forwards will produce the same twist
+as an S-threaded card turned backwards, but the color pattern may not be
+the same with a twist as a reversal.) One pattern I really like is
+[kivrim](https://www.stringpage.com/assets/images/tw/kivrim.png), which makes a spiral design.
+
+### Double Face Weave
+
+This is the simplest weave that allows you to make patterns that do not
+depend on the threading of the cards. Nearly any two-colored pattern can
+be made using this weave- pictures, letters, even Celtic knotwork.
+
+Set up all the cards with two dark threads in the holes nearest you (A
+and B) and light threads in the far two holes (C and D). The cards
+should alternate S and Z-threading. The basic double weave sequence is:
+2xF, 2xB. This turning sequence will make a band that is all dark on the
+top and all light on the bottom.
+
+![doubleface](https://www.stringpage.com/assets/images/tw/dface.png)
+
+To switch colors in one card, simply twist that card when it has two
+different colors in the top two holes (the dark threads are in A and D,
+or in B and C). The card or cards twisted will now make a portion of the
+band with a light surface and a dark back. Having control over the color
+of each individual card allows you to weave any pattern that you can
+draw on graph paper, as long as each color change is a multiple of two
+squares long. This restriction is because you can only change colors in
+the first and third card positions in the sequence, and not in the
+second and fourth (twisting will have no effect on color position.) I
+have a [simple example](https://www.stringpage.com/assets/images/tw/dfpatt.png) online.
+
+### References
+
+- Collingwood, Peter. 1982. The Techniques of Tablet Weaving.
+Watson-Guptill Publications, New York. Some historical information, lots
+and lots of techniques. The most important card weaving book! This has been reprinted.
+
+- Hansen, Egon. 1990. Tablet Weaving: History. Techniques. Colours.
+Patterns. Books for Craftsmen, Inc. Petaluma CA. This book is a good
+source for advanced techniques and historical information. It is
+difficult to decipher and definitely NOT a beginner’s book. Don’t
+bother unless you are serious and are prepared to spend many hours
+deciphering pages full of colored dots. It’s out of print now anyway.
+
+- There are a number of papers describing medieval tablet-woven pieces in
+the [References](https://www.stringpage.com/references.html) section.
+
+
+BESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswy

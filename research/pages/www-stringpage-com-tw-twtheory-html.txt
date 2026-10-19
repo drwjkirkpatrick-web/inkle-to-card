@@ -1,0 +1,234 @@
+[![Phiala's String Page – Fiber arts online since 1996](https://stringpage.com//assets/img/logo.png)](https://stringpage.com/ "Phiala's String Page – Fiber arts online since 1996")
+
+![](https://stringpage.com/images/logo.png)
+
+If reading this is your very first experience with tablet weaving, I
+suggest you read my [basic instructions](https://www.stringpage.com/tw/basictw.html), go off and
+actually try weaving something, then come back and read this discussion.
+It will make much more sense to you after you have some practical
+experience. You should also read the introductory material if you
+aren’t familiar with basic terminology, especially S and Z threading.
+
+The conventions I use assume that the weaver works away from herself,
+and that the tablets are threaded while looking at the pack from the
+right. I realize that there are many other ways of weaving, so you may
+have to make some changes for this discussion to make sense for your way
+of working. This discussion was written for square tablets with all
+holes threaded, but can be adapted for any variation- the basic
+principles are the same. A “forward turn means that the top corner of
+the tablet nearer the weaver moves to the top corner farther from the
+weaver, and a “backward” turn is the reverse movement. Unless
+otherwise specified, both are quarter turns. The notation I use is shown
+at left. When the tablet is turned forward, holes A, B, C, D
+successively occupy the near top corner.
+
+There are three important elements which determine the structure of
+tablet weaving: threading direction, threading pattern, and turning
+direction. I have found that understanding how tablet weaving actually
+works, and how these three elements interact, makes it much easier to
+design original patterns and also to learn new techniques. This
+knowledge is especially important for the weaving techniques in which
+the tablets are turned individually, such as the 3/1 twill, and the
+four-color patterns (also called Snartemo after the location where a
+band in this technique was found.)
+
+## How Tablet Weaving Works
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image2.gif)
+
+One of the distinctive features of tablet weaving is the twining. The
+threads in each tablet are twisted together to form a cord in the
+finished band. The thread which moved over the top of the tablet is the
+one which shows on the top face of the finished band.
+
+This diagram illustrates the way the threads move in the cord when the
+tablets are turned. Each thread is successively seen on the top of the
+band, hidden in the band, seen on the bottom of the band, and hidden
+again. When the turning direction is reversed, the sequence through
+which each thread is moved is also reversed at that point. Notice that
+each thread passes over or under either one or three picks of the weft,
+not the usual two. On the surface of the band only the longer floats
+will show. If the tablet direction is changed several turns in
+succession, even longer floats will be made.
+
+The same diagram can be used to illustrate how the twining works. The
+tablet is threaded in the S direction, so the first section of the cord,
+where the tablet is turned forward, is twined in the Z direction. You
+can see that each thread crosses the cord from left to right. Reversing
+the turning direction changes the twining of the finished cord, so the
+second section of the cord is S-twined, and the threads cross from the
+right to the left. A tablet produces the cord twined in the opposite
+direction if it is turned forward, and the same direction if it is
+turned backward.
+
+```
+| Threading Direction   | Turned Forward        | Turned Backward       |
+|-----------------------|-----------------------|-----------------------|
+| S                     | Z                     | S                     |
+| Z                     | S                     | Z                     |
+```
+
+## Threading Diagrams
+
+The essential set-up information for a set of tablets is the threading
+direction and the color of thread which passes through each hole. This
+can be expressed concisely as a diagram. Each column represents the four
+holes in a tablet. Using the lettering pattern from the tablet shown
+earlier, the bottom row is the A threads, the next row is the B threads,
+and the top row is the D threads. The slash marks below the chart
+represent the threading direction (S=\\, Z=/).
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image3.gif)
+
+This diagram represents the same tablet used earlier for the structure
+diagram. The sequence A-B-C-D shows the thread colors in the order in
+which they appear on the surface of the band. NOTE: this diagram shows
+the threading pattern of the tablet BEFORE the first turn. To start the
+pattern, first turn the pack, then pass the weft. Other people draw
+diagrams differently, this is just the method that I have found most
+useful.
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image4.gif)
+
+This is the diagram for a 6-tablet chevron pattern, using the
+demonstration tablet yet again, as the rightmost of the pack. A pack set
+up like this and turned forwards will produce a series of chevrons in
+four colors, and a reversal would flip the pattern to produce a diamond.
+Note that because of the twining of the cords in the band, it is only
+possible to get smooth-edged diagonals by threading the tablets as
+shown. Any other threading would make jagged edges on the chevrons. If
+you aren't clear on this, warp up a pack of tablets and try this
+pattern. The reverse side of the band will show chevrons with jagged
+edges. The direction of the smooth diagonal pattern is the same as the
+direction of the twining of the cord. S-threaded tablets can be used to
+produce Z-diagonals when turned forward and S-diagonals when turned
+backward. (Actually, there is another way to weave this chevron pattern,
+but this is the only method that allows the pack to be turned as a
+unit.)
+
+## Pattern Drafting
+
+Once you understand how one tablet behaves, it isn’t any more difficult
+to understand how many tablets work together. A tablet-woven band can be
+charted on graph paper with colored pencils. In each square a slash is
+drawn, which shows both the color of the thread passing across the top
+of each cord and the twining direction of that
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image5.gif)
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image6.gif)
+
+cord. Be careful- this does NOT have to correspond to the turning
+direction of the tablet. For some complex patterns it is easiest to
+thread all the tablets S so that / denotes a forward turn and \ a
+backward turn, but if the pattern requires both S and Z threaded
+tablets, this is not possible. I’ll use the chevron pattern as my
+example. Although this pattern is simple, it illustrates all the basic
+principles of tablet weaving. This is how the finished band will look. I
+added two reverses (at the heavy lines), where the turning direction of
+the entire pack was switched. Notice that the first four picks (at the
+bottom of the diagram) show the same color arrangement as the threading
+diagram.
+
+There are two different ways to weave this design, as mentioned above.
+The weaver has the freedom to choose the most appropriate, since the
+method will not affect the finished product. The original diagram was
+set up so that the whole pack could be turned as a unit. The alternative
+is to thread all the tablets using the diagram below. If the pack is
+turned as a unit, the band will show diagonal stripes rather than
+chevrons. If the weaver uses the pattern draft at left as a turning
+chart, however, the two set-ups will have the same final product. Again,
+if this doesn’t make sense to you, the best way to understand is to try
+it.
+
+## Twisting
+
+There is one more maneuver that should be discussed here. Twisting a
+tablet about its vertical axis changes its threading direction. If the
+color pattern of the tablet is not affected, twisting a tablet is the
+equivalent of changing its turning direction. This is commonly done in
+the doubleface weaves where the tablets are threaded two light, two
+dark. If two identical threads are in the top holes, it changes the
+threading direction without affecting the color pattern, but if two
+different colors are in the top holes, it both changes the color pattern
+and reverses the threading direction. The method for weaving 3/1 twill
+which I describe online uses twisting to create the color patterns so
+that the tablets can be turned as a unit rather than individually.
+
+## Structures
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image7.gif)
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image8.gif)
+
+
+In the plain doubleface weave, the face of the band is all one solid
+color, and the reverse is the other color. One of the distinctive
+features of this weave are the parallel rows of floats which run across
+the band. The colors from the front and the back of the band can be
+
+[... middle omitted — see footer ...]
+
+the surface of the band and snag on things. There are various ways to do
+this, but all those I am aware of do show on the surface of the band.
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image10.gif)
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image11.gif)
+
+There are two ways to weave 3/1 twills. The most straightforward
+conceptually is to thread the cards all S, and use the pattern draft as
+the turning diagram. This method is best for complicated patterns or if
+the twill is being combined with other techniques. The second method,
+developed by Peter Collingwood, involves setting the cards up so that
+the two packs formed can be turned as units. Color interchange is
+accomplished by twisting the tablets. I have found this method to be
+faster for simple designs. It is discussed in more detail on my web
+page.
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image12.gif)
+
+![diagram](https://www.stringpage.com/assets/images/tw/Image13.gif)
+
+One of the most complex weaves uses tablets threaded identically,
+usually with four colors. Designs are made by reversing the turning
+direction of some tablets to produce long floats. This technique is
+often called Snartemo after the location where a well-known band was
+found. Although it is theoretically possible to weave these patterns in
+other ways, in practice Snartemo is always woven by turning tablets
+individually using the pattern draft as the turning diagram. For
+convenience, all Snartemo examples will be threaded as shown at left
+(although the number of tablets may vary). The basic technique is
+illustrated in the diagram at the left. The turning direction of
+adjacent tablets is reversed in sequence to create a wide diagonal line
+made up of red floats. I think the easiest way to understand Snartemo
+patterns is to look at examples. It also helps to sit down with graph
+paper, colored pencils, and a practice warp, and try various figures
+until you see how the technique works.
+
+One thing to be careful of- when you are working with four colors, the
+color sequence when turning forward is NOT the same as the color
+sequence turning backward, so not all the diagonals will match up!
+Threading the tablets in three colors, red blue red yellow for example,
+would eliminate this problem.
+
+Draw in the first figure of the pattern (the red diamond), then figure
+out where the colors will be in the proper positions to begin the next
+figure (the interlocking blue diamond). Red and blue are on opposite
+corners of each tablet, so that since the pattern started with a red
+diamond, only blue is going to be conveniently placed to begin the next
+diamond. Once the main figures are sketched in, go back and add in the
+surrounding areas. Make sure that the color sequence matches correctly
+with the turning sequence!
+
+## Simple Snartemo Pattern
+
+![diagram](https://www.stringpage.com/assets/images/tw/twtheory-pattern.png)
+
+BESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswyBESbswy
+
+──────── [TRUNCATED] ────────
+Showing 8,965 chars (head) + 2,994 chars (tail) of 14,713 total clean characters.
+Full text saved to: /home/walker/.hermes/cache/web/www.stringpage.com-a32d706b6c.md
+To read the omitted middle: read_file path="/home/walker/.hermes/cache/web/www.stringpage.com-a32d706b6c.md" offset=169 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

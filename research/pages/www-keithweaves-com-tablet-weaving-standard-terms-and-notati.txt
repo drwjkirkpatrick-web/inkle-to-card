@@ -1,0 +1,224 @@
+[Skip to content](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/#content "Skip to content")
+
+Tablet-weaving terms, notation and conventions found in the literature are far from consistent. However, writers appear to be converging on the terms that I describe here. They are the terms adopted by John Mullarkey, a well-known and respected teacher of the craft, and Peter Collingwood in his masterful treatise, _Techniques of Tablet Weaving_. A few variations are arguably viable alternatives — for example, Linda Hendrickson’s L/R notation for S/Z threading — which I note as appropriate.
+
+I restrict the discussion to four-hole tablets, as they are the most popular tablets in use, and are the primary subject of most tablet-weaving media.
+
+## Perspective and orientation
+
+Some important terms — left, right, forward, backward, front, rear, up, down — are ambiguous without more information (who’s left or right?). By convention the weaver is positioned behind the warp, weaving away from herself, the woven section being between the weaver and the tablets. The part of the warp closest to the weaver is termed the “front” or “near” end. The other end is the “far” or “back” end. Left and right side of the warp or tablets is always from the perspective of the weaver.
+
+## “Tablet” or “Card”?
+
+Both terms are used interchangeably in the literature. Peter Collingwood ( _Techniques of Tablet Weaving_) expounds on the origins of the two terms. I will try to use the term _tablet_, but I claim no consistency. Either is used interchangeably.
+
+## Tablet labeling, facing direction, and numbering sequence
+
+[![Tablet ordering -- left to right](https://i0.wp.com/www.keithweaves.com/wordpress/wp-content/uploads/2014/03/tablet-numbering-order.jpg?resize=300%2C168)](https://i0.wp.com/www.keithweaves.com/wordpress/wp-content/uploads/2014/03/tablet-numbering-order.jpg) Tablet ordering — left to right
+
+A tablet’s holes are labeled A, B, C, D, clockwise on the front face of the tablet. To the best of my knowledge, all commercially available tablets are lettered this way. Tablets are numbered left to right and face to the right.
+
+## Tablet threading
+
+[![S and Z threading](https://i0.wp.com/www.keithweaves.com/wordpress/wp-content/uploads/2014/03/threading-large.jpeg?resize=300%2C285)](https://i0.wp.com/www.keithweaves.com/wordpress/wp-content/uploads/2014/03/threading-large.jpeg) S and Z threading
+
+The weaver, viewing a tablet from the top, sees two directions to thread its holes: first, from near right, angling to the left through the hole, and on to the far end of the warp; second, from near left, angling to the right through the hole, and on to the far end of the warp. We use _S_ and _Z_ to describe these two directions. The diagram at right illustrates the notation.
+
+When an S-threaded tablet is viewed from the side, threads come up through its holes and pass over the left side of the tablet. Threads in a Z-threaded tablet pass over the right side of the tablet. It doesn’t matter whether the tablet is viewed from the left or the right.
+
+[![S-threading](https://i0.wp.com/www.keithweaves.com/wordpress/wp-content/uploads/2014/03/S-threading.jpg?resize=300%2C124)](https://i0.wp.com/www.keithweaves.com/wordpress/wp-content/uploads/2014/03/S-threading.jpg)[![Z-threading](https://i0.wp.com/www.keithweaves.com/wordpress/wp-content/uploads/2014/03/Z-threading.jpg?resize=300%2C116)](https://i0.wp.com/www.keithweaves.com/wordpress/wp-content/uploads/2014/03/Z-threading.jpg)
+
+Linda Hendrickson denotes S-threading as _left threading_, and Z threading as _right threading_ and uses symbols _L_ and _R_ respectively.
+
+## Tablet home position
+
+Threaded-in patterns start with all tablets rotated to the same _home position_, with holes A and D above the warp.
+
+## Tablet turning
+
+In most tablet-weaving techniques, weaving progresses one “pick” at a time. A pick consists of turning each tablets in the pack and then passing a weft. Unless otherwise stated, tablets are turned one-quarter turn for each pick. A tablets is turned _forward_ if it turns in the same direction that a bicycle wheel turns from the perspective of the weaver, otherwise it is turned _backward_. Symbols _F_ and _B_ abbreviate the terms.
+
+## Tablet-weaving draft
+
+A _tablet-weaving draft_ describes how a band is to be woven.  As with all weaving techniques, creating a tablet-woven band required two steps, warping the tablets and weaving. Warping involves determining the number and order of tablets, the colors to be threaded in each hole, and each tablet’s initial threading direction. Weaving involves determining how tablets are to be turned for each pick.
+
+Drafts differ markedly depending on the technique being used. The simplest is _threaded-in_ technique, in which all tablets are turned in the same direction for each pick. We describe here only drafts for threaded-in designs. The diagram is a table, one column for each tablet, numbered left to right, and one row for each hole, lettered A through D. Each table cell is colored to match the color of the thread passing through a hole of a tablet.
+
+Entries in a fifth row indicate a tablet’s threading direction.
+
+[![threading-diagram](https://i0.wp.com/www.keithweaves.com/wordpress/wp-content/uploads/2014/03/threading-diagram.jpg?resize=463%2C135)](https://i0.wp.com/www.keithweaves.com/wordpress/wp-content/uploads/2014/03/threading-diagram.jpg)
+
+Such drafts assume that the weaver will follow the 8-pick repeating sequence 4F-4B. When she does so, the first four rows look just like the draft, and the next four rows look like its mirror image (reflected along the top row).
+
+[Facebook](https://www.keithweaves.com/#facebook "Facebook") [Twitter](https://www.keithweaves.com/#twitter "Twitter") [Share](https://www.addtoany.com/share#url=https%3A%2F%2Fwww.keithweaves.com%2Ftablet-weaving-standard-terms-and-notation%2F&title=Tablet-weaving%20standard%20terms%20and%20notation)
+
+### 11 thoughts on “Tablet-weaving standard terms and notation”
+
+1. ![](https://secure.gravatar.com/avatar/84de35039f272b12276542301bf027c73854e946e9994c7d272a30bfd8b01d76?s=50&r=g)
+
+
+
+
+
+I have a question, if the turning sequence is FF, is there a problem with the twist in the warp yarns? Can you make the entire band using a FF sequence?
+
+
+
+[Reply](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/?replytocom=91#respond)
+
+1. ![](https://secure.gravatar.com/avatar/705e604b1a59a4a041b9fd036856bb35cc1a085f1dd65911c2ee5605f769fad0?s=50&r=g)
+
+
+
+
+
+      Excellent question, Barbara.
+
+
+
+      Yes, twist build-up can be a problem. If it’s not excessive then simply pushing the twist to the end of the warp solves the problem. Otherwise it must be dealt with somehow. Here are some options:
+
+
+
+      1. Quit weaving when excessive twist prevents you from turning cards. Not a satisfactory solution.
+      2. Untie the end of the warp, comb out the twist, and retie. Of course this isn’t possible if your warp is circular. And restoring even tension is difficult.
+      3. Tie each card’s warp threads to a fishing swivel attached to a board so you can untwist. I haven’t tried this myself. And it involves building some sort of loom to attach the swivels to.
+      4. Attach each card’s threads to a weight to provide tension and allow untwisting. I’ve done this with some success. I tie one end of the warp to the cloth beam of my table loom, and let the weights hang off the other end. If this interests you, a recent issue of TWIST (newsletter for card weaving) included several articles on warp-weighted card weaving.
+
+
+Hope this help!
+
+Keith
+
+[Reply](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/?replytocom=93#respond)
+2. ![](https://secure.gravatar.com/avatar/81aca4126add0fee0fbc380172f56a2cf0b6894368093e9045a545d42435248e?s=50&r=g)
+
+
+
+
+
+With 4F and 4B the first pick will result in row A then B then C then D. As you come back you will get C then B then A and then D? or do you pass the weft through twice before turning back. How does this work.
+
+
+
+[Reply](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/?replytocom=94#respond)
+
+1. ![](https://secure.gravatar.com/avatar/705e604b1a59a4a041b9fd036856bb35cc1a085f1dd65911c2ee5605f769fad0?s=50&r=g)
+
+
+
+
+
+      If you start with all cards in standard position (explained below), then turning 4F-4B will show rows D, C, B, A, A, B, C, D. You need pass the weft just once after each turn.
+
+
+
+      Standard position:
+
+
+
+      1. Holes in each card are labeled on the front A, B, C, D clockwise in that order,
+      2. All cards face to the right from the point of view of the weaver sitting in front of the woven portion the warp, and
+      3. All cards are rotated so that holes A and D are on the top.
+
+
+
+[... middle omitted — see footer ...]
+
+
+
+
+
+
+The lettering on the front side of my cards does not match that on back side. This is causing me some confusion when I weave. Is there some reason for this mismatch, or should I go ahead and relabel the cards?
+
+
+
+[Reply](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/?replytocom=866#respond)
+
+1. ![](https://secure.gravatar.com/avatar/705e604b1a59a4a041b9fd036856bb35cc1a085f1dd65911c2ee5605f769fad0?s=50&r=g)
+
+
+
+
+
+      Yes, re-label the cards.
+
+
+
+      [Reply](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/?replytocom=1056#respond)
+6. ![](https://secure.gravatar.com/avatar/82fa9a8af2351a6175e58624ffbe6d2ceeacceff2fc4633e2fe6f4302ddd88a0?s=50&r=g)
+
+
+
+
+
+On some tablet patterns the threading is listed as S or Z. On other patterns, the threading is listed as / or \\. Which of these two are for the S threading, and which is for the Z threading?
+
+
+
+[Reply](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/?replytocom=1055#respond)
+
+1. ![](https://secure.gravatar.com/avatar/705e604b1a59a4a041b9fd036856bb35cc1a085f1dd65911c2ee5605f769fad0?s=50&r=g)
+
+
+
+
+
+      Good question, Esther. The lack of a standardized notation for tablet-weaving pattern charts is frustrating. But the community seems to be arriving at a consensus to use S and Z to represent two concepts, the _threading direction_ and the _tablet slant_, which are opposite of each other: An _S-threaded tablet_ slants in the _Z direction_ and vice versa. In your comment you refer to the tablet’s _threading_, so I would assume, without more information, that the symbol “/” refers to Z-threading, and “\\” refers to S-threading. But I’d have to see the pattern chart to confirm. Is the pattern online? If so, can you post a reply with the link? Then I can confirm my guess.
+
+
+
+      Keith
+
+
+
+      [Reply](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/?replytocom=1065#respond)
+
+### Leave a Reply [Cancel reply](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/\#respond)
+
+Your email address will not be published.Required fields are marked \*
+
+Comment \*
+
+Name\*
+
+Email\*
+
+Website
+
+Save my name, email, and website in this browser for the next time I comment.
+
+Time limit is exhausted. Please reload the CAPTCHA.three + 6 =
+
+Δ
+
+This site uses Akismet to reduce spam. [Learn how your comment data is processed.](https://akismet.com/privacy/)
+
+[Toggle photo metadata visibility](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/#)[Toggle photo comments visibility](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/#)
+
+Loading Comments...
+
+Write a Comment...
+
+Email (Required)Name (Required)Website
+
+Copy link
+
+✓
+
+Thanks for sharing!
+
+Find any service
+
+[AddToAny](https://www.addtoany.com/ "Share Buttons")
+
+[More…](https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation/#addtoany "Show all")
+
+A2A
+
+──────── [TRUNCATED] ────────
+Showing 8,789 chars (head) + 2,945 chars (tail) of 14,125 total clean characters.
+Full text saved to: /home/walker/.hermes/cache/web/www.keithweaves.com-81831d5532.md
+To read the omitted middle: read_file path="/home/walker/.hermes/cache/web/www.keithweaves.com-81831d5532.md" offset=125 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

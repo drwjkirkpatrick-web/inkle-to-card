@@ -1,0 +1,121 @@
+[Skip to content](https://github.com/snaut/tabletweaving#start-of-content)
+
+You signed in with another tab or window. [Reload](https://github.com/snaut/tabletweaving) to refresh your session.You signed out in another tab or window. [Reload](https://github.com/snaut/tabletweaving) to refresh your session.You switched accounts on another tab or window. [Reload](https://github.com/snaut/tabletweaving) to refresh your session.Dismiss alert
+
+{{ message }}
+
+main
+
+[**2** Branches](https://github.com/snaut/tabletweaving/branches) [**0** Tags](https://github.com/snaut/tabletweaving/tags)
+
+[Go to Branches page](https://github.com/snaut/tabletweaving/branches)[Go to Tags page](https://github.com/snaut/tabletweaving/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Latest commit
+
+[![snaut](https://avatars.githubusercontent.com/u/636750?v=4&size=40)](https://github.com/snaut)[snaut](https://github.com/snaut/tabletweaving/commits?author=snaut)
+
+[note on possible feature: keyboard input](https://github.com/snaut/tabletweaving/commit/eed32a350cd9760ca3096d68b40272d124226116)
+
+2 years agoAug 13, 2024
+
+[eed32a3](https://github.com/snaut/tabletweaving/commit/eed32a350cd9760ca3096d68b40272d124226116) · 2 years agoAug 13, 2024
+
+## History
+
+[5 Commits](https://github.com/snaut/tabletweaving/commits/main/)
+
+Open commit details
+
+[View commit history for this file.](https://github.com/snaut/tabletweaving/commits/main/) 5 Commits
+
+## Folders and files
+
+| Name | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- |
+| [LICENSE](https://github.com/snaut/tabletweaving/blob/main/LICENSE "LICENSE") | [LICENSE](https://github.com/snaut/tabletweaving/blob/main/LICENSE "LICENSE") | [Initial commit](https://github.com/snaut/tabletweaving/commit/a3b2b9de8c9ed619ac75b6840e0c3b5858362bd3 "Initial commit") | 2 years agoAug 13, 2024 |
+| [README.md](https://github.com/snaut/tabletweaving/blob/main/README.md "README.md") | [README.md](https://github.com/snaut/tabletweaving/blob/main/README.md "README.md") | [note on possible feature: keyboard input](https://github.com/snaut/tabletweaving/commit/eed32a350cd9760ca3096d68b40272d124226116 "note on possible feature: keyboard input") | 2 years agoAug 13, 2024 |
+| [index.html](https://github.com/snaut/tabletweaving/blob/main/index.html "index.html") | [index.html](https://github.com/snaut/tabletweaving/blob/main/index.html "index.html") | [feature: saving](https://github.com/snaut/tabletweaving/commit/4a803eef06a6690d6a8e520f4c388d0678568090 "feature: saving") | 2 years agoAug 13, 2024 |
+| View all files |
+
+## Repository files navigation
+
+# Tablet Weaving Pattern Editor
+
+[Permalink: Tablet Weaving Pattern Editor](https://github.com/snaut/tabletweaving#tablet-weaving-pattern-editor)
+
+A tablet weaving pattern editor written entirely in javascript, html, css, svg. Find a running demo [here](https://snaut.github.io/tabletweaving/).
+
+## Usage
+
+[Permalink: Usage](https://github.com/snaut/tabletweaving#usage)
+
+For now I'll assume you know how to warp tablet weaving tablets and how to read tablet waving patterns. I'll update this readme with more detailed instructions and explanantions.
+
+1. Choose number of tablets, number of holes per tablet and the number of rows in the pattern
+2. Edit the warping in the lower chart. Clicking each cell cycles through colors or an empty hole. Clicking the S and Z below each columns toggles between S and Z warping of the tablet. You can add and remove colors at any time.
+3. Edit the pattern in the upper chart. Clicking each cell changes the direction the tablet is turned in the step. You can always add rows to the pattern. You can change the colors to indicate forward or backward turns.
+4. Download the pattern as JSON file via the "save" button.
+
+Changing the number of tablets or holes per tablet or removing rows in the pattern is not possible without resetting the pattern.
+
+## Planned Features
+
+[Permalink: Planned Features](https://github.com/snaut/tabletweaving#planned-features)
+
+This is a hobby project, so I'll work on it whenever I feel like it.
+
+- toggle forward / backward for whole rows
+- twist counter to help with creating twist neutral patterns
+- row numbers
+- ~~saving~~ and loading patterns
+- exporting patterns as svg
+- refractor code so it's more readable
+- fancier UI
+- more explanantions in the tablet generator
+- keyboard input
+
+## About
+
+Tablet Weaving Pattern Editor
+
+### Resources
+
+[Readme](https://github.com/snaut/tabletweaving#readme-ov-file)
+
+[GPL-3.0 license](https://github.com/snaut/tabletweaving#GPL-3.0-1-ov-file)
+
+[Activity](https://github.com/snaut/tabletweaving/activity)
+
+### Stars
+
+**0** stars
+
+### Watchers
+
+**1** watching
+
+### Forks
+
+[**1** fork](https://github.com/snaut/tabletweaving/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fsnaut%2Ftabletweaving&report=snaut+%28user%29)
+
+## [Releases](https://github.com/snaut/tabletweaving/releases)
+
+No releases published
+
+## [Contributors](https://github.com/snaut/tabletweaving/graphs/contributors) 1 (1)
+
+- [![@snaut](https://avatars.githubusercontent.com/u/636750?s=64&v=4)](https://github.com/snaut) [**snaut** Tobias Fellinger](https://github.com/snaut)
+
+## Languages
+
+- [HTML100%](https://github.com/snaut/tabletweaving/search?l=html)
+
+You can’t perform that action at this time.

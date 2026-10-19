@@ -1,0 +1,234 @@
+- [Getting Started](https://www.shelaghlewins.com/tablet_weaving/tablet_weaving.php)
+- [Gallery](https://www.shelaghlewins.com/tablet_weaving/gallery.php)
+- [Patterns from the Past](https://www.shelaghlewins.com/tablet_weaving/patterns_past.php)
+- [Twisted Threads](https://www.shelaghlewins.com/tablet_weaving/twt_patterns.php)
+- [Oseberg Bands](https://www.shelaghlewins.com/tablet_weaving/oseberg_bands.php)
+
+![](https://www.shelaghlewins.com/images/snakes.gif)
+
+# Twisted Threads patterns
+
+Twisted Threads is a web-based application for designing, weaving and sharing tablet weaving patterns. Please let me know if you have problems using it or suggestions to improve it.
+
+[Twisted Threads tablet weaving app](http://twistedthreads.org/)
+
+The interactive weaving chart makes it easier to follow complicated patterns by highlighting the row you are currently weaving.
+
+You can design your own patterns by setting up the tablets and simulating weaving, or by drawing charts freehand; it's free to use but you will need to create an account and log in. Twisted Threads follows the pattern notation system introduced by the amazing book [Applesies and Fox Noses](http://www.salakirjat.com/product/159/applesies-and-fox-noses---finnish-tabletwoven-bands) by Maikki Karisto and Mervi Pasanen. TWT additionally supports brocade and warp-faced tabby structures.
+
+This page gives links to some Twisted Threads patterns that you may find useful. Some of these patterns are also described in pdf articles that you can find on my page [Patterns from the Past](http://www.shelaghlewins.com/tablet_weaving/patterns_past.php).
+
+## Simple Warp-twined Patterns
+
+A warp-twined band has the classic tablet-woven structure, most suitable for weaving diagonal lines. The easiest patterns are woven by turning all tablets together, either forwards or backwards. By turning tablets in different directions you can weave an endless variety of designs - here are a few to get you started.
+
+### Ram's Horns
+
+[![Ram's Horns](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/rams_horns_thmb.gif)](http://twistedthreads.org/pattern/4ivcYhnMa8P9yESvw)
+
+Difficulty: easy
+
+Number of pattern tablets: 18
+
+An elegant pattern from 19th century Anatolia, used here as a lanyard for a key fob.
+
+[Pattern for Rams Horns](http://twistedthreads.org/pattern/4ivcYhnMa8P9yESvw)
+
+### Narrow Mammen Motif
+
+[![Narrow Mammen Motif](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/narrow_mammen_thmb.gif)](http://twistedthreads.org/pattern/ABivtc79M4AbX7mCn)
+
+Difficulty: medium
+
+Number of pattern tablets: 10
+
+The motif is adapted from a narrow brocaded band from the Viking Age found in Denmark. Leaving one hole in each tablet unthreaded produces an attractive texture on the surface of the band. For a fuller description read
+
+[Pattern for Narrow Mammen Motif](http://twistedthreads.org/pattern/ABivtc79M4AbX7mCn)
+
+### Key Motif
+
+[![Key Motif](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/key_thmb.gif)](http://twistedthreads.org/pattern/tXXuQkaL7Wp4WCBqc)
+
+Difficulty: medium
+
+Number of pattern tablets: 10
+
+The motif is not copied from any specific historic band but is generally Viking in style, being a geometric design of diagonal lines. Leaving one hole in each tablet unthreaded produces an attractive texture on the surface of the band.
+
+[Pattern for Key Motif](http://twistedthreads.org/pattern/tXXuQkaL7Wp4WCBqc)
+
+## 3/1 Broken Twill Patterns
+
+3/1 broken twill is one of the more sophisticated tablet weaving techniques, a double-faced method in which each tablet is threaded light/light/dark/dark and then turned forwards twice, backwards twice to maintain a single colour as the ground weave. The tablets are offset to create a dense fabric with a diagonal texture. Motifs are made by turning individual tablets to exchange background and foreground colours. It's complicated to weave because tablets must be turned individually, but the following patterns are not very difficult if you follow the chart carefully.
+
+Below are two variations on simple repeating diamonds. Weaving these has helped me to understand the basic elements of the technique - how to weave the background twill, how to change colours and how to use floats to change the twill direction. Although the final bands look almost the same as each other, there are differences in texture.
+
+I used [Guntram's Tablet Weaving Thingy (GTT)](http://www.guntram.co.za/tabletweaving/gtt.htm) to design these patterns, because it has a very good visual designer for 3/1 broken twill. The GTT file can then be imported into Twisted Threads for easy weaving and sharing. I hope to add a visual 3/1 twill designer to TWT in future, but at present this process works well for me and I'm very grateful to Guntram. As I'm using a Linux box, I run GTT under [Wine](https://www.winehq.org/).
+
+### Diamond - no long floats
+
+[![Diamonds with constant background twill](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/diamond_no_long_floats_thmb.gif)](http://twistedthreads.org/pattern/LKFRWXPyKetQXkWwW)
+
+Difficulty: medium
+
+Number of pattern tablets: 19
+
+The colour changes along the diagonal edges of the diamonds make the background twill change direction.
+
+[Pattern for Diamond - no long floats](http://twistedthreads.org/pattern/LKFRWXPyKetQXkWwW)
+
+### Diamond - constant twill
+
+[![Diamonds with constant background twill](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/diamond_constant_twill_thmb.gif)](http://twistedthreads.org/pattern/oJnHGjLF6Ph8MPp3n)
+
+Difficulty: medium
+
+Number of pattern tablets: 19
+
+Long floats are used to keep the background twill direction constant across the band.
+
+[Pattern for Diamond - constant twill](http://twistedthreads.org/pattern/oJnHGjLF6Ph8MPp3n)
+
+### Small Finnish Diamonds
+
+[![Small Finnish diamonds](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/finnish_small_thmb.png)](http://twistedthreads.org/pattern/oTfBMbE8ZkY5Eq9uv)
+
+Difficulty: medium
+
+Number of pattern tablets: 12
+
+This is a tiny version of a late Iron Age band from Finland. There are only 8 rows to each pattern repeat so it's not too challenging.
+
+[Pattern for Small Finnish diamonds](http://twistedthreads.org/pattern/oTfBMbE8ZkY5Eq9uv)
+
+### Medium Finnish Diamonds
+
+[![Small Finnish diamonds](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/finnish_medium_thmb.png)](http://twistedthreads.org/pattern/CgPo7bhMfTntQjQJp)
+
+Difficulty: medium
+
+Number of pattern tablets: 19
+
+This is a larger version of the previous band. The twill direction is constant within each diamond, which I think gives it an attractive appearance but a a consequence there is a line of long floats along one edge of each diamond which may catch if the band is woven in silk.
+
+[Pattern for Medium Finnish diamonds](http://twistedthreads.org/pattern/CgPo7bhMfTntQjQJp)
+
+### Mammen Woollen Band
+
+[![Mammen Woollen Band](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/mammen_wool_thmb.png)](http://twistedthreads.org/pattern/nshpt284SvJfH4RtC)
+
+Difficulty: medium
+
+Number of pattern tablets: 17
+
+A band from a tenth century Danish chieftan's grave.
+
+[Pattern for Mammen woollen band](http://twistedthreads.org/pattern/nshpt284SvJfH4RtC)
+
+### Viking-style Motifs
+
+[![Broken Cross](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/viking_31_thmb.png)](http://twistedthreads.org/pattern/gbjA2vEgn4zyn2oMH)
+
+Difficulty: medium
+
+Number of pattern tablets: 17
+
+Four sets of motifs that are not based on any particular historic band but are in a Viking-age style. You can switch between patterns at picks 1 and 41.
+
+[Pattern for Broken Cross](http://twistedthreads.org/pattern/gbjA2vEgn4zyn2oMH)
+
+[Pattern for Comb](http://twistedthreads.org/pattern/DPdSmQXdQZejZQNcE)
+
+[Pattern for Key](http://twistedthreads.org/pattern/tuoHeikRaBdgMchmY)
+
+[Pattern for Two Motifs](http://twistedthreads.org/pattern/bpGLM4Ru2JEKKR9CY)
+
+## Warp-faced Tabby Patterns
+
+This unusual structure is known from an early Anglo-Saxon fragment found at Laceby, Lincolnshire, dated to about 600 AD, and also from the relics of St Cuthbert, probably woven in the early tenth century AD. Only two holes of each tablet are used, with two threads in each, and the tablets are turned alternately forwards and backwards with the pattern being made by manually picking up threads. A wide range of motifs can be woven, but bands have very long warp floats at the back. The following patterns can all be woven on six pattern tablets.
+
+For a full description of the technique, see [http://www.shelaghlewins.com/tablet\_weaving/Laceby/Laceby.pdf](http://www.shelaghlewins.com/tablet_weaving/Laceby/Laceby.pdf).
+
+### Laceby
+
+[![Laceby warp faced tabby](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/laceby_thmb.gif)](http://twistedthreads.org/pattern/EM7CyGvj9XvWdHPWL)
+
+Difficulty: medium
+
+Number of pattern tablets: 6
+
+
+[... middle omitted — see footer ...]
+
+
+A leaf motif from the tablet-woven border of the Maaseik embroideries woven in the Laceby technique.
+
+[Pattern for Maaseik Leaves](http://twistedthreads.org/pattern/tvHHwgcFgCpDNcTmk)
+
+### Maaseik Hearts
+
+[![Maaseik hearts motif in Laceby technique](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/maaseik_hearts_thmb.gif)](http://twistedthreads.org/pattern/Dje7nkpxrBMGBaD5w)
+
+Difficulty: medium
+
+Number of pattern tablets: 6
+
+A heart motif from the tablet-woven border of the Maaseik embroideries woven in the Laceby technique.
+
+[Pattern for Maaseik Hearts](http://twistedthreads.org/pattern/Dje7nkpxrBMGBaD5w)
+
+### Birds and Vines
+
+[![Birds in the woods](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/birds_thmb.png)](http://twistedthreads.org/pattern/kwC4hDoiHQdLmkh5W)
+
+Difficulty: advanced
+
+Number of pattern tablets: 21
+
+Bird and scroll motifs woven in the Laceby technique.
+
+[Puffins in the garden](http://twistedthreads.org/pattern/u7qSXKqXamanQXQ2C)
+
+[Puffin left](http://twistedthreads.org/pattern/iJN2zHmjpyWPiRewL)
+
+[Puffin right](http://twistedthreads.org/pattern/NBWKyffNGh2L84uog)
+
+[Birds in the woods](http://twistedthreads.org/pattern/kwC4hDoiHQdLmkh5W)
+
+[Interlace](http://twistedthreads.org/pattern/fTzb2cA6mYG4r9iKD)
+
+## Surface Weft Patterns
+
+In these patterns the design is made by passing a decorative weft across the surface of the band. This may be passed right across the band from edge to edge, as a brocade weft, or it may be wrapped around groups of warp threads as soumak.
+
+### Køstrup Band
+
+[![Køstrup Band](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/kostrup_thmb_02.png)](http://twistedthreads.org/pattern/zn6qDBWB5QJ4mJJHw)
+
+Difficulty: medium
+
+Number of pattern tablets: 14
+
+This is a suggested reconstruction of a band from the Køstrup apron-dress, found in a late 10th century grave in Denmark. The design is made with soumak weft decoration on a two-hole ground weave. The motifs are adapted from Hilde Thunem's article [The aprondress from Køstrup](http://urd.priv.no/viking/kostrup.html) by kind permission of the author.
+
+[Pattern for Køstrup Band](http://twistedthreads.org/pattern/zn6qDBWB5QJ4mJJHw)
+
+### S Z Variant with Soumak Diamonds
+
+[![S Z variant](https://www.shelaghlewins.com/tablet_weaving/twisted_threads/s_z_soumak_thmb.png)](http://twistedthreads.org/pattern/xcsXjN7sB2gSTWfAE)
+
+Difficulty: medium
+
+Number of pattern tablets: 8
+
+The pattern is a variant on the pattern from a find from the late Finnish Iron Age, perhaps 1200 AD. The original textile has been lost and only a drawing exists. This reconstruction uses eight pattern tablets with a simple turning sequence and alternates the S Z pattern with diamonds. The diamonds have been embellished with soumak decoration.
+The article [Finnish S Z](http://www.shelaghlewins.com/tablet_weaving/Finnish_SZ/Finnish_SZ.pdf) describes the find and provides references.
+
+[Pattern for S Z Variant](http://twistedthreads.org/pattern/xcsXjN7sB2gSTWfAE)
+
+──────── [TRUNCATED] ────────
+Showing 8,917 chars (head) + 2,998 chars (tail) of 12,763 total clean characters.
+Full text saved to: /home/walker/.hermes/cache/web/www.shelaghlewins.com-202f25eb30.md
+To read the omitted middle: read_file path="/home/walker/.hermes/cache/web/www.shelaghlewins.com-202f25eb30.md" offset=161 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

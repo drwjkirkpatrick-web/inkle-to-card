@@ -1,0 +1,43 @@
+# Band weaving
+
+Band weaving
+
+Fiber art technique
+
+|     |     |
+| --- | --- |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/120px-Text_document_with_red_question_mark.svg.png) | This article includes a list of [general references](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources#General_references "Wikipedia:Citing sources"), but **it lacks sufficient corresponding [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources#Inline_citations "Wikipedia:Citing sources")**. Please help to [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Reliability "Wikipedia:WikiProject Reliability") this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When_to_cite "Wikipedia:When to cite") more precise citations._(April 2019)__([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal "Help:Maintenance template removal"))_ |
+
+**Band weaving** is the hand production of narrow woven fabric. This fabric may be called tape, band, [inkle](https://en.wikipedia.org/wiki/Inkle_(loom) "Inkle (loom)"), strap, belt, back strap, trim, and more.[\[1\]](https://en.wikipedia.org/wiki/Band_weaving#cite_note-:1-1):10 It can be accomplished on a variety of types of looms, including inkle, band, tape, [backstrap](https://en.wikipedia.org/wiki/Loom "Loom"), and [rigid heddle](https://en.wikipedia.org/wiki/Heddle "Heddle") looms.[\[2\]](https://en.wikipedia.org/wiki/Band_weaving#cite_note-:0-2):171–172 Hole and slot heddles are also designed to weave bands.[\[3\]](https://en.wikipedia.org/wiki/Band_weaving#cite_note-3):11 Depending on which loom is used, the material could be [warp-faced](https://en.wikipedia.org/wiki/Warp_and_weft "Warp and weft") or a balanced weave.
+
+## Types of band weaving
+
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Heritage_inkle_loom.jpg/500px-Heritage_inkle_loom.jpg)](https://en.wikipedia.org/wiki/File:Heritage_inkle_loom.jpg) Weaving on an inkle loom[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CMP_Inkle_weaving.jpg/500px-CMP_Inkle_weaving.jpg)](https://en.wikipedia.org/wiki/File:CMP_Inkle_weaving.jpg) Weaving on an inkle loom
+
+### Inkle
+
+Inkle weaving is a type of warp-faced [weaving](https://en.wikipedia.org/wiki/Weaving "Weaving") where the [shed](https://en.wikipedia.org/wiki/Shed_(weaving) "Shed (weaving)") is created by manually raising or lowering the [warp](https://en.wikipedia.org/wiki/Warp_(weaving) "Warp (weaving)") yarns, some of which are held in place by fixed [heddles](https://en.wikipedia.org/wiki/Heddle "Heddle"). According to the _Oxford English Dictionary_, the term _inkle_ has several meanings, the first of which is "A kind of linen tape, formerly much used for various purposes." The derivation of the word is uncertain.[\[4\]](https://en.wikipedia.org/wiki/Band_weaving#cite_note-4) Inkle weaving is commonly used for narrow work such as trims, straps and belts. Inkle weaving is done on a loom known as an inkle loom. One key element that differentiates inkle looms from other band looms is that a continuous warp is required.[\[5\]](https://en.wikipedia.org/wiki/Band_weaving#cite_note-5):1
+
+#### History
+
+A table-top inkle loom was patented by Mr. Gilmore of Stockton, California in the 1930s but inkle looms and weaving predate this by centuries.
+
+Inkle weaving was referred to 3 times in [Shakespeare](https://en.wikipedia.org/wiki/Shakespeare "Shakespeare"): in _[Love's Labour's Lost](https://en.wikipedia.org/wiki/Love's_Labour's_Lost "Love's Labour's Lost") (Act III, Scene I),_ [Pericles, Prince of Tyre](https://en.wikipedia.org/wiki/Pericles,_Prince_of_Tyre "Pericles, Prince of Tyre") (Act V), and in [The Winter's Tale](https://en.wikipedia.org/wiki/The_Winter's_Tale "The Winter's Tale") (Act IV, Scene IV).[\[6\]](https://en.wikipedia.org/wiki/Band_weaving#cite_note-6) Jonathan Swift mentioned inkle weavers in his _[Polite Conversations](https://en.wikipedia.org/wiki/Polite_Conversation "Polite Conversation")_.[\[2\]](https://en.wikipedia.org/wiki/Band_weaving#cite_note-:0-2):172
+
+
+[... middle omitted — see footer ...]
+
+| Employment practices | - [More looms](https://en.wikipedia.org/wiki/More_looms "More looms")<br>- [Kissing the shuttle](https://en.wikipedia.org/wiki/Kissing_the_shuttle "Kissing the shuttle")<br>- [Piece-rate list](https://en.wikipedia.org/wiki/Piece-rate_list "Piece-rate list") |
+| Mills | - [Bancroft Shed](https://en.wikipedia.org/wiki/Bancroft_Shed "Bancroft Shed")<br>- [Queen Street Mill](https://en.wikipedia.org/wiki/Queen_Street_Mill "Queen Street Mill") |
+
+| [Authority control databases](https://en.wikipedia.org/wiki/Help:Authority_control "Help:Authority control")[![Edit this at Wikidata](https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png)](https://www.wikidata.org/wiki/Q2624453#identifiers "Edit this at Wikidata") |
+| --- |
+| International | - [GND](https://d-nb.info/gnd/4143999-5) |
+| National | - [United States](https://id.loc.gov/authorities/sh85113844)<br>- [Israel](https://www.nli.org.il/en/authorities/987007536326405171) |
+| Other | - [Yale LUX](https://lux.collections.yale.edu/view/concept/debeb62b-a2a5-4834-992d-49cb4d0ccb0c) |
+
+──────── [TRUNCATED] ────────
+Showing 4,153 chars (head) + 1,150 chars (tail) of 23,407 total clean characters.
+Full text saved to: /home/walker/.hermes/cache/web/en.wikipedia.org-f3aa46a0a5.md
+To read the omitted middle: read_file path="/home/walker/.hermes/cache/web/en.wikipedia.org-f3aa46a0a5.md" offset=27 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

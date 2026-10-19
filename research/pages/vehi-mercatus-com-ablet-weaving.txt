@@ -1,0 +1,295 @@
+![](https://vehi-mercatus.com/templates/VehiMercatus/img/season/spinne.webp)[Skip to main content](https://vehi-mercatus.com/Tablet-weaving#main-wrapper) [Skip to search](https://vehi-mercatus.com/Tablet-weaving#search-header) [Skip to navigation](https://vehi-mercatus.com/Tablet-weaving#mainNavigation)
+
+Accept all
+
+
+Configuration
+
+
+Reject
+
+
+How we use cookies and other data
+
+
+By selecting "Accept all", you give us permission to use the following services on our website: Strictly necessary cookies, YouTube, Vimeo, ReCaptcha, releva.nz Retargeting, Google Analytics, Google Ads, Google Tag Manager, Meta Pixel, Brevo, PayPal Express Checkout und Ratenzahlung. You can change the settings at any time (link “Data privacy settings” at the bottom of every page). For further details, please see _Individual configuration_ and our _Privacy notice_.
+
+
+[Legal notice](https://vehi-mercatus.com/Legal-notice "Legal notice") \| [Data protection declaration](https://vehi-mercatus.com/Data-protection-declaration "Data protection declaration")
+
+Data privacy settings
+
+The settings you specify here are stored in the "local storage" of your device. The settings will be remembered for the next time you visit our online shop. You can change these settings at any time (link “Data privacy settings” at the bottom of every page).
+
+For more information on cookie lifetime and required essential cookies, please see the _Privacy notice_.
+
+[Legal notice](https://vehi-mercatus.com/Legal-notice "Legal notice") \| [Data protection declaration](https://vehi-mercatus.com/Data-protection-declaration "Data protection declaration")
+
+Select/Deselect all
+
+* * *
+
+Strictly necessary cookies
+
+Strictly necessary cookies are those that enable the basic functions of a website. Without them, the
+website will not work properly.
+
+* * *
+
+YouTube [Further information](https://vehi-mercatus.com/Tablet-weaving#)
+
+To view YouTube contents on this website,
+you need to consent to the transfer of data and storage of third-party cookies by
+YouTube (Google).
+
+This allows us to improve your user experience and to make our
+website better and more interesting.
+
+Without your consent, no data will be transferred to YouTube.
+However, you will also not be able to use the YouTube services on this website.
+
+Description:
+
+
+Embedding videos
+
+Processing company:
+
+
+Google Inc.
+
+Terms of use:
+[https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en)
+
+* * *
+
+Vimeo [Further information](https://vehi-mercatus.com/Tablet-weaving#)
+
+To view Vimeo contents on this website, you need to consent to the
+transfer of data and storage of third-party cookies by Vimeo..
+
+This allows us to improve your user
+experience and to make our website better and more interesting.
+
+Without your consent, no data will
+be transferred to Vimeo. However, you will also not be able to use the Vimdeo services on this website.
+
+Description:
+
+
+Embedding videos
+
+Processing company:
+
+
+Vimeo
+
+Terms of use:
+[https://vimeo.com/privacy](https://vimeo.com/privacy)
+
+* * *
+
+ReCaptcha [Further information](https://vehi-mercatus.com/Tablet-weaving#)
+
+To submit forms on this page, you need to consent to the transfer of data and storage of third-party cookies by Google.
+With your consent, reCAPTCHA, a Google service to avoid spam messages via contact forms, will be embedded.
+This service allows us to provide our customers with a safe way to contact us via online forms. At the same time, the service prevents spam bots from compromising our services.
+After you gave your permission, you might be asked to answer a security prompt to send the form.
+If you do not consent, unfortunately you cannot use the form. Please contact us in a different way.
+
+
+Description:
+
+
+Stopping spam bots
+
+Processing company:
+
+
+Google Inc.
+
+Terms of use:
+[https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+* * *
+
+releva.nz Retargeting [Further information](https://vehi-mercatus.com/Tablet-weaving#)
+
+This script helps us, to offer you relevant services and products on other digital platforms.
+
+Description:
+
+
+Names of set cookies: dmc-12, dmc-12-r
+
+Cookie validity: dmc-12 (2 Jahre), dmc-12-r (2 Jahre)
+
+List of cookie domains: hyj.mobi
+
+Place of processing: European Union
+
+dmc-12
+
+dyn.: No
+
+Expires: 2 years
+
+Storage type: Cookie
+dmc-12-r
+
+dyn.: Yes
+
+Expires: 2 years
+
+Legal basis:
+
+The legal basis for the processing of personal data required by Art. 6 I 1 GDPR is specified below.
+
+\- Art. 6 Abs. 1 s. 1 lit. f DS-GVO
+
+Place of processing: European Union
+
+Processing company:
+
+
+releva.nz
+
+Terms of use:
+[https://releva.nz/datenschutz](https://releva.nz/datenschutz)
+
+* * *
+
+Google Analytics [Further information](https://vehi-mercatus.com/Tablet-weaving#)
+
+This is a web analysis service. It allows the user to measure advertising return on investment (ROI) and track user behavior. Data collected: anonymized IP address, date and time of visit, usage data, click path, app updates, browser information, device information, JavaScript support, pages visited, referrer URL, location information, purchase activity, widget interactions.
+
+Description:
+
+
+Google Analytics Tracking
+
+Processing company:
+
+
+Google Ireland Limited
+
+Terms of use:
+[https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+* * *
+
+Google Ads [Further information](https://vehi-mercatus.com/Tablet-weaving#)
+
+This is an advertising service. This service can be used to display personalized or non-personalized advertising to users. With Google Ads Conversion Tracking, we can measure our advertising success in the Google advertising network. We place advertisements in the Google advertising network so that our offers can be found more easily. We try to optimize our advertising as much as possible. Also to keep advertising costs as low as possible. This is reflected in our prices.
+
+Description:
+
+
+Google Ads Remarketing
+
+Processing company:
+
+
+Google Ireland Limited
+
+Terms of use:
+[https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+* * *
+
+Google Tag Manager [Further information](https://vehi-mercatus.com/Tablet-weaving#)
+
+This is a tag management system. The Google Tag Manager allows tags to be integrated centrally via a user interface. Tags are small sections of code that can track activities. Script codes from other tools are integrated via the Google Tag Manager. The Tag Manager makes it possible to control when a specific tag is triggered.
+
+Description:
+
+
+Usage of Google functionalities
+
+Processing company:
+
+
+Google Ireland Limited
+
+Terms of use:
+[https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+* * *
+
+Meta Pixel [Further information](https://vehi-mercatus.com/Tablet-weaving#)
+
+To send data to Meta, you need to consent to the transfer of data and storage of third-party cookies by Meta.. This allows us to improve your user experience and to make our website better and more interesting.
+
+
+Description:
+
+
+Meta Conversion-Tracking
+
+Processing company:
+
+
+Meta Platforms Ireland Limited
+
+Terms of use:
+[https://www.facebook.com/privacy/policy/](https://www.facebook.com/privacy/policy/)
+
+* * *
+
+Brevo [Further information](https://vehi-mercatus.com/Tablet-weaving#)
+
+To send data to Brevo, you need to consent to the transfer of data and storage of third-party cookies by Brevo. This allows us to improve your user experience and to make our website better and more interesting.
+
+Description:
+
+
+Brevo Automation Tracking
+
+Processing company:
+
+
+sendinblue
+
+
+[... middle omitted — see footer ...]
+
+
+## You might also be interested in
+
+[![](https://vehi-mercatus.com/bilder/news/57/unbenannt-1_preview.jpg)The World of the Vikings](https://vehi-mercatus.com/The-Vikings-Amazing-facts-and-exciting-stories) [![](https://vehi-mercatus.com/bilder/news/71/marktszene-quadrat_preview.jpg)Getting Started with Medieval Hobbies](https://vehi-mercatus.com/Getting-into-the-medieval-hobby-information-for-beginners) [![](https://vehi-mercatus.com/bilder/news/53/7_preview.jpg)Fabrics in the Middle Ages](https://vehi-mercatus.com/Fabrics-in-the-Middle-Ages-From-silk-to-wool-the-diversity-of-fabrics) [![](https://vehi-mercatus.com/bilder/news/31/vorschaubild_preview.jpg)Clothing in the Middle Ages](https://vehi-mercatus.com/clothing-in-the-middle-ages) [![](https://vehi-mercatus.com/bilder/news/76/preview_1773061177_6a674da9.jpg)Camping Season Checklist 2026](https://vehi-mercatus.com/Checklist-camp-season-2026-The-10-most-important-things-for-the-army-camp-amp-the-medieval-market)
+
+**Since 2006** part of the medieval scene
+
+**4.84 out of 5** 2,572 reviews
+
+**Shop on site** Rosenau 16a, Rinchnach
+
+4.84**2,572** reviews
+
+## Customer reviews
+
+4.84
+
+out of 5 · from 2,572 reviews on 3 platforms
+
+- **Trusted Shops** 4.84859 reviews [Read reviews](https://www.trustedshops.de/bewertung/info_XCA3D96F09AC70D8B1F82F5BD037CF9CC.html)
+- **Shopauskunft** 4.851,578 reviews [Read reviews](https://www.shopauskunft.de/review/vehi-mercatus.de)
+- **Google** 4.80135 reviews · as of 8 Sept 2026 [Read reviews](https://www.google.com/maps/search/?api=1&query=Vehi+Mercatus+Rinchnach)
+
+Overall score: average of all reviews on these platforms, weighted by their number and updated daily. Buyers are invited to leave a review after their order, today via Trusted Shops, previously via Shopauskunft. We cannot verify whether Google reviews come from buyers.
+
+Askgard – AI
+
+×
+
+Hark! I am Askgard, your guide through our wares. What are you seeking?
+
+Send
+
+×
+
+──────── [TRUNCATED] ────────
+Showing 7,491 chars (head) + 1,941 chars (tail) of 30,562 total clean characters.
+Full text saved to: /home/walker/.hermes/cache/web/vehi-mercatus.com-1e9f6d019d.md
+To read the omitted middle: read_file path="/home/walker/.hermes/cache/web/vehi-mercatus.com-1e9f6d019d.md" offset=253 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

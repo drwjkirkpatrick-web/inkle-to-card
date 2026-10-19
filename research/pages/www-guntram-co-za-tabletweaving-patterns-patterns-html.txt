@@ -1,0 +1,33 @@
+**GTT Patterns**
+
+|     |
+| --- |
+| **Unless other otherwise noted, all patterns on this website are my own designs.**<br>**You may copy and use the patterns for personal purposes as long as due credit is given.** |
+|  |
+
+|     |     |     |
+| --- | --- | --- |
+| |     |     |     |
+| --- | --- | --- |
+| [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/index.htm) | [Main Page](https://www.guntram.co.za/tabletweaving/index.htm) |
+| **Threaded-in** |
+|  | [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/threaded_simple.html) | [Simple](https://www.guntram.co.za/tabletweaving/patterns/threaded_simple.html) |
+|  | [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/threaded_complex.html) | [Not-so-simple](https://www.guntram.co.za/tabletweaving/patterns/threaded_complex.html) |
+|  | [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/threaded_saxon.html) | [Anglo-Saxon](https://www.guntram.co.za/tabletweaving/patterns/threaded_saxon.html) |
+|  | [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/threaded_kivrim.html) | [Kivrim](https://www.guntram.co.za/tabletweaving/patterns/threaded_kivrim.html) |
+| **Doubleface** |
+|  | [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/df_standard.html) | [Standard](https://www.guntram.co.za/tabletweaving/patterns/df_standard.html) |
+|  | [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/df_heraldic.html) | [Heraldic](https://www.guntram.co.za/tabletweaving/patterns/df_heraldic.html) |
+|  | [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/df_twill.html) | [3/1 Twill](https://www.guntram.co.za/tabletweaving/patterns/df_twill.html) |
+|  | [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/df_3colour.html) | [3-Colour](https://www.guntram.co.za/tabletweaving/patterns/df_3colour.html) |
+| [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/diagonals.html) | [Egyptian Diagonals](https://www.guntram.co.za/tabletweaving/patterns/diagonals.html) |
+| [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/brocade.html) | [Brocade](https://www.guntram.co.za/tabletweaving/patterns/brocade.html) |
+| [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/twist.html) | [Twist-Patterned](https://www.guntram.co.za/tabletweaving/patterns/twist.html) |
+| [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/fonts.html) | [Fonts](https://www.guntram.co.za/tabletweaving/patterns/fonts.html) |
+| [![](https://www.guntram.co.za/tabletweaving/card.gif)](https://www.guntram.co.za/tabletweaving/patterns/collection.html) | [Collection](https://www.guntram.co.za/tabletweaving/patterns/collection.html) | |  |  |
+
+* * *
+
+Occasionally maintained by [Eckhard Gartz](mailto:{death.to.spam}eckhardg@afa-systems.co.za).
+
+Last modified 5/5/2004.

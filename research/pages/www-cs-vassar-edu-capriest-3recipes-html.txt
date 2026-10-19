@@ -1,0 +1,225 @@
+[![Blue Ribbon](https://www.cs.vassar.edu/~capriest/image/blue.gif)](http://www.eff.org/blueribbon.html)
+
+* * *
+
+This document is provided as is without any express or implied
+warranties. While every effort has been taken to ensure the
+accuracy of the information contained, the author assumes no
+responsibility for errors or omissions, or for damages resulting
+from the use of the information contained herein.
+
+Permission is granted to make and distribute verbatim copies
+of this document for non-commercial private research purposes
+provided the copyright notice and this permission notice are
+preserved on all copies.
+
+This document was originally submitted to the December 1995
+Arts and Sciences issue of Pikestaff, the newsletter
+of the East Kingdom, Society for Creative Anachronism, Inc. That
+issue has not yet been published.
+
+* * *
+
+# Three Recipes for Fourteenth- and Fifteenth-Century Tablet Weaving
+
+* * *
+
+Copyright © 1995, Carolyn Priest-Dorman.
+
+* * *
+
+This article gives recipes for three tablet weaving techniques
+that have been dated to fourteenth- and fifteenth-century
+England. They are based on analyses made by Elisabeth Crowfoot
+of Braids 449, 450, and 423 catalogued in the Museum of London
+(see below for citation). Depending on the size of thread or
+yarn you use, these recipes can produce impressive hair fillets,
+belts, baldrics, spur straps, ribbons, and the like.
+
+To make use of this article, you must already have some basic
+knowledge of the mechanics and terminology of tablet-weaving.
+You should have completed at least one tablet-weaving project and
+want to know more about SCA period techniques of tablet-weaving.
+You should already know how to read a tablet-weaving draft,
+number your tablets, correctly thread the tablets S- or Z-wise as
+needed, warp whatever kind of loom you use based on the draft,
+follow a turning sequence, and remove the piece from the loom.
+It is also assumed that you thread your tablets with the printed
+side toward the right, with Tablet 1 at the left side of the
+pack.
+
+## Some Tips
+
+Match your yarn to the texture you are trying to achieve. If
+you want a smooth, glossy surface, tightly-plied silk or linen is
+going to work better than loosely-plied wool. If you want a
+solid, compact surface, wool will serve best. Cotton is less
+glossy than silk or linen, and there's no evidence yet that it
+was used for medieval tablet-weaving in England, but it still
+makes for durable field wear, and some cotton yarns are machine
+washable.
+
+The recipes given below rely on the use of "warp-twined
+selvedges" to provide firmness and strength at the edges of the
+woven piece. They are simply edges executed in plain weave
+(i.e., four-hole threading and continuous forward turning)
+irrespective of the technique used for the rest of the weaving.
+Warp-twined selvedges were an important component of a carefully
+woven piece in the Middle Ages. Marking or coloring the edges of
+the tablets used for the selvedges helps make it quick and easy
+to identify them during the weaving of a piece.
+
+If you double-check your threading before you start to weave,
+it will probably save you some big headaches. It shouldn't take
+you more than a minute to thumb through the pack and make sure
+that each tablet is threaded in the correct direction (S-wise or
+Z-wise). If you're weaving the two-color braid, check also to
+make sure that your two colors of yarn are in the correct
+holes.
+
+All the threading diagrams and turning sequences in this
+article are predicated on the initial placement of the tablets in
+a "home position." The term "home position," borrowed from the
+book Step by Step Tablet Weaving, refers to the
+basic starting point of a sequence of weaving. In this case, it
+refers to the position of the tablets wherein all the tablets
+have holes C and D placed closest to the fell (woven part of the
+piece, as opposed to the as-yet-unwoven part, or warp). In this
+position holes A and B are closest to the warp. Thus, holes A
+and D are "up." If you try to use recipes from other commercial
+instruction or draft books, such as Candace Crockett's or Russell
+Groff's patterns, it is important to be aware that not all of
+them rely on this particular interpretation of "home position."
+Russell Groff's pattern drafts, for example, require beginning
+with holes A and D closest to the fell. But for our purposes you
+should set up all your tablets with holes A and D "up."
+
+## Two-Color Threaded-in Weftwise Stripes (Museum of London Braid 449)
+
+The original of this piece was woven of silk in two colors,
+pink and yellow (or white). It was 8.5mm wide, had bronze bar
+mounts riveted to it, and may have been used as a girdle or spur
+strap (Crowfoot et al., 133). This recipe will weave up more
+pleasingly if finer yarns are used. It might make an interesting
+boldly striped belt if thicker yarns are used, or more cards are
+added.
+
+![ Threading Draft for Braid 449 ](https://www.cs.vassar.edu/~capriest/image/b449.gif)
+
+Set up your warp as in the threading diagram labeled "Braid
+449." If you want to make your piece wider than 12 tablets, you
+can do so easily. Simply warp up as many extra tablets in groups
+of three as you like, making sure that each group of three is
+threaded in the opposite direction from the previous group of
+three.
+
+Turn the entire pack continuously forward. If you need to,
+reverse and turn the whole pack backwards; there is an example of
+exactly this reversal in the original braid. Also, the original
+seems to have been woven with a fairly heavy beat.
+
+## Monochrome Twill Effect (Museum of London Braid 450)
+
+The original ribbon was threaded with four strands of silk
+yarn through each hole, which gave a fat, soft, cushiony braid;
+it may have been used as a girdle or spur strap (Crowfoot et al.,
+133). You can do the same if you want a really soft effect:
+silk two-ply embroidery floss would be particularly nice.
+Otherwise, just about any kind of yarn or thread will work:
+wool, linen, or silk are especially appropriate.
+
+![ Threading Draft for Braid 450 ](https://www.cs.vassar.edu/~capriest/image/b450.gif)
+
+Set up your warp as in the threading diagram labeled "Braid
+450."
+
+Separate the tablets into three packs. Pack I is tablets 1-2
+and 11-12. Pack II is all the remaining odd-numbered tablets (3,
+5, 7, and 9). Pack III is all the remaining even-numbered
+tablets (4, 6, 8, and 10).
+
+Turn the cards in the following turning sequence.
+
+- First Turn: Pack I forward, Pack II forward, Pack III
+  backward
+
+- Second Turn: Pack I forward, Pack II forward, Pack III
+  backward
+
+- Third Turn: Pack I forward, Pack II backward, Pack III
+  forward
+
+- Fourth Turn: Pack I forward, Pack II backward, Pack III
+  forward
+
+
+Repeat.
+
+Note that Pack I always turns forward, and that Pack II and
+Pack III never turn in the same direction at the same time.
+
+The original seems to have been woven with a comparatively
+loose beat; however, if you are weaving with only one strand of
+yarn per hole, you will need to beat at least medium-hard in
+order for the texture to be sufficiently smooth.
+
+## Simulated Satin Effect (Museum of London Braid 423)
+
+The original of this braid was used for a girdle with a bronze
+strap end (Crowfoot et al., 133). Although it dates to early in
+the fifteenth century, belts with this simulated satin effect
+increased in popularity during the fifteenth century and were
+worn even up into the early Tudor period. If you want to
+reproduce this effect most closely, use a tight, shiny, small
+silk thread for this weave. Silk embroidery thread #8, which is
+a glossy two-ply, or Size A sewing silk would work especially
+well.
+
+![ Threading Draft for Braid 423 ](https://www.cs.vassar.edu/~capriest/image/b423.gif)
+
+Set up your warp as in the threading diagram labeled "Braid
+423."
+
+Separate the tablets into three packs. Pack I is tablets 1-4
+and 25-28. Pack II is all the remaining odd-numbered tablets (5,
+7, 9, 11, 13, 15, 17, 19, 21, 23). Pack III is all the remaining
+even-numbered tablets (6, 8, 10, 12, 14, 16, 18, 20, 22, 24).
+
+Turn the cards in the following turning sequence.
+
+- First Turn: Pack I forward, Pack II forward (that is, don't turn
+  Pack III)
+
+- Second Turn: Pack I forward, Pack III forward (that is,
+  don't turn Pack II)
+
+
+Repeat.
+
+The effect of this turning sequence is that Pack I (the
+selvedges) gets turned continuously forward. Pack II and Pack
+III each get turned continuously forward, but each one idles for
+a turn while the other pack is turned. Pack II and Pack III are
+never both turned at the same time in this weave.
+
+The original seems to have been woven with a fairly hard beat;
+if you use a glossy yarn with a hard beat, you should get a more
+smooth and satin-like surface than if you use less glossy yarn
+and a softer beat.
+
+## Source
+
+Crowfoot, Elisabeth; Pritchard, Frances; and Staniland, Kay.
+Textiles and Clothing c. 1150-c. 1450. Medieval
+Finds from Excavations in London, 4. London: HMSO, 1992.
+
+* * *
+
+This page was created on 28 February 1997 and last updated on
+28 February 1997.
+
+[Search this\\
+site](http://www.cs.vassar.edu/search.html) \| [Back to\\
+Þóra's Textile Resources](https://www.cs.vassar.edu/~capriest/textileres.html)
+
+**No soliciting!** [capriest@cs.vassar.edu](mailto:capriest@cs.vassar.edu)

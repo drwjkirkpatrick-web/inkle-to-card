@@ -1,0 +1,597 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://en.wikipedia.org/wiki/Inkle_%28loom%29",
+      "title": "Wikipedia - Inkle (loom)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "One key element that differentiates inkle looms from other band looms is that a continuous warp is required.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Band weaving** is the hand production of narrow woven fabric. This fabric may be called tape, band, [inkle](https://en.wikipedia.org/wiki/Inkle_(loom) \"Inkle (loom)\"), strap, belt, back strap, trim, and more.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://littlelooms.com/how-to-read-a-simple-inkle-draft",
+      "title": "Little Looms - How to Read a Simple Inkle Draft",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "The first important note about inkle drafts is that they apply only to the warp. Inkle weaving is a warp-faced weave, meaning you do not see the weft except at the selvedge, and even then just barely—so no weft color order is needed. Instead, you’ll get a warp color order and information about which warp ends need to be threaded on string heddles.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Each colored square represents 1 warp thread, which we call an “end.”",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "The top layer of squares is typically labeled as “heddled” and the bottom as “unheddled.”",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://aspinnerweaver.blogspot.com/p/pattern-drafts.html",
+      "title": "A Spinner Weaver - Inkle pattern draft conventions",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 4,
+      "url": "https://www.wollinchen.de/WebRoot/Store5/Shops/61105751/4A60/DE7C/7FE0/0F17/0336/C0A8/2935/6B37/inkle-manual.pdf",
+      "title": "Schacht Inkle Weaving manual (PDF)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "The top row of the draft shows the warp threads that will be strung through heddles. The bottom row shows the warp threads which will not pass through heddles.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Pattern Draft:* a graphic description of the placement of the different colors of warp yarns used for the warp pattern.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://en.wikipedia.org/wiki/Tablet_weaving",
+      "title": "Wikipedia - Tablet weaving",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "The fundamental principle is to turn the tablets to lift selected sets of threads in the warp. The tablets may be turned in one direction continually as a pack, turned individually to create patterns, or turned some number of times \"forward\" and the same number \"back\".",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "The tablets are usually marked with colors or stripes so that their facings and orientations can be easily noticed.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "appendix to his book _The Techniques of Tablet Weaving_, Peter Collingwood proved by structural analysis that the linen belt could not have been woven on tablets.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://www.stringpage.com/tw/basictw.html",
+      "title": "Phiala's String Page - Basic Tablet Weaving",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "warp length = 1.2 x final length + 50 cm",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "A card can be strung from left to right (Z-threaded) or right to left (S-threaded), but all four holes must be strung in the same direction or the card won't turn.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://www.stringpage.com/tw/twtheory.html",
+      "title": "Phiala's String Page - Tablet Weaving Theory",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "The thread which moved over the top of the tablet is the one which shows on the top face of the finished band.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "When the tablet is turned forward, holes A, B, C, D successively occupy the near top corner.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "threads in each tablet are twisted together to form a cord in the finished band.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "There are three important elements which determine the structure of tablet weaving: threading direction, threading pattern, and turning direction.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://www.keithweaves.com/tablet-weaving-standard-terms-and-notation",
+      "title": "Keith Weaves - Tablet weaving standard terms and notation",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "holes are labeled A, B, C, D, clockwise on the front face of the tablet.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Tablets are numbered left to right and face to the right.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Threaded-in patterns start with all tablets rotated to the same _home position_, with holes A and D above the warp.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "A pick consists of turning each tablets in the pack and then passing a weft.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Warping involves determining the number and order of tablets, the colors to be threaded in each hole, and each tablet’s initial threading direction. Weaving involves determining how tablets are to be turned for each pick.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "The diagram is a table, one column for each tablet, numbered left to right, and one row for each hole, lettered A through D. Each table cell is colored to match the color of the thread passing through a hole of a tablet.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Such drafts assume that the weaver will follow the 8-pick repeating sequence 4F-4B. When she does so, the first four rows look just like the draft, and the next four rows look like its mirror image (reflected along the top row).",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "turning 4F-4B will show rows D, C, B, A, A, B, C, D.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "All cards are rotated so that holes A and D are on the top.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://yrmegard.net/treasury/en/articles/the-secret-language-of-tablet-weaving-how-to-read-pattern-drafts",
+      "title": "Yrmegard - How to read tablet weaving pattern drafts",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 10,
+      "url": "https://www.stringpage.com/tw/twohole.html",
+      "title": "Phiala's String Page - Two-Hole Tablet Weaving",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 11,
+      "url": "https://www.cs.vassar.edu/~capriest/3recipes.html",
+      "title": "Capriest - Three Recipes for 14th-15th c. tablet weaving",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "The term \"home position,\" borrowed from the book Step by Step Tablet Weaving, refers to the basic starting point of a sequence of weaving.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "thread your tablets with the printed side toward the right, with Tablet 1 at the left side of the pack.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Russell Groff's pattern drafts, for example, require beginning with holes A and D closest to the fell.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://handwovenmagazine.com/bandweaving-classes-for-beginners-and-beyond",
+      "title": "Handwoven - Inkle vs. Tablet",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "is done on an inkle loom and requires either string heddles or a rigid heddle to change sheds. It may or may not also involve pick-up.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "In the simplest designs, you turn all the cards together alternating going forward and backward the same number of times—i.e., forward, forward, backward, backward, repeat.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Tablet weaving**, which can also be done on an inkle loom, uses a set of weaving tablets to change sheds. Each tablet has a set number of holes, usually at the corners. Warp ends are threaded in a certain order through these holes, and the shed is changed by turning the cards.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://www.datocms-assets.com/70931/1730831308-ll-tablet-projects-ebook_final.pdf",
+      "title": "Little Looms tablet weaving projects ebook (PDF)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "Align the tablets so that the A 2corners of the tablets are at the top far corner as shown in Figure 2.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Crockett, Candace. *Card Weaving.* Loveland, CO: Interweave, 1991.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "EQUIPMENT** Inkle loom; belt shuttle; 10 four-hole weaving tablets.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "4 turns forward (away from weaver) and 4 turns back (toward weaver).",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://littlelooms.com/patterning-portability-and-intrigue",
+      "title": "Little Looms - Tablet weaving patterning and portability",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "Instead of raising the unheddled ends above and below the heddled ones as you would with an inkle loom, he simply turned the deck of tablets according to the draft.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Threaded-in patterns, he explained, are those where the pattern is achieved only by the way the cards are threaded. All cards are turned together, either forward or backward.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "where I would normally attach heddles, John had inserted a stack of tablets with four warp ends threaded through each one.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Tablet weaving is a little like loom-controlled complex patterning for inkle bands.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "He even wove a simple striped inkle band in the center with unwoven warps above and below.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://jamesba.github.io/tabletweave",
+      "title": "TDD - Tablet Weaving Draft Designer",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 16,
+      "url": "https://www.raktres.net/seizenn",
+      "title": "Seizenn inkle pattern editor",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "SeiZenn - Band Weaving Pattern Editor",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "url": "https://worldmetrics.org/best/tablet-weaving-software",
+      "title": "WorldMetrics - Best Tablet Weaving Software 2026",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "is the best pick when you need repeat-consistent tablet-weaving drafts for printing and community sharing, whereas **Tablet Weaver** fits when you’re doing loom work from repeat-based threading and want dependable, chart-focused outputs.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Includes paid placements · ranking is editorial.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Simulation preview tied to the draft build process to reduce errors before print and loom use.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "url": "https://inklepattern.com/patterns",
+      "title": "InklePattern.com - free inkle patterns",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "Plain weave uses a numbered heddled/open (H/U) warp order and alternating sheds.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Tablet weaving needs a different draft and is not supported here.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "url": "https://www.penguinrandomhouse.com/books/633023/card-weaving-by-candace-crockett",
+      "title": "Penguin Random House - Card Weaving by Candace Crockett",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 20,
+      "url": "https://www.tabletweavingintheoryandpractice.co.uk/p/books.html",
+      "title": "Tablet weaving in theory and practice - book list",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 21,
+      "url": "https://bazzalisk.org/tabletweave",
+      "title": "TDD live app (bazzalisk.org)",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 22,
+      "url": "https://www.guntram.co.za/tabletweaving/patterns/patterns.html",
+      "title": "GTT tablet weaving pattern generator",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 23,
+      "url": "https://schachtspindle.com/products/the-techniques-of-tablet-weaving",
+      "title": "Schacht - The Techniques of Tablet Weaving (Collingwood)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "Peter Collingwood is well known to weavers as a thorough textile technique researcher. His ability to dive into a technique as he does here in _The Techniques of Tablet Weaving_ provides the weaving enthusiast with clear and accurate instruction, covering the topic in amazing detail.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "url": "https://www.shelaghlewins.com/tablet_weaving/twt_patterns.php",
+      "title": "Shelagh Lewins - Twisted Threads patterns page",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "Twisted Threads is a web-based application for designing, weaving and sharing tablet weaving patterns.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "additionally supports brocade and warp-faced tabby structures.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "url": "https://github.com/jamespbarrett/tabletweave",
+      "title": "GitHub - jamespbarrett/tabletweave (TDD)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "This is a simple javascript based application intended to help practictioners of the ancient art of tablet weaving who wish to design their own drafts.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "url": "https://github.com/MartinRybensky/karetka",
+      "title": "GitHub - MartinRybensky/karetka (pattern to instructions)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "An application made for conversion of tablet weaving patterns in CSV format into instructions (which direction should be turned each tablet on each row and so on) in the HTML or TXT form.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "url": "https://github.com/audreyseo/cardweaver",
+      "title": "GitHub - audreyseo/cardweaver (DSL + synthesis)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "The original motivation for this project is the fact that card weaving instructions are mind-bogglingly low-level.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "translating patterns for other kinds of band weaving, using cross stitch patterns as the basis of card weaving patterns",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "url": "https://github.com/snaut/tabletweaving",
+      "title": "GitHub - snaut/tabletweaving (JS pattern editor)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "A tablet weaving pattern editor written entirely in javascript, html, css, svg.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "twist counter to help with creating twist neutral patterns",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "url": "https://www.guntram.co.za/tabletweaving/index.htm",
+      "title": "GTT - Guntram's tablet weaving main page",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 30,
+      "url": "https://schachtspindle.com/products/tablet-weaving-cards",
+      "title": "Schacht - Card Weaving Cards (pack of 25)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "Sold in a pack of 25 cards.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Each card is 3-1/2\" square, with colored bands and stripes along each edge to help you follow a pattern.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "You can use the cards on their own with a simple tensioning device, such as tying the yarn to a door knob and tensioning around your waist. Or use the cards on our Inkle Loom.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "url": "https://www.mielkesfiberarts.com/product/card-weaving-cards",
+      "title": "Mielke's Fiber Arts - four styles of card weaving cards",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "All 4 types of cards we offer. 25 in each pack.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "LACIS: 25 laminated plastic card weaving cards, .019″ thick, 2-1/2″ square. For card and tablet weaving. Virtually indestructible, will not tear while providing a smooth surface for manipulation of threads. SCHACHT: 25 cardboard cards, 3.25″ square. Holes are 1-5/8th” apart on center.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Choose from five styles of card weaving cards:_ LACIS: 25 laminated plastic card weaving cards, .019″ thick, 2-1/2″ square. For card and tablet weaving. Virtually indestructible, will not tear while providing a smooth surface for manipulation of threads. SCHACHT: 25 cardboard cards, 3.25″ square. Holes are 1-5/8th” apart on center.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "SCHACHT: 25 cardboard cards, 3.25″ square. Holes are 1-5/8th” apart on center.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "HENDRICKSON 4 hole: Pack of 25 cards These Tablet Weaving Cards are made of cardboard, and are 3.5″ on each side. Sides are marked A, B, C and D to help with keeping order while weaving.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "url": "https://vehi-mercatus.com/Tablet-weaving",
+      "title": "Vehi-Mercatus - wooden, horn and bone weaving boards",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 33,
+      "url": "https://www.stringpage.com/assets/other/structures.pdf",
+      "title": "Phiala - Tablet Weaving Structures: Theory and History (PDF)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "The vast majority of weaving tablets are square, with four holes, one per corner. Triangular tablets have been found, and there is evidence for the use of six and eightholed tablets as well.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "The structure of tablet weaving is determined by five main characteristics: • the shape or number of holes in the tablets. • which of the holes contain warp threads. • the threading direction of the warp. • the turning pattern. • whether adjacent tablets are set up the same way.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "work with square tablets in this article since they are universal among modern tablet weavers.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "url": "https://handwovenmagazine.com/two-rules-color-theory-in-weaving",
+      "title": "Handwoven - Two Rules About Color Theory in Weaving",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "Rule 2. The eye perceives differences in value very clearly—much more clearly than it sees any other aspect of color. As a result, yarns with strong light/dark contrast will create a bold pattern in your handwoven cloth, while colors with equal values will blend into a subtle design. That makes it easy to figure out whether your woven pattern will show clearly in a given set of yarns.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "url": "https://warpandweave.com/choose-yarn-colors-handwoven-designs",
+      "title": "Warp & Weave - choose yarn colors for handwoven designs",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "How bold your pattern looks depends almost entirely on how much black-and-white contrast there is within the pattern.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "The best way to figure out whether two yarns have enough light/dark contrast to make a pattern show up clearly is by taking a black and white photo of the yarns.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "You can never get more contrast in your pattern than you have in the original yarns. So if you want your pattern to show clearly, you need to start with yarns that have strong light-dark contrast.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "url": "https://www.gistyarn.com/blogs/how-to-weave/choosing-colors-for-color-and-weave",
+      "title": "Gist Yarn - Choosing Colors for Color-and-Weave",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 37,
+      "url": "https://handweavingacademy.com/stripes-drafts-magic-post",
+      "title": "Handweaving Academy - Stripes + Drafts = Magic (value contrast)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "Hue contrast – how far apart colors are on the color wheel – does matter in making a pattern perceptible, but not nearly as much as value contrast.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "The secret is the contrast in darkness (also known as _value contrast_) between the warp and the weft.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "The more value contrast (light/dark contrast) between warp and weft, the more clearly the draft pattern will show.",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "url": "https://www.tabletweavingintheoryandpractice.co.uk/p/yarn.html",
+      "title": "Tablet Weaving in Theory and Practice - Choosing Yarn",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 39,
+      "url": "https://www.shelaghlewins.com/tablet_weaving/TW01/TW01.htm",
+      "title": "Shelagh Lewins - Getting Started (equipment and materials)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "cut out a square about 5 cm on each side, and punch four holes in the corners, drawing construction lines as shown in **Figure 1** to locate the holes. Round the corners off as shown.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "Historically, tablets were made of bone or wood, and perhaps also of leather or horn.",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "you will need: - 8 tablets - 1 shuttle - 2 different colours of yarn",
+          "added": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

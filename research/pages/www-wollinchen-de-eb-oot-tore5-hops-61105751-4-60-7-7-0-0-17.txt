@@ -1,0 +1,247 @@
+# Inkle Weaving
+
+by Naomi Binsfeld
+
+---
+
+## Loom Assembly
+
+Insert the bolt end of the tension peg (A) through the slot in the side of the 
+inkle loom. Place a washer on the threaded shaft and screw on the black knob.
+
+tension peg
+$$
+\textcircled{B}
+$$
+$$
+\textcircled{1}
+$$
+$$
+\textcircled{2}
+$$
+$$
+\textcircled{3}
+$$
+$$
+\textcircled{4}
+$$
+$$
+\textcircled{5}
+$$
+A
+
+*Figure 1 - Inkle Loom*
+
+## Weaving Terms
+
+*Heading:* a heavy weft, not part of the main weaving, worked at each 
+end of the band and removed when the weaving is complete.
+
+*Heddles:* string loops that are used to control the warp threads.
+
+*Pattern Draft:* a graphic description of the placement of the different 
+colors of warp yarns used for the warp pattern.
+
+*Pick-up Stick:* a smooth stick with a pointed end, also called a “shed” 
+stick.
+
+*Shed:* the space through which the shuttle passes.
+
+*Stick Shuttle:* a flat stick that carries the weft, notched at both ends. 
+A “belt” shuttle has one beveled edge which helps pack the weft 
+tightly together.
+
+*Warp:* (noun) the lengthwise threads that are stretched on the loom 
+and lifted or lowered for weaving; (verb) the process of putting 
+warp thread on the loom for weaving.
+
+*Weft:* the crosswise threads that are woven through the warp yarns.
+
+## Weaving Yarns
+
+The best yarns for weaving are smooth, strong and relatively inelastic. Perle 
+cotton (also known as mercerized cotton) in size 3/2 or size 5/2, embroidery 
+floss, cotton rug warp, linen or firmly twisted wools are all suitable.
+
+---
+
+| with heddle: | d d x x x x x x x x x x x x x x x x x x x d d (20 ends) |
+| --- | --- |
+| no heddle: | d d x x x x x x x x x x x x x x x x x d d (19 ends) |
+| heddles required = 20 |  |
+| total ends = 39 |  |
+| total dark ends (d) = 8 |  |
+| total light ends (x) = 31 |  |
+| FIGURE 2 - SAMPLE DRAFT |  |
+
+## Inkle Weaving Pattern Draft
+
+Before you begin to warp your 
+loom, choose a weaving draft to follow. In these instuctions we have used 
+the draft shown in figure 2. There are 
+additional drafts on the last page of 
+these instructions.
+
+The top row of the draft shows 
+the warp threads that will be strung 
+through heddles. The bottom row 
+shows the warp threads which will 
+not pass through heddles. Read the 
+pattern starting with the top row 
+at the left, as follows: warp the first 
+thread in the top row, then the first 
+thread in the bottom row. Next warp 
+the second thread in the top row and 
+the second thread in the bottom row. 
+Follow the draft, alternating from the 
+top to the bottom until the pattern is 
+complete.
+
+## Making the Heddles
+
+You must make a heddle for each 
+of the warp ends listed on the top row 
+of the weaving draft. You will need 20 
+heddles for the sample pattern draft. 
+Heddles are reusable and should be 
+made of a sturdy cotton string such as 
+cotton rug warp or seine twine. There 
+are two types of heddles, “single” and 
+“double,”  either of which can be used 
+on this loom.
+
+The single heddle is made by tying 
+the heddle string around pegs 1 and 
+5 (figure 1). When using this heddle 
+you must place the heddles on the 
+warp threads as you warp the loom 
+(figure 3).
+
+The double heddle is made by 
+tying the string around pegs B, 1, 
+and 5.  This heddle can be attached 
+during the warping process, or after 
+part or all of the warp is on the loom 
+(figure 4).
+
+1
+5
+5
+
+*figure 3 - Single Heddle*
+
+B
+1
+5
+5
+
+*figure 4 - Double Heddle*
+
+---
+
+## Warping the Loom
+
+Place the loom on a table with the 
+pegs facing you. Move the tension 
+peg A to the middle of the slot (figure 
+6).
+
+Warp using the **double heddles:**
+**1.** Tie the end of the dark yarn 
+around peg A with a slip knot (figure 
+5).
+
+**2.** To wind the first warp thread, pass 
+the warp thread over pegs B and C, 
+and then down to 4 and back to peg A 
+(figure 6).
+
+**3.** Fold the double heddle over the 
+first warp thread (working just in 
+front of peg B), and loop both ends of 
+the heddle onto peg 5 (figure 4).
+
+**4.** The 2nd warp thread is wound 
+without a heddle, and goes under peg 
+B, over peg C and then around peg 4 
+and back to A (figure 6).
+
+### OR
+
+Warp using the **single heddles:**
+**1.** Thread all of the heddles you will 
+need for your pattern onto each of 
+the two warp yarns (4 heddles for 
+the dark yarn, and 16 heddles for the 
+light) before beginning to warp. Just 
+slip the free end of the warp yarn 
+through the heddles.
+
+**2.** Tie the free end of the dark yarn 
+to peg A with a slip knot (figure 5).
+
+
+[... middle omitted — see footer ...]
+
+paths described in the table below. 
+Start at Peg A and proceed to Peg C, 
+then from peg C go to the next peg 
+on the list for the warp length you 
+want. For example, the warp shown in 
+figure 6 follows the path for a 5-yard 
+warp (A-C-4-5). •
+
+| Peg | Warp Length |
+| --- | --- |
+| A-C-1-2-3-4-5 | 81/2 feet |
+| A-C-1-4-5 | 61/2 feet |
+| A-C-4-5 | 5 feet |
+
+---
+
+#### Blue Stripes
+
+thru heddle:  w w b b w w w w w w b b w w    (14 ends)
+not thru heddle:     w w b b w w w w w b b w w      (13 ends)
+heddles required = 14
+total blue ends (b)  =   8       
+total white ends (w)  = 19
+
+#### Checks
+
+thru heddle:   r r r r r p p p r r r p p p r r r p p p r r    (22 ends)
+not thru heddle:    r r p p p r r r p p p r r r p p p r r r r r  (22 ends)
+heddles required = 22
+total red ends (r)  =  26              
+total purple ends (p)  = 18
+
+#### Chains
+
+thru heddle:    w b x b w b b w b x b w      (12 ends)
+not thru heddle:      w b b w b x b w b b w         (11 ends)
+heddles required = 12
+total blue ends (b)  =   12       
+total white ends (w)  =  8
+total yellow ends (x)  =  3
+
+#### Egyptian Key
+
+thru heddle:    m m g g g g g g b b b m m      (13 ends)
+not thru heddle:    m m g g g b b b b b b m m   (13 ends)
+heddles required = 13
+total blue ends (b)  =   9       
+total maroon ends (m)  = 8
+total green ends (g)  =  9
+
+## Further Reading
+
+*Byways in Handweaving,* by Mary Atwater
+*Inkle Weaving,* by Helene Bress
+*Inkle,* by Evelyn Neher
+*Weaving Inkle Bands,* by Harriet Tidball
+
+──────── [TRUNCATED] ────────
+Showing 4,456 chars (head) + 1,483 chars (tail) of 13,448 total clean characters.
+Full text saved to: /home/walker/.hermes/cache/web/www.wollinchen.de-0e400343e7.md
+To read the omitted middle: read_file path="/home/walker/.hermes/cache/web/www.wollinchen.de-0e400343e7.md" offset=183 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

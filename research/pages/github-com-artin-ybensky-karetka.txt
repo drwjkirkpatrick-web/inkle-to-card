@@ -1,0 +1,106 @@
+[Skip to content](https://github.com/MartinRybensky/karetka#start-of-content)
+
+You signed in with another tab or window. [Reload](https://github.com/MartinRybensky/karetka) to refresh your session.You signed out in another tab or window. [Reload](https://github.com/MartinRybensky/karetka) to refresh your session.You switched accounts on another tab or window. [Reload](https://github.com/MartinRybensky/karetka) to refresh your session.Dismiss alert
+
+{{ message }}
+
+master
+
+[**1** Branch](https://github.com/MartinRybensky/karetka/branches) [**1** Tag](https://github.com/MartinRybensky/karetka/tags)
+
+[Go to Branches page](https://github.com/MartinRybensky/karetka/branches)[Go to Tags page](https://github.com/MartinRybensky/karetka/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Latest commit
+
+[![MartinRybensky](https://avatars.githubusercontent.com/u/39389270?v=4&size=40)](https://github.com/MartinRybensky)[MartinRybensky](https://github.com/MartinRybensky/karetka/commits?author=MartinRybensky)
+
+[updated readme file](https://github.com/MartinRybensky/karetka/commit/d285e63d1b2bbe24ca3589c339bea6967e3b1e2b)
+
+8 years agoAug 27, 2018
+
+[d285e63](https://github.com/MartinRybensky/karetka/commit/d285e63d1b2bbe24ca3589c339bea6967e3b1e2b) · 8 years agoAug 27, 2018
+
+## History
+
+[8 Commits](https://github.com/MartinRybensky/karetka/commits/master/)
+
+Open commit details
+
+[View commit history for this file.](https://github.com/MartinRybensky/karetka/commits/master/) 8 Commits
+
+## Folders and files
+
+| Name | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- |
+| [LICENSE](https://github.com/MartinRybensky/karetka/blob/master/LICENSE "LICENSE") | [LICENSE](https://github.com/MartinRybensky/karetka/blob/master/LICENSE "LICENSE") | [Initial commit](https://github.com/MartinRybensky/karetka/commit/e750cbab506ce7bff65c0fa7a151148a981dcfe2 "Initial commit") | 8 years agoMay 17, 2018 |
+| [README.md](https://github.com/MartinRybensky/karetka/blob/master/README.md "README.md") | [README.md](https://github.com/MartinRybensky/karetka/blob/master/README.md "README.md") | [updated readme file](https://github.com/MartinRybensky/karetka/commit/d285e63d1b2bbe24ca3589c339bea6967e3b1e2b "updated readme file") | 8 years agoAug 27, 2018 |
+| [example.csv](https://github.com/MartinRybensky/karetka/blob/master/example.csv "example.csv") | [example.csv](https://github.com/MartinRybensky/karetka/blob/master/example.csv "example.csv") | [Example input and output files has been added](https://github.com/MartinRybensky/karetka/commit/1246568504d6567672df8a4349d8f2911c131b76 "Example input and output files has been added") | 8 years agoAug 27, 2018 |
+| [example.html](https://github.com/MartinRybensky/karetka/blob/master/example.html "example.html") | [example.html](https://github.com/MartinRybensky/karetka/blob/master/example.html "example.html") | [Example input and output files has been added](https://github.com/MartinRybensky/karetka/commit/1246568504d6567672df8a4349d8f2911c131b76 "Example input and output files has been added") | 8 years agoAug 27, 2018 |
+| [example.txt](https://github.com/MartinRybensky/karetka/blob/master/example.txt "example.txt") | [example.txt](https://github.com/MartinRybensky/karetka/blob/master/example.txt "example.txt") | [Example input and output files has been added](https://github.com/MartinRybensky/karetka/commit/1246568504d6567672df8a4349d8f2911c131b76 "Example input and output files has been added") | 8 years agoAug 27, 2018 |
+| [karetka.exe](https://github.com/MartinRybensky/karetka/blob/master/karetka.exe "karetka.exe") | [karetka.exe](https://github.com/MartinRybensky/karetka/blob/master/karetka.exe "karetka.exe") | [2018-05-18](https://github.com/MartinRybensky/karetka/commit/d57fd702f41c0c1e47289b4fa318726062922961 "2018-05-18") | 8 years agoMay 18, 2018 |
+| [karetka.py](https://github.com/MartinRybensky/karetka/blob/master/karetka.py "karetka.py") | [karetka.py](https://github.com/MartinRybensky/karetka/blob/master/karetka.py "karetka.py") | [2018-05-18](https://github.com/MartinRybensky/karetka/commit/d57fd702f41c0c1e47289b4fa318726062922961 "2018-05-18") | 8 years agoMay 18, 2018 |
+| View all files |
+
+## Repository files navigation
+
+# karetka
+
+[Permalink: karetka](https://github.com/MartinRybensky/karetka#karetka)
+
+An application made for conversion of tablet weaving patterns in CSV format into instructions (which direction should be turned each tablet on each row and so on) in the HTML or TXT form.
+
+The required input format is CSV, values separated by semicolon, the first line has to contain column numbers.
+
+The example input file is provided as example.csv.
+
+The example output of the processed example.csv file can also be found in this repository, please see the files example.html and example.txt.
+
+Requirements: Python 2
+
+Usage (Linux):
+`./karetka.py input-file.csv`
+
+Usage (Windows):
+`karetka.exe input-file.csv` or `C:\Python27\python.exe karetka.py input-file.csv`
+
+## About
+
+tablet weaving pattern to instructions converter
+
+### Resources
+
+[Readme](https://github.com/MartinRybensky/karetka#readme-ov-file)
+
+[MIT license](https://github.com/MartinRybensky/karetka#MIT-1-ov-file)
+
+[Activity](https://github.com/MartinRybensky/karetka/activity)
+
+### Stars
+
+**0** stars
+
+### Watchers
+
+**0** watching
+
+### Forks
+
+[**0** forks](https://github.com/MartinRybensky/karetka/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FMartinRybensky%2Fkaretka&report=MartinRybensky+%28user%29)
+
+## Releases
+
+## Packages
+
+## Contributors
+
+## Languages
+
+You can’t perform that action at this time.

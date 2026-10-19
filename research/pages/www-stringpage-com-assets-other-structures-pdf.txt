@@ -1,0 +1,259 @@
+# Tablet Weaving Structures
+
+# Theory and History
+
+# Sarah Goslee
+
+# 12 March, 2004
+
+There are a few tablet weaving structures commonly recognized by weavers,
+including warp twining, doubleface and 3/1 broken twill. Others are known
+from premedieval and medieval contexts, but are lessoften used, and many
+more structures are possible. In this article, I present a systematic method for
+classification and analysis of all possible tabletwoven structures. By
+"structures", I mean only the physical form of the band, regardless of the color
+patterns that may appear. Decorative color patterns are an essential feature
+determining the appearance of a tabletwoven band, but they are not a
+structural component   the structure would be the same even if the warps were
+all identically colored.
+
+The structure of tablet weaving is determined by five main characteristics:
+
+• the shape or number of holes in the tablets.
+
+• which of the holes contain warp threads.
+
+• the threading direction of the warp.
+
+• the turning pattern.
+
+• whether adjacent tablets are set up the same way.
+
+Each of these will be considered in more detail below.
+
+## Basics
+
+All of my explanations assume a common frame of reference, the "standard
+setup" used by most tablet weavers (Fig. 1). This has the weaver sitting at the
+cloth end of the warp, and the other end attached farther away from the
+weaver. I also assume that the weaver is looking at the warp from the right
+side. If you prefer to work in a different arrangement, you may need to make
+mental adjustments while reading. I use this arrangement because then in
+diagrams the weaving progresses from left to right, in the direction English
+speakers are used to reading. Loom weavers may be used to looking at drafts
+written in the opposite direction.
+
+Figure 1. Standard position of weaver, warp and tablets. weaver / cloth end
+warp end
+
+weaver / warp
+cloth end end
+
+---
+
+## Tablet Shape
+
+The vast majority of weaving tablets are square, with four holes, one per
+corner. Triangular tablets have been found, and there is evidence for the use of
+six and eightholed tablets as well. The structural classification here can be
+applied to tablets of any shape, but I am only going to work with square tablets
+in this article since they are universal among modern tablet weavers.
+
+While there are nearly as many schemes for labeling the holes of a tablet as
+there are weavers using them (or at least authors and manufacturers), I am
+going to use a particular system in this article. This is the one that seems most
+logical to me. If you look at the right face of the tablet, the holes of the tablet
+are labeled A B C D moving in a counterclockwise direction starting with the
+top hole nearest the weaver (Fig. 2). This arrangement means that when a
+tablet is turned forward, first the warp in A crosses over the top and is seen,
+then the warp in B, followed by C and D.
+
+Figure 2. Labels I use for the holes of a tablet, as seen from the right.
+
+$$
+\begin{aligned}&\begin{aligned}\\ &\bullet\quad&\bullet\\&A\quad&D\\ &\end{aligned}\\ &\bullet\begin{aligned}\\ &B\quad&C\\&C\\ &\end{aligned}\\ \end{aligned}
+$$
+
+Many (most?) commercial tablets are labeled in a clockwise direction. In that
+case, just put the labeled face on the left side of the pack instead of the right
+side so that the AD line is on top. For everything I'm going to talk about here,
+the only important part is that A is the top hole closest to the weaver, and B is
+the bottom hole closest to the weaver.
+
+Even 4hole tablets have two different sets of sheds : the usual single shed
+created when tablets are used flat, and the paired shed created by tablets on
+their points. I'm only going to consider tablets used flat, as in Fig. 3a.
+
+Figure 3. Possible sheds created by fourhole tablets used flat (a) or on their
+points (b).
+
+a.
+
+b.
+
+---
+
+## Tablet Threading
+
+Even with fourhole tablets, there are several possible threading arrangements,
+since not all holes need to contain warp threads. A fourhole tablet can contain
+4, 3, 2 or 1 warp threads, and two arrangements of two threads are possible
+(Fig. 4).
+
+Figure 4. Possible ways to thread a square tablet.
+
+a. b. c. d. e.
+
+Note that there are two ways to thread a tablet with two warp threads. I'm only
+going to discuss two of these patterns, a and c, which appear to be the most
+common in historical finds. I also use examples with one thread per tablet (e)
+as examples, but these are not really useful for actual weaving.
+
+Threading two adjacent holes creates possibilities beyond the scope of this
+article, since any woven structure can be created with tablets threaded this
+way. In any form of weaving, there are four possible arrangements for adjacent
+warp threads: both on the surface (Fig. 5a), both underneath (Fig. 5c), one
+above and one beneath, and the reverse (Fig. 5b and d).
+
+Figure 5. All possible sheds can be created using a tablet with two adjacent
+warp threads.
+
+a. b. c. d.
+
+---
+
+## Threading Direction
+
+The warp threads enter the tablet on one side and leave on the other, but with
+a flat tablet there are two possible directions. Using terms borrowed from
+spinning, one direction is termed S and the other Z after the directions of their
+central strokes (Fig. 6).
+
+Figure 6. S and Z threading of tablets from the top and from the right side.
+From the top, the warp follows the same direction as the central stroke of an S
+or a Z.
+
+S
+Z
+
+This is the definition used by most weavers and authors, but there are
+exceptions, so as with tablet labels, always check for the source you are using.
+
+Tablet weaving has the potential to create warp twining in the finished band. If
+a tablet is turned continually in one direction, the four threads from that tablet
+will twist together into a cord. This cord is bound to adjacent cords (from other
+tablets in the pack) by the weft. There are other ways to produce warp twining,
+but its presence in a band, especially in the selvages, strongly suggests that
+tablet weaving was used. The direction of twist in the cord can also be
+described as S or Z. An Sthreaded tablet turned forward will create a Ztwined
+cord, and an Stwined cord if it is turned backward. A Zthreaded tablet will
+produce an Stwined cord if turned forward, and a Ztwined cord if turned
+backward (Fig. 7).
+
+Structurally, an Sthreaded turned forward is identical to a Zthreaded tablet
+turned backward. (This is important!)
+
+---
+
+Figure 7. The relationship between threading direction, turning direction and
+the resulting cord. Only one hole per tablet is threaded so that the course of
+the warp on the back of the band (in gray) can be seen.
+
+a. S-threaded, turned
+forward: Z twining
+
+c. Z-threaded, turned
+forward: S twining
+
+b. S-threaded, turned
+backward: S twining
+
+**a. S-threaded, turned forward: Z twining**
+
+**b. S-threaded, turned backward: S twining**
+
+**c. Z-threaded, turned forward: S twining**
+
+**d. Z-threaded, turned backward: Z twining**
+
+d. Z-threaded, turned
+backward: Z twining
+
+This relationship is possibly the hardest thing for novice weavers to
+understand, and even experienced weavers occasionally have problems. While
+working on this article, I came up with a trick for getting smooth diagonal
+lines. The direction of colored diagonals needs to match the direction of the
+twining of the cord, but I can never remember how to set up the threads in the
+tablets to get the desired effect. If you look at the top of a pair of tablets, the
+
+[... middle omitted — see footer ...]
+
+
+Collingwood, Peter. 1996. The Techniques of Tablet Weaving. Second edition.
+Robin and Russ Handweavers, McMinnville, OR, USA.
+
+Crowfoot, Elisabeth, Frances Pritchard and Kay Staniland. 1992. Textiles and
+Clothing. Medieval Finds from Excavations in London: 4. HMSO, London.
+
+Crowfoot, Grace M. 1939. The tabletwoven braids from the vestments of St.
+Cuthbert at Durham. The Antiquaries Journal 19:5780.
+
+Crowfoot, Grace M. 1952. AngloSaxon tablet weaving. Antiquaries Journal
+32:189191.
+
+Crowfoot, Grace M. 1954. Tabletwoven braid from a thirteenthcentury site.
+Antiquaries Journal 34:234235.
+
+Crowfoot, Grace M. 1956. The textile and impressions. pp. 188189. In.
+Thompson, F.H. AngloSaxon sites in Lincolnshire. Antiquaries Journal
+36:181199.
+
+Englund, Sonja Berlin. 1994. Brickvävning  Så in i Norden. Kalmar.
+
+Geijer, A. 1980. The textile finds from Birka. Acta Archaeologia 50:209222.
+
+Hald, Margrethe. 1980. Ancient Danish Textiles from Bogs and Burials: A
+Comparative Study of Costume and Iron Age Textiles. National Museum of
+Denmark.
+
+Hansen, Egon. 1990. Tablet Weaving: History, Techniques, Colors, Patterns.
+Hovedland Publishers, Denmark.
+
+Henshall, A. 1964. Five tabletwoven seal tags. Archaeological Journal
+121:154162.
+
+Ierusalimskaja, A.A. and B. Borkopp. 1996. von China nach Byzanz.
+Herausgegeben vom Beyerischen Nationalmuseum und der Staatlichen
+
+---
+
+Ermitage. Munchen.
+
+Knudsen, Lise Raeder. 1994. Analysis and reconstruction of two tabletwoven
+bands from the celtic burial hochdorf. NESAT V pp. 5360 in: Jaacks, G. and
+Tidow, K. Northern European Symposium on Archaeological Textiles Volume 5
+(NESAT V). Textilmuseum Neumuster.
+
+MüllerChristensen, Sigrid. 1977. Examples of mediaeval tabletwoven bands.
+Pp. 232236 in: Gervers, V. (ed.) Studies in textile history in memory of Harold
+B. Burnham. Royal Ontario Museum, Canada.
+
+Nockert, M. 1983. A Scandinavian haberget? Pp. 100107 in: Harte, N.B. and
+K.G. Ponting (eds.) Cloth and clothing in Medieval Europe: essays in memory of
+Professor E.M. CarusWilson. Studies in Textile History 2. Heinemann
+Educational Books, London.
+
+Nockert, Margareta and Lise Raeder Knudsen. 1996. Gotlandska brickband
+fran vikingatiden. Gotlandskt Arkiv 68:4146.
+
+van Epen, Marijke. 1997. Tablet weaving two threads per tablet. TWIST 4(3):8.
+
+Walton, Penelope. 1990. Textiles, Cordage and Raw Fibre from 1622
+Coppergate. The Archaeology of York Volume 17: The Small Finds, Fascicule 5.
+York Archaeological Trust, UK.
+
+──────── [TRUNCATED] ────────
+Showing 7,431 chars (head) + 2,465 chars (tail) of 28,123 total clean characters.
+Full text saved to: /home/walker/.hermes/cache/web/www.stringpage.com-021ac36af1.md
+To read the omitted middle: read_file path="/home/walker/.hermes/cache/web/www.stringpage.com-021ac36af1.md" offset=188 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

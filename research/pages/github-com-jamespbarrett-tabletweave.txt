@@ -1,0 +1,106 @@
+[Skip to content](https://github.com/jamespbarrett/tabletweave#start-of-content)
+
+You signed in with another tab or window. [Reload](https://github.com/jamespbarrett/tabletweave) to refresh your session.You signed out in another tab or window. [Reload](https://github.com/jamespbarrett/tabletweave) to refresh your session.You switched accounts on another tab or window. [Reload](https://github.com/jamespbarrett/tabletweave) to refresh your session.Dismiss alert
+
+{{ message }}
+
+master
+
+[**6** Branches](https://github.com/jamespbarrett/tabletweave/branches) [**11** Tags](https://github.com/jamespbarrett/tabletweave/tags)
+
+[Go to Branches page](https://github.com/jamespbarrett/tabletweave/branches)[Go to Tags page](https://github.com/jamespbarrett/tabletweave/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Latest commit
+
+[![jamespbarrett](https://avatars.githubusercontent.com/u/87607732?v=4&size=40)](https://github.com/jamespbarrett)[jamespbarrett](https://github.com/jamespbarrett/tabletweave/commits?author=jamespbarrett)
+
+[v1.8.2: bugfix on loading old files in newer version](https://github.com/jamespbarrett/tabletweave/commit/4e21e8a4254b8e4c96fd0245e4ceb715b577a0e2)
+
+success
+
+9 months agoJan 14, 2026
+
+[4e21e8a](https://github.com/jamespbarrett/tabletweave/commit/4e21e8a4254b8e4c96fd0245e4ceb715b577a0e2) · 9 months agoJan 14, 2026
+
+## History
+
+[170 Commits](https://github.com/jamespbarrett/tabletweave/commits/master/)
+
+Open commit details
+
+[View commit history for this file.](https://github.com/jamespbarrett/tabletweave/commits/master/) 170 Commits
+
+## Folders and files
+
+| Name | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- |
+| [fmt](https://github.com/jamespbarrett/tabletweave/tree/master/fmt "fmt") | [fmt](https://github.com/jamespbarrett/tabletweave/tree/master/fmt "fmt") |  |  |
+| [lib](https://github.com/jamespbarrett/tabletweave/tree/master/lib "lib") | [lib](https://github.com/jamespbarrett/tabletweave/tree/master/lib "lib") |  |  |
+| [locales](https://github.com/jamespbarrett/tabletweave/tree/master/locales "locales") | [locales](https://github.com/jamespbarrett/tabletweave/tree/master/locales "locales") |  |  |
+| [FileSaver.js](https://github.com/jamespbarrett/tabletweave/blob/master/FileSaver.js "FileSaver.js") | [FileSaver.js](https://github.com/jamespbarrett/tabletweave/blob/master/FileSaver.js "FileSaver.js") |  |  |
+| [README.md](https://github.com/jamespbarrett/tabletweave/blob/master/README.md "README.md") | [README.md](https://github.com/jamespbarrett/tabletweave/blob/master/README.md "README.md") |  |  |
+| [copyright.html](https://github.com/jamespbarrett/tabletweave/blob/master/copyright.html "copyright.html") | [copyright.html](https://github.com/jamespbarrett/tabletweave/blob/master/copyright.html "copyright.html") |  |  |
+| [draft.js](https://github.com/jamespbarrett/tabletweave/blob/master/draft.js "draft.js") | [draft.js](https://github.com/jamespbarrett/tabletweave/blob/master/draft.js "draft.js") |  |  |
+| [howto.html](https://github.com/jamespbarrett/tabletweave/blob/master/howto.html "howto.html") | [howto.html](https://github.com/jamespbarrett/tabletweave/blob/master/howto.html "howto.html") |  |  |
+| [i18n.js](https://github.com/jamespbarrett/tabletweave/blob/master/i18n.js "i18n.js") | [i18n.js](https://github.com/jamespbarrett/tabletweave/blob/master/i18n.js "i18n.js") |  |  |
+| [index.html](https://github.com/jamespbarrett/tabletweave/blob/master/index.html "index.html") | [index.html](https://github.com/jamespbarrett/tabletweave/blob/master/index.html "index.html") |  |  |
+| [js.cookie.js](https://github.com/jamespbarrett/tabletweave/blob/master/js.cookie.js "js.cookie.js") | [js.cookie.js](https://github.com/jamespbarrett/tabletweave/blob/master/js.cookie.js "js.cookie.js") |  |  |
+| [style.css](https://github.com/jamespbarrett/tabletweave/blob/master/style.css "style.css") | [style.css](https://github.com/jamespbarrett/tabletweave/blob/master/style.css "style.css") |  |  |
+| View all files |
+
+## Repository files navigation
+
+# Tablet Weaving Draft Designer
+
+[Permalink: Tablet Weaving Draft Designer](https://github.com/jamespbarrett/tabletweave#tablet-weaving-draft-designer)
+
+This is a simple javascript based application intended to help practictioners of the ancient art of tablet weaving who
+wish to design their own drafts.
+
+The live version of this can be found at:
+
+[http://bazzalisk.org/tabletweave/](http://bazzalisk.org/tabletweave/)
+
+## About
+
+A tool for designing tablet weaving drafts
+
+### Resources
+
+[Readme](https://github.com/jamespbarrett/tabletweave#readme-ov-file)
+
+[License](https://github.com/jamespbarrett/tabletweave#License-1-ov-file)
+
+[Activity](https://github.com/jamespbarrett/tabletweave/activity)
+
+### Stars
+
+**28** stars
+
+### Watchers
+
+**3** watching
+
+### Forks
+
+[**12** forks](https://github.com/jamespbarrett/tabletweave/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fjamespbarrett%2Ftabletweave&report=jamespbarrett+%28user%29)
+
+## Releases
+
+## Packages
+
+## Used by
+
+## Contributors
+
+## Languages
+
+You can’t perform that action at this time.

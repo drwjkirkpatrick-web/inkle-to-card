@@ -1,0 +1,108 @@
+[Skip to content](https://github.com/audreyseo/cardweaver#start-of-content)
+
+You signed in with another tab or window. [Reload](https://github.com/audreyseo/cardweaver) to refresh your session.You signed out in another tab or window. [Reload](https://github.com/audreyseo/cardweaver) to refresh your session.You switched accounts on another tab or window. [Reload](https://github.com/audreyseo/cardweaver) to refresh your session.Dismiss alert
+
+{{ message }}
+
+main
+
+[**1** Branch](https://github.com/audreyseo/cardweaver/branches) [**0** Tags](https://github.com/audreyseo/cardweaver/tags)
+
+[Go to Branches page](https://github.com/audreyseo/cardweaver/branches)[Go to Tags page](https://github.com/audreyseo/cardweaver/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Latest commit
+
+[![audreyseo](https://avatars.githubusercontent.com/u/14080871?v=4&size=40)](https://github.com/audreyseo)[audreyseo](https://github.com/audreyseo/cardweaver/commits?author=audreyseo)
+
+[Add license and README](https://github.com/audreyseo/cardweaver/commit/2cb10739ca8d714bfa5d4bfd7da3f972484067f0)
+
+2 years agoJun 11, 2024
+
+[2cb1073](https://github.com/audreyseo/cardweaver/commit/2cb10739ca8d714bfa5d4bfd7da3f972484067f0) · 2 years agoJun 11, 2024
+
+## History
+
+[3 Commits](https://github.com/audreyseo/cardweaver/commits/main/)
+
+Open commit details
+
+[View commit history for this file.](https://github.com/audreyseo/cardweaver/commits/main/) 3 Commits
+
+## Folders and files
+
+| Name | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- |
+| [.idea](https://github.com/audreyseo/cardweaver/tree/main/.idea ".idea") | [.idea](https://github.com/audreyseo/cardweaver/tree/main/.idea ".idea") | [Work on pattern interpreter and representation](https://github.com/audreyseo/cardweaver/commit/144b8e3c32e18d630f9a22126cd5de5c75980856 "Work on pattern interpreter and representation  Also added some documentation") | 2 years agoJun 5, 2024 |
+| [project](https://github.com/audreyseo/cardweaver/tree/main/project "project") | [project](https://github.com/audreyseo/cardweaver/tree/main/project "project") | [Work on pattern interpreter and representation](https://github.com/audreyseo/cardweaver/commit/144b8e3c32e18d630f9a22126cd5de5c75980856 "Work on pattern interpreter and representation  Also added some documentation") | 2 years agoJun 5, 2024 |
+| [src/main](https://github.com/audreyseo/cardweaver/tree/main/src/main "This path skips through empty directories") | [src/main](https://github.com/audreyseo/cardweaver/tree/main/src/main "This path skips through empty directories") | [Start on synthesis, add more to cards](https://github.com/audreyseo/cardweaver/commit/73fc9b9fbee4e3a61da4847066126b29d376d7c0 "Start on synthesis, add more to cards") | 2 years agoJun 11, 2024 |
+| [.gitignore](https://github.com/audreyseo/cardweaver/blob/main/.gitignore ".gitignore") | [.gitignore](https://github.com/audreyseo/cardweaver/blob/main/.gitignore ".gitignore") | [Work on pattern interpreter and representation](https://github.com/audreyseo/cardweaver/commit/144b8e3c32e18d630f9a22126cd5de5c75980856 "Work on pattern interpreter and representation  Also added some documentation") | 2 years agoJun 5, 2024 |
+| [LICENSE](https://github.com/audreyseo/cardweaver/blob/main/LICENSE "LICENSE") | [LICENSE](https://github.com/audreyseo/cardweaver/blob/main/LICENSE "LICENSE") | [Add license and README](https://github.com/audreyseo/cardweaver/commit/2cb10739ca8d714bfa5d4bfd7da3f972484067f0 "Add license and README") | 2 years agoJun 11, 2024 |
+| [README.md](https://github.com/audreyseo/cardweaver/blob/main/README.md "README.md") | [README.md](https://github.com/audreyseo/cardweaver/blob/main/README.md "README.md") | [Add license and README](https://github.com/audreyseo/cardweaver/commit/2cb10739ca8d714bfa5d4bfd7da3f972484067f0 "Add license and README") | 2 years agoJun 11, 2024 |
+| [build.sbt](https://github.com/audreyseo/cardweaver/blob/main/build.sbt "build.sbt") | [build.sbt](https://github.com/audreyseo/cardweaver/blob/main/build.sbt "build.sbt") | [Work on pattern interpreter and representation](https://github.com/audreyseo/cardweaver/commit/144b8e3c32e18d630f9a22126cd5de5c75980856 "Work on pattern interpreter and representation  Also added some documentation") | 2 years agoJun 5, 2024 |
+| View all files |
+
+## Repository files navigation
+
+# cardweaver
+
+[Permalink: cardweaver](https://github.com/audreyseo/cardweaver#cardweaver)
+
+A domain-specific language (DSL) for card weaving instructions, with included card weaving instruction synthesis functionality. Possible applications include:
+
+- translating patterns for other kinds of band weaving, using cross stitch patterns as the basis of card weaving patterns, etc.
+- checking that the card weaving instructions produce the pattern you think it will
+- testing out different designs and patterns in a computational manner
+
+The original motivation for this project is the fact that card weaving instructions are mind-bogglingly low-level. It is unintuitive and difficult to imagine what the instructions should be to produce a pattern. Card weaving instruction books direct the reader to design their patterns by first deciding the colors that go in the holes, and then experimenting with different lengths of forward/backward instructions, but this does not help when a weaver has a clear vision of what they want to weave, but figuring out the instructions to create it is tedious.
+
+## Implementation
+
+[Permalink: Implementation](https://github.com/audreyseo/cardweaver#implementation)
+
+There are two parts to programmatically generating card weaving instructions.
+
+First, a card weaving DSL has been implemented in Scala and Racket. The DSLs in both languages can be translated from one to the other. (TODO) The DSL in either language can be utilized to generate patterns. Both Scala and Racket are functional programming languages, which lends itself well to creating small, reusable pattern-generating functions. Scala is strongly typed and is meant to be the main entry point for the user of the DSL, since type errors will alert you to errors before you ever run your code. Racket, in contrast, is dynamically typed, which means that you won't know there's an error until you run the program.
+
+Second, a program synthesis tool has been implemented in Racket that generates card weaving instructions, given a pattern (TODO). This is the main purpose for the Racket version of the DSL, which is produced by the program synthesis tool and can be translated back into Scala (TODO) if so desired, or manipulated directly in Racket.
+
+## About
+
+Card weaving instructions synthesis
+
+### Resources
+
+[Readme](https://github.com/audreyseo/cardweaver#readme-ov-file)
+
+[MIT license](https://github.com/audreyseo/cardweaver#MIT-1-ov-file)
+
+[Activity](https://github.com/audreyseo/cardweaver/activity)
+
+### Stars
+
+**0** stars
+
+### Watchers
+
+**1** watching
+
+### Forks
+
+[**0** forks](https://github.com/audreyseo/cardweaver/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Faudreyseo%2Fcardweaver&report=audreyseo+%28user%29)
+
+## Releases
+
+## Packages
+
+## Contributors
+
+## Languages
+
+You can’t perform that action at this time.

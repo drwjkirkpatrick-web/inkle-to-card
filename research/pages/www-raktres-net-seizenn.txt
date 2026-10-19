@@ -1,0 +1,113 @@
+![](<Base64-Image-Removed>)
+
+SeiZenn - Band Weaving Pattern Editor
+
+enfresdarudefiit
+
+[home](https://www.raktres.net/seizenn/#/ "home")
+
+* * *
+
+[Band](https://www.raktres.net/seizenn/#/inkle "to draw a pattern as you weave") [Grid](https://www.raktres.net/seizenn/#/grid "to draw pattern on a grid") [Heddle loom](https://www.raktres.net/seizenn/#/heddle "to draw heddle loom pattern, potholder") [Tablet weaving](https://www.raktres.net/seizenn/#/tablet "to draw tabletweaving pattern") [Disk weaving](https://www.raktres.net/seizenn/#/disk "to draw pattern for disk weaving") [Takadai](https://www.raktres.net/seizenn/#/takadai "Takadai pattern")
+
+* * *
+
+[Create your palette](https://www.raktres.net/seizenn/#/palette "Create your palette") [List of your patterns](https://www.raktres.net/seizenn/#/list "List of your patterns")
+
+* * *
+
+[Instructions](https://www.raktres.net/seizenn/#/doc "Instructions") [Login](https://www.raktres.net/seizenn/#/account "Login")
+
+blog
+
+# SeiZenn - Band Weaving Pattern Editor
+
+See [SeiZenn-Interface.pdf](https://www.raktres.net/blog/wp-content/uploads/2024/01/SeiZenn-Interface.pdf) and [SeiZenn-Create-your-first-pattern.pdf](https://www.raktres.net/blog/wp-content/uploads/2024/01/SeiZenn-Create-your-first-pattern.pdf) for a short introduction to SeiZenn.
+
+[Check the blog to get news or post a comment](https://www.raktres.net/blog/ "Blog")
+
+You will find here technical messages from eunded.fr about SeiZenn.
+
+📋 ✓ Mark as read✕
+
+[Contact](https://www.raktres.net/blog/contact/)
+
+Inspired by [aspinnerweaver](https://aspinnerweaver.blogspot.fr/)
+
+## Tools
+
+Different modules are available:
+
+[to draw a pattern as you weave](https://www.raktres.net/seizenn/#/inkle "to draw a pattern as you weave") Edit an inkle loom pattern
+
+[to draw pattern on a grid](https://www.raktres.net/seizenn/#/grid "to draw pattern on a grid") Edit a square pattern
+
+[to draw heddle loom pattern, potholder](https://www.raktres.net/seizenn/#/heddle "to draw heddle loom pattern, potholder") Edit your pattern for shaft loom, heddle loom, potholder
+
+[to draw tabletweaving pattern](https://www.raktres.net/seizenn/#/tablet "to draw tabletweaving pattern") Edit your tablet pattern
+
+[to draw pattern for disk weaving](https://www.raktres.net/seizenn/#/disk "to draw pattern for disk weaving") Edit pattern for disk loom
+
+[Takadai pattern](https://www.raktres.net/seizenn/#/takadai "Takadai pattern") Edit pattern for takadai
+
+[Create your palette](https://www.raktres.net/seizenn/#/palette "Create your palette") Edit your color palette
+
+[List of your patterns](https://www.raktres.net/seizenn/#/list "List of your patterns") List of your patterns
+
+[Login](https://www.raktres.net/seizenn/#/account "Login") Your personnal page
+
+[Blog](https://www.raktres.net/blog/ "Blog") Check the blog to get news or post a comment
+
+## Videos:
+
+- Presentation of the interface [https://youtu.be/-Nr8dm-IPSI](https://youtu.be/-Nr8dm-IPSI)
+- Presentation of grid pattern tool [https://youtu.be/iUCrduK4Aco](https://youtu.be/iUCrduK4Aco)
+- Presentation of palette editor [https://youtu.be/TiRPcTSwUJE](https://youtu.be/TiRPcTSwUJE)
+- Pickup, drop and dual colors [https://youtu.be/rLCpT2lNYbc](https://youtu.be/rLCpT2lNYbc)
+- Grid editor for ‘Baltic’ type band patterns [https://youtu.be/wQToadxlWv8](https://youtu.be/wQToadxlWv8)
+
+## Installation
+
+For step-by-step instructions on how to install SeiZenn on your device and use it offline, see the [documentation](https://www.raktres.net/seizenn/#/doc).
+
+## Help
+
+See [SeiZenn-Interface.pdf](https://www.raktres.net/blog/wp-content/uploads/2024/01/SeiZenn-Interface.pdf) and [SeiZenn-Create-your-first-pattern.pdf](https://www.raktres.net/blog/wp-content/uploads/2024/01/SeiZenn-Create-your-first-pattern.pdf) for a short introduction to SeiZenn.
+
+Click at the top left on
+
+to navigate between the tools.
+
+to return to this page
+
+to log into your account
+
+The interface is a little different on a mobile device (tablet or phone, indicated by the icon  top right), or on a computer (icon ).
+
+On a mobile device, the buttons are icons. It is possible to place them to the left or above by checking the box .
+
+On a computer, the buttons are by default textual as for the first version. To use icons, check the box  top right.
+
+[Instructions](https://www.raktres.net/seizenn/#/doc "Instructions")
+
+[News on the Raktres blog](https://www.raktres.net/blog)
+
+[Contact](https://www.raktres.net/blog/contact/)
+
+### Terms of service
+
+Seizenn is a free to use service for non-commercial use.
+
+If you want to use it beyond your personal use, for example to illustrate a book, [please contact me](https://www.raktres.net/blog/contact/). I am very interested to know if you use it during a workshop, to follow the use which is made of it.
+
+This tool is offered without guarantee. The anomalies that you wish to report will be studied with kindness, without any promise of correction delay.
+
+The patterns you save can be lost, and there is no special technical protection to prevent someone from accessing them.
+
+version 2026-09-22T05:44:15.282Z - Bgt 2021 - [raktres.net](https://raktres.net/)
+
+[Contact](https://www.raktres.net/blog/contact/)
+
+[raktres.net](https://raktres.net/) −
+
+counter:411396
