@@ -19,12 +19,13 @@ render them as a PDF report.
 - [x] Mapping design decision: Mapping A (1 end = 1 card, width-preserving) default; Mapping B (4 ends/card) optional
 - [x] Prompt 1: scaffold + domain model (models.py) - 18 tests green
 - [x] Prompt 2: inkle draft parsers (parsers.py) - JSON (2 shapes) + text format - 46 tests green total
+- [x] Prompt 3: conversion engine (engine.py) - mappings A and B
 
 ### In Progress
-- [ ] Prompt 3: conversion engine (engine.py)
+- [ ] Prompt 4: threading direction + turning sequences (turning.py)
 
 ### Not Started
-- [ ] Prompts 4-10 (see PROMPTS.md dependency table)
+- [ ] Prompts 5-10 (see PROMPTS.md dependency table)
 
 ## 3. Architecture & Key Decisions
 | Decision | Rationale | Date |
@@ -40,7 +41,7 @@ render them as a PDF report.
 - **Risk:** value-contrast warning threshold uncalibrated - pick 1.8:1 default, revisit in P6 tests.
 
 ## 5. Next Step (only ONE)
-> **Next:** Execute Prompt 3 (engine.py + tests/test_engine.py) per PROMPTS.md.
+> **Next:** Execute Prompt 4 (turning.py + tests/test_turning.py) per PROMPTS.md.
 
 ## 6. Environment & Tooling Notes
 - Python 3.14.7; project venv at .venv (`.venv/bin/python -m pytest -q`)
