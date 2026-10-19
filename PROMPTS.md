@@ -153,3 +153,28 @@ research/RESEARCH.md as the evidence base.
 **Acceptance:** v0.1.0 tagged and pushed; a weaver can go from idea to card deck in one
 command.
 **Commit:** `P10: docs, examples, v0.1.0`
+
+
+---
+
+## Prompt 11 (v0.2, executed 2026-10-18) - Photo import: palettes, matching, pattern grids
+
+**Files:** `src/inkletocard/photo.py`, `tests/test_photo.py`, CLI commands
+`palette` and `import-grid`, docs updates.
+
+**Spec (as built):**
+- `extract_palette(photo, n_colors=6)`: adaptive-quantize the photo, report each
+  dominant color as hex + nearest common name (deduped) + pixel share.
+- `match_colors(swatches, palette)`: snap each photo color to the nearest draft
+  palette color (close = within 90 RGB distance, tunable); list palette colors
+  the photo never shows.
+- `import_grid(photo, cols)`: read a 2-row draft chart photo - central-half cell
+  sampling, 25% auto border peel, cluster to <=12 named colors, warp order
+  top/bottom per column (research section 2), validate before returning.
+- CLI: `inkletocard palette PHOTO [--colors N] [--match DRAFT] [-o JSON]` and
+  `inkletocard import-grid PHOTO --cols N [--name] [--save-draft] [-o PDF]`,
+  reusing the full conversion pipeline. `--finished-cm` now actually reaches the
+  materials page. Pillow added as a dependency.
+
+**Acceptance:** photo tests green (Pillow-gated), CLI end-to-end tests green,
+imported drafts round-trip through the JSON format.

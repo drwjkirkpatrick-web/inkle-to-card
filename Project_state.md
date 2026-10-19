@@ -27,9 +27,10 @@ render them as a PDF report.
 - [x] Prompt 8: PDF report part 2 - R5 turning chart, R6 woven preview, R7 materials, R8 legend, R9 warnings
 - [x] Prompt 9: CLI (convert/demo) + 3 bundled starter patterns
 - [x] Prompt 10: README (Phosphorus voice), docs/DRAFT-FORMAT.md, examples/*.pdf, CLI warning-count fix, v0.1.0 tag - 130 tests green
+- [x] Prompt 11 (v0.2): photo import - extract_palette, match_colors, import_grid + CLI palette/import-grid commands
 
 ### In Progress
-- [ ] v0.2 candidates (not scheduled): double-face pick-up translation, Seizenn/TDD pattern import, calibration from a hand-woven band
+- [ ] v0.2 candidates (not scheduled): double-face pick-up translation, Seizenn/TDD file-format import, calibration from a hand-woven band
 
 ### Not Started
 - Step 5 validation: weave a sample band from examples/quiet-harbor-17.pdf and correct the model where the cloth disagrees
@@ -63,6 +64,7 @@ render them as a PDF report.
 - 2026-10-18: Prompt 2 executed: parsers.py (JSON ends/order shapes + text format, format sniffing) + 28 tests.
 - 2026-10-18: Prompts 3-9 executed one-commit-per-prompt: engine, turning, simulate, colors, report R1-R9, CLI + patterns (130 tests).
 - 2026-10-18: Prompt 10 executed: docs + examples + v0.1.0 tag. All 10 prompts complete.
+- 2026-10-18: Prompt 11 (v0.2) executed: photo module (palette extraction, color matching, grid pattern import) + 2 CLI commands; --finished-cm wired to materials; tagged v0.2.0.
 
 ## 8. References
 - Research: research/RESEARCH.md (grounded, citation-verified)

@@ -76,6 +76,36 @@ more than hue. Weavers test it with a black-and-white photo of their yarns;
 this tool runs that test numerically: your PDF gets a value ladder, and any
 stripe boundary that will not read gets a warning with the numbers.
 
+## Photos in, drafts out (v0.2)
+
+Photograph your yarn and get a draft-ready palette, with pixel shares and
+human color names:
+
+```bash
+.venv/bin/inkletocard palette yarn.jpg --colors 4
+```
+
+Ask "which of *my* yarns can weave this pattern?" - match a photo against a
+draft's palette and see which palette colors the photo never shows:
+
+```bash
+.venv/bin/inkletocard palette stash.jpg --match my-belt.json
+```
+
+Import a pattern from a photo of a 2-row chart - a book scan or another
+tool's screenshot - and go straight to the PDF (top row = heddled ends,
+bottom = open, warp order top/bottom per column, exactly as inkle drafts
+are read):
+
+```bash
+.venv/bin/inkletocard import-grid chart.png --cols 17 --name harbor \
+    --save-draft harbor.json
+```
+
+Grid cells are sampled over their central half (grid lines and margins are
+ignored), colors cluster into at most 12 named palette entries, and the
+imported draft is validated before it converts.
+
 ## Examples
 
 Three starter bands, ready to weave: `examples/first-band.pdf`,

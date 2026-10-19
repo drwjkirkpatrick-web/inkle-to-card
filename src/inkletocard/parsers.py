@@ -101,9 +101,11 @@ def _ends_from_json(data: dict) -> list[End]:
         for i, item in enumerate(raw):
             if not isinstance(item, dict):
                 raise DraftError(f"ends[{i}] must be an object with 'color' and 'heddled'")
-            color = item.get("color")
+            color = item.get("color") or item.get("color_name")
             if not isinstance(color, str) or not color.strip():
-                raise DraftError(f"ends[{i}] is missing 'color'")
+                raise DraftError(
+                    f"ends[{i}] is missing 'color' (or 'color_name', as saved by --save-draft)"
+                )
             heddled = item.get("heddled")
             if not isinstance(heddled, bool):
                 raise DraftError(f"ends[{i}].heddled must be true or false")

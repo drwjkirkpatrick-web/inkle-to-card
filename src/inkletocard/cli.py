@@ -12,6 +12,7 @@ draft, turning chart, materials, and an explicit starting position.
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -20,7 +21,8 @@ from .colors import check_draft_contrast, mixing_note
 from .engine import convert_draft
 from .models import DraftError, InkleDraft
 from .parsers import parse_draft
-from .report import build_pdf, warnings_list
+from .photo import extract_palette, import_grid, match_colors
+from .report import build_pdf, materials_report, warnings_list
 from .simulate import ascii_render, simulate_band
 from .turning import attach_turning, gen_4f4b
 
@@ -61,7 +63,8 @@ def _run_conversion(draft: InkleDraft, args) -> int:
         return 0
 
     out = Path(args.out) if args.out else Path(f"{draft.name}.pdf")
-    result = build_pdf(deck, draft, out)
+    materials = materials_report(deck, draft, finished_cm=args.finished_cm)
+    result = build_pdf(deck, draft, out, materials=materials)
     print(f"PDF report: {result['path']} ({result['pages']} pages)")
     return 0
 
@@ -95,6 +98,29 @@ def main(argv=None) -> int:
     p_demo.add_argument("--no-pdf", action="store_true")
     p_demo.add_argument("--list", action="store_true", help="list bundled patterns")
 
+    p_palette = sub.add_parser("palette", help="extract a draft-ready palette from a photo")
+    p_palette.add_argument("photo", help="photo of yarn, fabric, or a chart")
+    p_palette.add_argument("--colors", type=int, default=6,
+                           help="number of colors to extract (default 6)")
+    p_palette.add_argument("--match", default=None,
+                           help="draft file: match photo colors to this draft's palette")
+    p_palette.add_argument("-o", "--out", default=None,
+                           help="write the palette as JSON here")
+
+    p_grid = sub.add_parser("import-grid",
+                            help="import a draft from a photo of a 2-row chart")
+    p_grid.add_argument("photo", help="photo of the chart (grid fills the frame)")
+    p_grid.add_argument("--cols", type=int, required=True,
+                        help="number of pattern columns in the chart")
+    p_grid.add_argument("--name", default=None,
+                        help="draft name (default: the photo's file name)")
+    p_grid.add_argument("--save-draft", default=None,
+                        help="also save the imported draft as JSON here")
+    p_grid.add_argument("-o", "--out", default=None, help="output PDF path")
+    p_grid.add_argument("--mapping", choices=("A", "B"), default="A")
+    p_grid.add_argument("--finished-cm", type=float, default=150.0)
+    p_grid.add_argument("--no-pdf", action="store_true")
+
     args = parser.parse_args(argv)
     try:
         if args.command == "demo":
@@ -111,7 +137,41 @@ def main(argv=None) -> int:
             draft = parse_draft(args.draft)
             return _run_conversion(draft, args)
 
-    except (DraftError, ValueError) as exc:
+        if args.command == "palette":
+            swatches = extract_palette(args.photo, n_colors=args.colors)
+            print(f"photo palette ({len(swatches)} colors):")
+            for s in swatches:
+                print(f"  {s['name']:<16} {s['hex']}   {s['share'] * 100:.0f}% of pixels")
+            if args.match:
+                target = parse_draft(args.match)
+                report = match_colors(swatches, target.palette)
+                print(f"\nmatched against {target.name!r} "
+                      f"(close = within {report['tolerance']:.0f} RGB distance):")
+                for m in report["matches"]:
+                    tag = "exact" if m["distance"] == 0 else ("close" if m["close"] else "FAR")
+                    print(f"  {m['hex']} ({m['share'] * 100:.0f}%) -> {m['match']} "
+                          f"[{tag}, d={m['distance']}]")
+                if report["missing"]:
+                    print(f"  not seen in photo: {', '.join(report['missing'])}")
+            print("\npaste into a text draft:")
+            print("palette: " + ", ".join(f"{s['name']} {s['hex']}" for s in swatches))
+            if args.out:
+                Path(args.out).write_text(
+                    json.dumps({s["name"]: s["hex"] for s in swatches}, indent=2) + "\n"
+                )
+                print(f"palette JSON written: {args.out}")
+            return 0
+
+        if args.command == "import-grid":
+            draft = import_grid(args.photo, cols=args.cols, name=args.name)
+            if args.save_draft:
+                Path(args.save_draft).write_text(
+                    json.dumps(draft.to_dict(), indent=2) + "\n"
+                )
+                print(f"draft saved: {args.save_draft}")
+            return _run_conversion(draft, args)
+
+    except (DraftError, ImportError, ValueError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
     return 0
