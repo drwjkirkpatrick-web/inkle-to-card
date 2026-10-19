@@ -28,12 +28,13 @@ render them as a PDF report.
 - [x] Prompt 9: CLI (convert/demo) + 3 bundled starter patterns
 - [x] Prompt 10: README (Phosphorus voice), docs/DRAFT-FORMAT.md, examples/*.pdf, CLI warning-count fix, v0.1.0 tag - 130 tests green
 - [x] Prompt 11 (v0.2): photo import - extract_palette, match_colors, import_grid + CLI palette/import-grid commands
+- [x] Prompt 12 (v0.3): TDD .tdd import (importers.py, import-tdd CLI) + weave-test protocol (docs/WEAVE-TEST.md) + research section 13
 
 ### In Progress
-- [ ] v0.2 candidates (not scheduled): double-face pick-up translation, Seizenn/TDD file-format import, calibration from a hand-woven band
+- [ ] v0.4 candidates (not scheduled): double-face pick-up translation, native Seizenn import (blocked on a format sample), palette PDF page
 
 ### Not Started
-- Step 5 validation: weave a sample band from examples/quiet-harbor-17.pdf and correct the model where the cloth disagrees
+- Step 5 validation: weave a sample band from examples/quiet-harbor-17.pdf following docs/WEAVE-TEST.md and correct the model where the cloth disagrees
 
 ## 3. Architecture & Key Decisions
 | Decision | Rationale | Date |
@@ -65,6 +66,7 @@ render them as a PDF report.
 - 2026-10-18: Prompts 3-9 executed one-commit-per-prompt: engine, turning, simulate, colors, report R1-R9, CLI + patterns (130 tests).
 - 2026-10-18: Prompt 10 executed: docs + examples + v0.1.0 tag. All 10 prompts complete.
 - 2026-10-18: Prompt 11 (v0.2) executed: photo module (palette extraction, color matching, grid pattern import) + 2 CLI commands; --finished-cm wired to materials; tagged v0.2.0.
+- 2026-10-18: Prompt 12 (v0.3) executed: TDD format research (ledger 40-45) grounded + verified; importers.py + import-tdd CLI; Seizenn = no public format (photo-grid path); WEAVE-TEST.md protocol; 159 tests; tagged v0.3.0.
 
 ## 8. References
 - Research: research/RESEARCH.md (grounded, citation-verified)

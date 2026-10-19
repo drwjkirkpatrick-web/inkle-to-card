@@ -106,6 +106,27 @@ Grid cells are sampled over their central half (grid lines and margins are
 ignored), colors cluster into at most 12 named palette entries, and the
 imported draft is validated before it converts.
 
+### From other tools (v0.3)
+
+TDD - the Tablet Weaving Draft Designer - saves plain-text `.tdd` files, and
+inkle-to-card imports them straight into the full nine-page report (start
+position, turning chart, materials, warnings):
+
+```bash
+.venv/bin/inkletocard import-tdd band.tdd -o band.pdf
+```
+
+The import reads TDD's turning chart with a rule derived from its own
+converter (a card's home slash - `\` for Z-threaded, `/` for S-threaded -
+means a forward turn) and its hole rows in top-to-bottom A-D order; both
+assumptions are printed on the deck's warnings page and can be flipped
+(`--holes DCBA`) if your first pick shows the wrong colors. Dropped-hole
+patterns import with a fill-and-warn caveat.
+
+Seizenn has no public file format (account-based editor, image exports
+only), so import its charts the visual way: screenshot the chart and run
+`inkletocard import-grid chart.png --cols N` (see docs/DRAFT-FORMAT.md).
+
 ## Examples
 
 Three starter bands, ready to weave: `examples/first-band.pdf`,

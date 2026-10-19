@@ -592,6 +592,78 @@
           "added": "2026-10-18"
         }
       ]
+    },
+    {
+      "id": 40,
+      "url": "https://raw.githubusercontent.com/jamespbarrett/tabletweave/master/fmt/example.tdd",
+      "title": "TDD example.tdd - native format sample",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "01111110 010 010 010 010 01111110 SSSSSSSS 0 - #000000 1 - #FFFFFF",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "0 - #000000 1 - #FFFFFF",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "url": "https://raw.githubusercontent.com/jamespbarrett/tabletweave/master/fmt/json_to_tdd.js",
+      "title": "TDD json_to_tdd.js - format converter (semantics)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "if (x['direction'] == \"left\") { r.threading.push('Z');",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "row.push(' '); } else { row.push('?');",
+          "added": "2026-10-18"
+        },
+        {
+          "text": "var dir = (r.threading[x] == 'Z') ? '\\\\' : '/';; for (var y = r.turning.length - 1;",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "url": "https://raw.githubusercontent.com/jamespbarrett/tabletweave/master/draft.js",
+      "title": "TDD draft.js - application model",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "String.fromCharCode(\"A\".charCodeAt(0) + j);",
+          "added": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "url": "https://raw.githubusercontent.com/jamespbarrett/tabletweave/master/howto.html",
+      "title": "TDD howto.html - pointer page",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 44,
+      "url": "https://raw.githubusercontent.com/jamespbarrett/tabletweave/master/README.md",
+      "title": "TDD README.md",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": 45,
+      "url": "https://www.raktres.net/blog/wp-content/uploads/2024/01/SeiZenn-Interface.pdf",
+      "title": "SeiZenn Interface PDF (export options)",
+      "accessed": "2026-10-18",
+      "quotes": [
+        {
+          "text": "create a picture create instructions note **03/01/2024 https",
+          "added": "2026-10-18"
+        }
+      ]
     }
   ]
 }

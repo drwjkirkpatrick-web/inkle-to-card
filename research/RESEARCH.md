@@ -55,6 +55,14 @@ Visibility is bounded by the yarns: you can never get more contrast in the patte
 
 Derived program behavior (our design, premises cited): implement the black-and-white-photo test digitally - compute each palette color's grayscale value, print a value ladder in the PDF palette section, and warn when adjacent stripe blocks in the source draft have low value contrast (threshold to calibrate in Step 2) - and carry a mixing caveat for sub-two-end features.[34][35]
 
+## 13. Importable pattern formats (Step 2 addition: TDD; Seizenn finding)
+
+The Tablet Weaving Draft Designer (TDD) stores drafts in a plain-text `.tdd` format that its own repository documents by example: a turning chart of slashes (one row per pick, one character per card), a threading chart of four hole rows plus one S/Z row (one character per card; a space means a dropped hole), and a palette of lines like "0 - #000000".[40] The semantics come from its old-JSON converter: threading direction "left" maps to Z and otherwise S[41], and the turning chart's slash is per-card state - a card's initial character is "\\" when Z-threaded and "/" when S-threaded, flipping wherever the turn direction reverses.[41] The application's text export labels holes A, B, C, D by row index (with a display toggle for clockwise vs counterclockwise labeling), so the file's top-to-bottom hole-row order is a documented assumption of our importer rather than a pinned fact.[42]
+
+Derived turn mapping (our inference, flagged for the weave test): under the standard S/Z twining rules (section 3), a Z-threaded card turned forward produces an S-twined cord and an S-threaded card turned forward produces a Z-twined cord - exactly the characters TDD assigns as each card's initial state. The importer therefore reads a card's home character (Z: "\\", S: "/") as a forward turn and the other character as a backward turn, and prints its assumption plus the hole-row order on the imported deck's warnings page. [derived from 7, 41]
+
+Seizenn, by contrast, has no public pattern-file format: it is an account-based web editor whose interface offers saving to the user's pattern list plus "create a picture" and instruction-note exports[45], and no format documentation or public repository was found in this sweep. [unverified as an absence claim: based on this sweep] Seizenn patterns therefore import through the photo-grid path (`import-grid` on a screenshot of its chart) rather than a file parser; a native Seizenn importer becomes possible the day a sample export or format spec is available.
+
 ## Sources
 
 [1] https://en.wikipedia.org/wiki/Inkle_%28loom%29 — Wikipedia - Inkle (loom)
@@ -160,3 +168,14 @@ Derived program behavior (our design, premises cited): implement the black-and-w
     > "cut out a square about 5 cm on each side, and punch four holes in the corners, drawing construction lines as shown in **Figure 1** to locate the holes. Round the corners off as shown."
     > "Historically, tablets were made of bone or wood, and perhaps also of leather or horn."
     > "you will need: - 8 tablets - 1 shuttle - 2 different colours of yarn"
+[40] https://raw.githubusercontent.com/jamespbarrett/tabletweave/master/fmt/example.tdd — TDD example.tdd - native format sample
+    > "01111110 010 010 010 010 01111110 SSSSSSSS 0 - #000000 1 - #FFFFFF"
+    > "0 - #000000 1 - #FFFFFF"
+[41] https://raw.githubusercontent.com/jamespbarrett/tabletweave/master/fmt/json_to_tdd.js — TDD json_to_tdd.js - format converter (semantics)
+    > "if (x['direction'] == "left") { r.threading.push('Z');"
+    > "row.push(' '); } else { row.push('?');"
+    > "var dir = (r.threading[x] == 'Z') ? '\\' : '/';; for (var y = r.turning.length - 1;"
+[42] https://raw.githubusercontent.com/jamespbarrett/tabletweave/master/draft.js — TDD draft.js - application model
+    > "String.fromCharCode("A".charCodeAt(0) + j);"
+[45] https://www.raktres.net/blog/wp-content/uploads/2024/01/SeiZenn-Interface.pdf — SeiZenn Interface PDF (export options)
+    > "create a picture create instructions note **03/01/2024 https"

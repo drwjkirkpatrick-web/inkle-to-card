@@ -1,0 +1,61 @@
+## SeiZenn Interface
+
+**Home**
+
+**SeiZenn Interface**
+
+**Home**
+**Realistic**
+**Grid**
+**Heddle**
+**Tablet**
+**Disk**
+**Takadai**
+**Blog**
+**Personnal page**
+**Help**
+**Patterns manager**
+**Palettes manager**
+
+**Active** color
+**Edition Mode**
+
+**Language**
+**Icons or text for menus and buttons**
+**Menu on top or on left**
+**Desktop or smartphone**
+**Connected**
+
+**Edition modes : plain weave, dual color, pickup, brocade...**
+**Color tools : Palettes, color selection...**
+**Edition tools : base patterns, pattern move, symmetry...**
+**Pattern parameters : width, height, comment.**
+**Visual adjustment : zoom, details, visual aids...**
+**New pattern, load, save, create thumbnail or pdf.**
+
+**Closed menu**
+**Opened menu**
+
+Raktres.net • SeiZenn
+Number of threads: 27
+Thumbnail source:
+Author comment
+
+**On desktop**
+
+**Left click for thread actions, apply tool**
+
+**Right click :**
+Add thread
+Add 2 threads
+remove thread
+Remove 2 threads
+
+**Click to edit the pattern**
+
+Create a new pattern
+Save your pattern
+create a picture
+create instructions note
+
+**03/01/2024 https://www.raktres.net/seizenn/**

@@ -7,7 +7,7 @@ band face, and renders a PDF report a weaver can follow at the loom.
 
 Evidence base: research/RESEARCH.md (grounded citations).
 """
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 
 from .models import (
     HOLE_ORDER,
@@ -24,11 +24,13 @@ from .models import (
 )
 from .parsers import parse_draft, parse_inkle_json, parse_inkle_text
 from .photo import extract_palette, import_grid, match_colors
+from .importers import ImportedPattern, deck_to_draft, import_tdd
 
 __all__ = [
     "HOLE_ORDER", "SURFACE_CYCLE", "Card", "CardDeck", "DraftError", "End",
     "InkleDraft", "Pick", "StartPosition", "ThreadingDirection", "Turn",
     "parse_draft", "parse_inkle_json", "parse_inkle_text",
     "extract_palette", "import_grid", "match_colors",
+    "ImportedPattern", "deck_to_draft", "import_tdd",
     "__version__",
 ]

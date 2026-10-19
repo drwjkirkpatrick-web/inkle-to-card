@@ -88,3 +88,28 @@ Reads a photo of a 2-row draft chart:
   entry, named after its nearest common color.
 - The imported draft runs through the same validation as any other draft
   before the conversion pipeline takes over.
+
+
+## Importing .tdd files (v0.3)
+
+`inkletocard import-tdd FILE [--holes ABCD|DCBA] [-o PDF] [--save-draft FILE]`
+
+The TDD (Tablet Weaving Draft Designer) `.tdd` format is plain text with
+three blocks, in order:
+
+1. **Turning chart** - one row per pick, one character per card: `/` or `\`.
+   A card's *home* character (`\` when Z-threaded, `/` when S-threaded)
+   means a forward turn; the other character means backward. Derived from
+   TDD's own converter and the standard twining rules (research section 13);
+   printed as an assumption on the warnings page.
+2. **Threading chart** - four hole rows (one character per card: a palette
+   digit, or a space for a dropped hole) plus one S/Z row.
+3. **Palette** - lines like `0 - #000000` (up to 16 colors, digits 0-9a-f).
+
+Colors are named after their nearest common color (deduplicated). Dropped
+holes are filled with the card's remaining color and flagged, because the
+preview assumes every hole is threaded. `--holes DCBA` flips the assumed
+top-to-bottom hole-row order. The imported deck gets the reverse-engineered
+inkle view (one end per hole, surface order D,C,B,A per card), so the
+materials page counts threads exactly; `--save-draft` writes that view as
+normal draft JSON.

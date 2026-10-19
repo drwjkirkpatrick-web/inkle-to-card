@@ -45,6 +45,8 @@ def title_block_data(deck: CardDeck, draft: InkleDraft) -> dict:
             "Mapping A - one end per card, width-preserving"
             if deck.mapping == "A"
             else "Mapping B - four ends per card, quarter width"
+            if deck.mapping == "B"
+            else f"Imported deck ({deck.mapping})"
         ),
         "cards": len(deck.cards),
         "ends": len(draft.ends),

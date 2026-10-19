@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>Tabletweaving Draft Designer: How To</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="lib/i18next/i18next.min.js"></script>
+<script type="text/javascript" src="lib/jquery-i18next/jquery-i18next.min.js"></script>
+<script type="text/javascript" src="lib/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
+<script src="i18n.js"></script>
+</head>
+
+<body>
+<h1 data-i18n="howto.title"></h1>
+
+<div id="explanation">
+
+  <p data-i18n="howto.explanation"></p>
+
+  <ol>
+    <li data-i18n="howto.no1"></li>
+    <li data-i18n="howto.no2"></li>
+    <li data-i18n="howto.no3"></li>
+    <li data-i18n="howto.no4"></li>
+    <li data-i18n="howto.no5"></li>
+    <li data-i18n="howto.no6"></li>
+    <li data-i18n="howto.no7"></li>
+  </ol>
+
+  <p><span data-i18n="howto.blog"></span>
+  <a href="http://www.tabletweavingintheoryandpractice.co.uk">www.tabletweavingintheoryandpractice.co.uk</a></p>
+
+  <p><span data-i18n="howto.mail"></span><a
+  href="mailto:catherine.ward+tdd@gmail.com">catherine.ward+tdd@gmail.com</a></p>
+</div>
+
+</body> </html>

@@ -22,7 +22,13 @@ from .engine import convert_draft
 from .models import DraftError, InkleDraft
 from .parsers import parse_draft
 from .photo import extract_palette, import_grid, match_colors
-from .report import build_pdf, materials_report, warnings_list
+from .importers import import_tdd
+from .report import (
+    build_pdf,
+    materials_report,
+    turning_chart_data,
+    warnings_list,
+)
 from .simulate import ascii_render, simulate_band
 from .turning import attach_turning, gen_4f4b
 
@@ -41,14 +47,21 @@ def _load_pattern(name: str) -> InkleDraft:
     return parse_draft(paths[name])
 
 
-def _run_conversion(draft: InkleDraft, args) -> int:
-    deck = convert_draft(draft, mapping=args.mapping)
-    attach_turning(deck, gen_4f4b(len(deck.cards)))
+def _run_conversion(draft: InkleDraft, args, deck=None) -> int:
+    # NOTE: imported decks arrive pre-built (cards + picks attached); drafts
+    # from our own parsers run the conversion engine here.
+    if deck is None:
+        deck = convert_draft(draft, mapping=args.mapping)
+        attach_turning(deck, gen_4f4b(len(deck.cards)))
     preview = simulate_band(deck)
     n_warnings = len(warnings_list(deck, draft, preview=preview))  # deduped, same list as the PDF
 
-    print(f"{draft.name} -> {len(deck.cards)} cards (Mapping {args.mapping})")
-    print("Turning: 4F 4B (twist-neutral pack sequence)")
+    chart = turning_chart_data(deck)
+    print(f"{draft.name} -> {len(deck.cards)} cards ({deck.mapping} deck)")
+    if chart["shorthand"]:
+        print(f"Turning: {chart['shorthand']} (F = forward/away, B = backward/toward)")
+    else:
+        print("Turning: cards turn individually - read the chart (PDF page R5)")
     print(f"Warnings: {n_warnings} (all listed in the PDF, page R9)")
     if args.no_pdf:
         print()
@@ -97,6 +110,17 @@ def main(argv=None) -> int:
     p_demo.add_argument("--finished-cm", type=float, default=150.0)
     p_demo.add_argument("--no-pdf", action="store_true")
     p_demo.add_argument("--list", action="store_true", help="list bundled patterns")
+
+    p_tdd = sub.add_parser("import-tdd",
+                           help="import a Tablet Weaving Draft Designer (.tdd) file")
+    p_tdd.add_argument("file", help="path to the .tdd file")
+    p_tdd.add_argument("--holes", default="ABCD",
+                       help="hole letters of the chart rows, top to bottom (ABCD or DCBA)")
+    p_tdd.add_argument("-o", "--out", default=None, help="output PDF path")
+    p_tdd.add_argument("--save-draft", default=None,
+                       help="save the imported deck's inkle view as JSON here")
+    p_tdd.add_argument("--finished-cm", type=float, default=150.0)
+    p_tdd.add_argument("--no-pdf", action="store_true")
 
     p_palette = sub.add_parser("palette", help="extract a draft-ready palette from a photo")
     p_palette.add_argument("photo", help="photo of yarn, fabric, or a chart")
@@ -162,6 +186,15 @@ def main(argv=None) -> int:
                 print(f"palette JSON written: {args.out}")
             return 0
 
+        if args.command == "import-tdd":
+            imported = import_tdd(args.file, hole_rows=args.holes)
+            if args.save_draft:
+                Path(args.save_draft).write_text(
+                    json.dumps(imported.draft.to_dict(), indent=2) + "\n"
+                )
+                print(f"draft saved: {args.save_draft}")
+            return _run_conversion(imported.draft, args, deck=imported.deck)
+
         if args.command == "import-grid":
             draft = import_grid(args.photo, cols=args.cols, name=args.name)
             if args.save_draft:
@@ -171,7 +204,7 @@ def main(argv=None) -> int:
                 print(f"draft saved: {args.save_draft}")
             return _run_conversion(draft, args)
 
-    except (DraftError, ImportError, ValueError) as exc:
+    except (DraftError, ImportError, OSError, ValueError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
     return 0

@@ -178,3 +178,33 @@ command.
 
 **Acceptance:** photo tests green (Pillow-gated), CLI end-to-end tests green,
 imported drafts round-trip through the JSON format.
+
+
+---
+
+## Prompt 12 (v0.3, executed 2026-10-18) - TDD pattern import + weave-test kit
+
+**Files:** `src/inkletocard/importers.py`, `tests/test_importers.py`, CLI
+`import-tdd`, `docs/WEAVE-TEST.md`, research section 13, docs updates.
+
+**Spec (as built):**
+- `import_tdd(path, hole_rows="ABCD")`: parse the TDD `.tdd` plain-text format
+  (turning chart of slashes, 4 hole rows + S/Z row with spaces = dropped holes,
+  digit palette), grounded in TDD's own example file, converter, and app source
+  (research section 13, ledger ids 40-42). Home slash (Z `\`, S `/`) read as
+  forward - derived, flagged, weave-test candidate. Dropped holes filled with
+  the card's remaining color + warning.
+- `deck_to_draft(deck, palette)`: reverse-engineered inkle view (one end per
+  hole, surface order D,C,B,A) so materials count threads exactly and
+  `--save-draft` round-trips through the JSON parser.
+- CLI `import-tdd FILE [--holes ABCD|DCBA] [-o PDF] [--save-draft] [--no-pdf]`;
+  `_run_conversion` now accepts a pre-built deck and prints the turning
+  shorthand dynamically.
+- `docs/WEAVE-TEST.md`: the cloth-validation protocol for the surface-sequence
+  model and both import assumptions.
+- Seizenn finding: no public file format (account-based; picture/instruction
+  exports) - its charts import via `import-grid` screenshots; native import
+  blocked until a format sample exists.
+
+**Acceptance:** importer + CLI tests green (159 total); research section 13
+citation-verified; assumptions printed in deck warnings and PDF page R9.
