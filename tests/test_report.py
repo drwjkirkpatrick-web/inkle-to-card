@@ -9,8 +9,11 @@ pytest.importorskip("reportlab")
 
 from inkletocard.engine import convert_draft
 from inkletocard.report import (
+    _value_word,
     build_pdf,
     deck_summary_rows,
+    materials_report,
+    palette_page_data,
     start_position_text,
     threading_table_data,
     title_block_data,
@@ -181,11 +184,11 @@ class TestLegendAndWarnings:
 
 
 class TestFullBuild:
-    def test_full_report_nine_pages(self, tmp_path):
+    def test_full_report_ten_pages(self, tmp_path):
         deck, draft = make_deck()
         out = tmp_path / "full.pdf"
         result = build_pdf(deck, draft, out)
-        assert result["pages"] == 9
+        assert result["pages"] == 10
         data = out.read_bytes()
         assert data[:4] == b"%PDF"
         assert len(data) > 5000
@@ -194,7 +197,7 @@ class TestFullBuild:
         deck, draft = make_deck()
         out = tmp_path / "auto.pdf"
         result = build_pdf(deck, draft, out)  # preview=None -> computed internally
-        assert result["pages"] == 9
+        assert result["pages"] == 10
         assert out.read_bytes()[:4] == b"%PDF"
 
 
@@ -212,3 +215,30 @@ class TestUnits:
         deck, draft = make_deck()
         m = materials_report(deck, draft)
         assert m["warp_length_cm"] == 230.0  # 150 x 1.2 + 50
+
+
+class TestPalettePage:
+    def test_palette_page_data_rows_and_ladder(self, tmp_path):
+        deck, draft = make_deck()
+        mats = materials_report(deck, draft)
+        data = palette_page_data(draft, mats)
+        assert len(data["rows"]) == 4
+        by_name = {r["name"]: r for r in data["rows"]}
+        assert by_name["navy"]["luminance"] < by_name["cream"]["luminance"]
+        assert by_name["navy"]["threads"] == 20  # 5 navy ends x 4 holes
+        lum = [r["luminance"] for r in data["ladder"]]
+        assert lum == sorted(lum)
+
+    def test_value_word_buckets(self):
+        assert _value_word(0.05) == "very dark"
+        assert _value_word(0.3) == "dark"
+        assert _value_word(0.5) == "medium"
+        assert _value_word(0.8) == "light"
+        assert _value_word(0.95) == "very light"
+
+    def test_palette_page_renders(self, tmp_path):
+        deck, draft = make_deck()
+        out = tmp_path / "with_palette.pdf"
+        result = build_pdf(deck, draft, out)
+        assert result["pages"] == 10
+        assert out.read_bytes()[:4] == b"%PDF"

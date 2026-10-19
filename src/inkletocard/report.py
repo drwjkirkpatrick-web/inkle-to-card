@@ -442,6 +442,88 @@ def _draw_legend_page(c: pdfcanvas.Canvas) -> None:
     _paragraph_lines(c, legend_text(), MARGIN, PAGE_H - 80, leading=16)
 
 
+def _value_word(luminance: float) -> str:
+    """Plain-language value descriptor for the palette page."""
+    if luminance < 0.20:
+        return "very dark"
+    if luminance < 0.45:
+        return "dark"
+    if luminance < 0.70:
+        return "medium"
+    if luminance < 0.90:
+        return "light"
+    return "very light"
+
+
+def palette_page_data(draft: InkleDraft, materials: dict) -> dict:
+    """Palette rows for the PDF: swatch data + the dark-to-light value ladder.
+
+    WHY a palette page: value (light/dark) contrast decides whether a band
+    pattern reads (research section 12). This page is the numeric version of
+    photographing your yarns in black and white.
+    """
+    from .colors import relative_luminance
+
+    rows = []
+    for name, count in draft.color_counts().items():
+        hexv = draft.palette[name]
+        luminance = relative_luminance(hexv)
+        rows.append(
+            {
+                "name": name,
+                "hex": hexv,
+                "luminance": round(luminance, 3),
+                "ends": count,
+                "threads": materials["threads_per_color"][name],
+                "meters": materials["per_color_meters"][name],
+                "yards": materials["per_color_yards"][name],
+            }
+        )
+    ladder = sorted(rows, key=lambda r: r["luminance"])
+    return {"rows": rows, "ladder": ladder}
+
+
+def _draw_palette_page(c: pdfcanvas.Canvas, deck: CardDeck, draft: InkleDraft,
+                       materials: dict) -> None:
+    _heading(c, "R10 - Palette and the black-and-white-photo test")
+    c.setFont("Helvetica", 11)
+    c.drawString(MARGIN, PAGE_H - 66,
+                "The eye reads light/dark (value) contrast far better than hue - this page is")
+    c.drawString(MARGIN, PAGE_H - 80,
+                 "the numeric version of photographing your yarns in black and white.")
+    data = palette_page_data(draft, materials)
+    y = PAGE_H - 110
+    for row in data["rows"]:
+        c.setFillColor(HexColor(row["hex"]))
+        c.rect(MARGIN, y - 2, 34, 14, stroke=1, fill=1)
+        c.setFillColor(HexColor("#000000"))
+        c.setFont("Helvetica-Bold", 11)
+        c.drawString(MARGIN + 42, y, row["name"])
+        c.setFont("Helvetica", 11)
+        c.drawString(MARGIN + 150, y, row["hex"])
+        c.drawString(MARGIN + 220, y, f"value {row['luminance']:.2f} ({_value_word(row['luminance'])})")
+        c.drawString(MARGIN + 400, y,
+                     f"{row['threads']} threads = {row['meters']} m ({row['yards']} yd)")
+        y -= 22
+    # the value ladder: swatches sorted dark to light
+    y -= 14
+    c.setFont("Helvetica-Bold", 11)
+    c.drawString(MARGIN, y, "Value ladder (dark to light):")
+    y -= 26
+    ladder = data["ladder"]
+    if ladder:
+        width = (PAGE_W - 2 * MARGIN) / len(ladder)
+        for i, row in enumerate(ladder):
+            c.setFillColor(HexColor(row["hex"]))
+            c.rect(MARGIN + i * width, y, width - 2, 30, stroke=1, fill=1)
+        c.setFillColor(HexColor("#000000"))
+        c.setFont("Helvetica-Oblique", 9)
+        c.drawString(MARGIN, y - 16,
+                     "If two ADJACENT stripes sit close together on this ladder, their boundary")
+        c.drawString(MARGIN, y - 28,
+                     "may not read on the band - see the warnings page (R9) for flagged pairs.")
+
+
 def _draw_warnings_page(c: pdfcanvas.Canvas, warnings: list[str]) -> None:
     _heading(c, "R9 - Warnings (read before warping)")
     c.setFont("Helvetica", 11)
@@ -490,5 +572,7 @@ def build_pdf(deck: CardDeck, draft: InkleDraft, out_path=None, preview=None,
     c.showPage()
     _draw_warnings_page(c, warnings)
     c.showPage()
+    _draw_palette_page(c, deck, draft, materials)
+    c.showPage()
     c.save()
-    return {"path": out, "pages": 9}
+    return {"path": out, "pages": 10}
