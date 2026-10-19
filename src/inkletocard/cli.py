@@ -20,7 +20,7 @@ from .colors import check_draft_contrast, mixing_note
 from .engine import convert_draft
 from .models import DraftError, InkleDraft
 from .parsers import parse_draft
-from .report import build_pdf
+from .report import build_pdf, warnings_list
 from .simulate import ascii_render, simulate_band
 from .turning import attach_turning, gen_4f4b
 
@@ -43,9 +43,7 @@ def _run_conversion(draft: InkleDraft, args) -> int:
     deck = convert_draft(draft, mapping=args.mapping)
     attach_turning(deck, gen_4f4b(len(deck.cards)))
     preview = simulate_band(deck)
-    contrast = check_draft_contrast(draft)
-    mixing = mixing_note(draft)
-    n_warnings = len(deck.warnings) + len(preview.warnings) + len(contrast) + len(mixing)
+    n_warnings = len(warnings_list(deck, draft, preview=preview))  # deduped, same list as the PDF
 
     print(f"{draft.name} -> {len(deck.cards)} cards (Mapping {args.mapping})")
     print("Turning: 4F 4B (twist-neutral pack sequence)")
