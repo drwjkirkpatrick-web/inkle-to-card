@@ -20,12 +20,13 @@ render them as a PDF report.
 - [x] Prompt 1: scaffold + domain model (models.py) - 18 tests green
 - [x] Prompt 2: inkle draft parsers (parsers.py) - JSON (2 shapes) + text format - 46 tests green total
 - [x] Prompt 3: conversion engine (engine.py) - mappings A and B
+- [x] Prompt 4: turning sequences + twist accounting (turning.py)
 
 ### In Progress
-- [ ] Prompt 4: threading direction + turning sequences (turning.py)
+- [ ] Prompt 5: band face simulator (simulate.py)
 
 ### Not Started
-- [ ] Prompts 5-10 (see PROMPTS.md dependency table)
+- [ ] Prompts 6-10 (see PROMPTS.md dependency table)
 
 ## 3. Architecture & Key Decisions
 | Decision | Rationale | Date |
@@ -41,7 +42,7 @@ render them as a PDF report.
 - **Risk:** value-contrast warning threshold uncalibrated - pick 1.8:1 default, revisit in P6 tests.
 
 ## 5. Next Step (only ONE)
-> **Next:** Execute Prompt 4 (turning.py + tests/test_turning.py) per PROMPTS.md.
+> **Next:** Execute Prompt 5 (simulate.py + tests/test_simulate.py) per PROMPTS.md.
 
 ## 6. Environment & Tooling Notes
 - Python 3.14.7; project venv at .venv (`.venv/bin/python -m pytest -q`)
