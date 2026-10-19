@@ -17,12 +17,13 @@ render them as a PDF report.
 - [x] Research Step 2 additions: tablet styles (sec 11) + color selection guidance (sec 12)
 - [x] Build plan: 10 prompts (PROMPTS.md)
 - [x] Mapping design decision: Mapping A (1 end = 1 card, width-preserving) default; Mapping B (4 ends/card) optional
+- [x] Prompt 1: scaffold + domain model (models.py) - 18 tests green
 
 ### In Progress
-- [ ] Prompt 1: scaffold + domain model (models.py)
+- [ ] Prompt 2: inkle draft parsers (parsers.py)
 
 ### Not Started
-- [ ] Prompts 2-10 (see PROMPTS.md dependency table)
+- [ ] Prompts 3-10 (see PROMPTS.md dependency table)
 
 ## 3. Architecture & Key Decisions
 | Decision | Rationale | Date |
@@ -38,7 +39,7 @@ render them as a PDF report.
 - **Risk:** value-contrast warning threshold uncalibrated - pick 1.8:1 default, revisit in P6 tests.
 
 ## 5. Next Step (only ONE)
-> **Next:** Execute Prompt 1 (models.py + tests), run pytest, commit.
+> **Next:** Execute Prompt 2 (parsers.py + tests/test_parsers.py) per PROMPTS.md.
 
 ## 6. Environment & Tooling Notes
 - Python 3.14.7; project venv at .venv (`.venv/bin/python -m pytest -q`)
@@ -49,6 +50,7 @@ render them as a PDF report.
 ## 7. Recent Session Log
 - 2026-10-18: Research Step 1 (domain foundations) grounded + verified; saved RESEARCH.md, README.md.
 - 2026-10-18: Research Step 2 (tablet styles, color selection) added as sections 11-12; mapping corrected to A-default; PROMPTS.md build plan; scaffold.
+- 2026-10-18: Prompt 1 executed: models.py + 18 tests green; repo published.
 
 ## 8. References
 - Research: research/RESEARCH.md (grounded, citation-verified)
