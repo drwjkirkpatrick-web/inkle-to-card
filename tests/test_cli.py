@@ -142,3 +142,43 @@ class TestRepeats:
         assert main(["convert", str(draft), "--repeats", "12", "-o", str(out)]) == 0
         data = out.read_bytes()
         assert data[:4] == b"%PDF" and len(data) > 5000
+
+
+class TestCheckCommand:
+    def _draft_file(self, tmp_path):
+        draft = tmp_path / "belt.json"
+        draft.write_text(
+            '{"name": "belt", "palette": {"navy": "#1B2A4A", "cream": "#F5F0E6"}, '
+            '"order": "navy navy cream cream navy navy cream cream"}'
+        )
+        return draft
+
+    def test_check_prints_loom_side_facts(self, tmp_path, capsys):
+        assert main(["check", str(self._draft_file(tmp_path))]) == 0
+        out = capsys.readouterr().out
+        assert "OK: 'belt'" in out
+        assert "8 ends (4 heddled / 4 open), 2 colors" in out
+        assert "navy" in out and "#1B2A4A" in out
+        assert "stripe blocks: navyx2, creamx2, navyx2, creamx2" in out
+        assert "mapping A: 8 cards" in out
+
+    def test_check_mapping_b_card_count(self, tmp_path, capsys):
+        assert main(["check", str(self._draft_file(tmp_path)), "--mapping", "B"]) == 0
+        assert "mapping B: 2 cards" in capsys.readouterr().out
+
+    def test_check_reports_warnings(self, tmp_path, capsys):
+        draft = tmp_path / "d.json"
+        draft.write_text(
+            '{"name": "low", "palette": {"gray": "#404040", "slate": "#484848"}, '
+            '"order": "gray slate gray slate gray slate gray slate"}'
+        )
+        assert main(["check", str(draft)]) == 0
+        out = capsys.readouterr().out
+        assert "warnings (" in out
+        assert "gray meets slate" in out
+
+    def test_check_invalid_draft_fails(self, tmp_path, capsys):
+        bad = tmp_path / "bad.json"
+        bad.write_text('{"name": "d", "palette": {"navy": "blue"}, "order": "navy cream"}')
+        assert main(["check", str(bad)]) == 1
+        assert "error:" in capsys.readouterr().err

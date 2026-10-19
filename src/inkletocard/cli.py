@@ -137,6 +137,11 @@ def main(argv=None) -> int:
     p_demo.add_argument("--no-pdf", action="store_true")
     p_demo.add_argument("--list", action="store_true", help="list bundled patterns")
 
+    p_check = sub.add_parser("check", help="validate a draft and print loom-side facts (no PDF)")
+    p_check.add_argument("draft", help="path to the draft file")
+    p_check.add_argument("--mapping", choices=("A", "B"), default="A",
+                         help="preview the card count under this mapping (default A)")
+
     p_tdd = sub.add_parser("import-tdd",
                            help="import a Tablet Weaving Draft Designer (.tdd) file")
     p_tdd.add_argument("file", help="path to the .tdd file")
@@ -213,6 +218,33 @@ def main(argv=None) -> int:
                     json.dumps({s["name"]: s["hex"] for s in swatches}, indent=2) + "\n"
                 )
                 print(f"palette JSON written: {args.out}")
+            return 0
+
+        if args.command == "check":
+            draft = parse_draft(args.draft)  # raises DraftError if invalid
+            n_heddled = sum(1 for e in draft.ends if e.heddled)
+            print(f"OK: {draft.name!r} - {len(draft.ends)} ends "
+                  f"({n_heddled} heddled / {len(draft.ends) - n_heddled} open), "
+                  f"{len(draft.palette)} colors")
+            print("colors:")
+            for name, count in sorted(draft.color_counts().items()):
+                print(f"  {name:<14} {draft.palette[name]}  {count} ends")
+            blocks = draft.stripe_blocks()
+            shown = ", ".join(f"{color}x{width}" for color, width in blocks[:12])
+            if len(blocks) > 12:
+                shown += f" ... ({len(blocks)} blocks total)"
+            print(f"stripe blocks: {shown}")
+            deck = convert_draft(draft, mapping=args.mapping)
+            attach_turning(deck, gen_4f4b(len(deck.cards)))
+            print(f"mapping {args.mapping}: {len(deck.cards)} cards")
+            from .simulate import simulate_band
+            warns = warnings_list(deck, draft, preview=simulate_band(deck))
+            if warns:
+                print(f"warnings ({len(warns)}):")
+                for w in warns:
+                    print(f"  - {w}")
+            else:
+                print("no warnings")
             return 0
 
         if args.command == "import-tdd":
