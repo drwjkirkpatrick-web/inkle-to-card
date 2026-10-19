@@ -24,12 +24,13 @@ render them as a PDF report.
 - [x] Prompt 5: band face simulator (simulate.py)
 - [x] Prompt 6: color utilities (colors.py) - value contrast, ladder, suggestions
 - [x] Prompt 7: PDF report part 1 (report.py) - R1 title, R2 threading table, R3 deck summary, R4 start position
+- [x] Prompt 8: PDF report part 2 - R5 turning chart, R6 woven preview, R7 materials, R8 legend, R9 warnings
 
 ### In Progress
-- [ ] Prompt 8: PDF report part 2 (R5-R9 in report.py)
+- [ ] Prompt 9: CLI + bundled starter patterns (cli.py)
 
 ### Not Started
-- [ ] Prompts 9-10 (see PROMPTS.md dependency table)
+- [ ] Prompt 10 (docs, examples, v0.1.0)
 
 ## 3. Architecture & Key Decisions
 | Decision | Rationale | Date |
@@ -45,7 +46,7 @@ render them as a PDF report.
 - **Risk:** value-contrast warning threshold uncalibrated - pick 1.8:1 default, revisit in P6 tests.
 
 ## 5. Next Step (only ONE)
-> **Next:** Execute Prompt 8 (report.py R5-R9 + tests) per PROMPTS.md.
+> **Next:** Execute Prompt 9 (cli.py + patterns/ + tests/test_cli.py) per PROMPTS.md.
 
 ## 6. Environment & Tooling Notes
 - Python 3.14.7; project venv at .venv (`.venv/bin/python -m pytest -q`)
