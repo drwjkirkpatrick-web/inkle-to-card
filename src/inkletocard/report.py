@@ -284,16 +284,25 @@ def materials_report(deck: CardDeck, draft: InkleDraft, finished_cm: float = 150
         color: round(threads * warp_cm / 100.0, 1)
         for color, threads in threads_per_color.items()
     }
+    per_color_yards = {
+        color: round(meters * 1.09361, 1) for color, meters in per_color_meters.items()
+    }
     return {
         "finished_cm": finished_cm,
+        "finished_in": round(finished_cm / 2.54, 1),
         "take_up": take_up,
         "loom_waste_cm": loom_waste_cm,
         "warp_length_cm": round(warp_cm, 1),
+        "warp_length_in": round(warp_cm / 2.54, 1),
         "threads_per_color": threads_per_color,
         "per_color_meters": per_color_meters,
+        "per_color_yards": per_color_yards,
         "card_count": len(deck.cards),
         "shuttle_note": "One belt shuttle (a shuttle with one beveled edge packs the weft tightly).",
-        "formula": f"warp length = {finished_cm:g} cm x {1.0 + take_up:g} + {loom_waste_cm:g} cm = {warp_cm:.0f} cm",
+        "formula": (
+            f"warp length = {finished_cm:g} cm x {1.0 + take_up:g} + {loom_waste_cm:g} cm "
+            f"= {warp_cm:.0f} cm ({warp_cm / 2.54:.0f} in)"
+        ),
     }
 
 
@@ -399,15 +408,24 @@ def _draw_materials_page(c: pdfcanvas.Canvas, deck: CardDeck, draft: InkleDraft,
     c.setFont("Helvetica", 12)
     lines = [
         materials["formula"],
-        f"Warp length to cut: {materials['warp_length_cm']:.0f} cm per thread "
-        f"({materials['warp_length_cm'] / 100:.1f} m)",
+        f"Finished length: {materials['finished_cm']:.0f} cm "
+        f"({materials['finished_in']:.0f} in)",
+        f"Warp length to cut: {materials['warp_length_cm']:.0f} cm "
+        f"({materials['warp_length_in']:.0f} in) per thread "
+        f"({materials['warp_length_cm'] / 100:.1f} m / "
+        f"{materials['warp_length_in'] / 36:.1f} yd)",
         f"Cards: {materials['card_count']} four-hole cards",
         "",
         "Warp threads and yarn per color:",
     ]
-    for color, meters in sorted(materials["per_color_meters"].items()):
+    for color in sorted(materials["per_color_meters"]):
+        meters = materials["per_color_meters"][color]
+        yards = materials["per_color_yards"][color]
         threads = materials["threads_per_color"][color]
-        lines.append(f"  {color}: {threads} threads x {materials['warp_length_cm'] / 100:.1f} m = {meters} m")
+        lines.append(
+            f"  {color}: {threads} threads x {materials['warp_length_cm'] / 100:.1f} m "
+            f"({materials['warp_length_in'] / 36:.1f} yd) = {meters} m ({yards} yd)"
+        )
     lines += [
         "",
         materials["shuttle_note"],

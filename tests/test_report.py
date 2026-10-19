@@ -196,3 +196,19 @@ class TestFullBuild:
         result = build_pdf(deck, draft, out)  # preview=None -> computed internally
         assert result["pages"] == 9
         assert out.read_bytes()[:4] == b"%PDF"
+
+
+class TestUnits:
+    def test_materials_reports_inches_and_yards(self, tmp_path):
+        deck, draft = make_deck(mapping="A", n=40)
+        m = materials_report(deck, draft, finished_cm=200)
+        assert m["finished_in"] == pytest.approx(78.7, abs=0.1)
+        assert m["warp_length_in"] == pytest.approx(290 / 2.54, abs=0.1)
+        # 40 threads x 2.9 m = 116 m = 126.9 yd
+        assert m["per_color_yards"]["navy"] == pytest.approx(116.0 * 1.09361, abs=0.2)
+        assert "in)" in m["formula"]
+
+    def test_default_finished_length_unchanged(self, tmp_path):
+        deck, draft = make_deck()
+        m = materials_report(deck, draft)
+        assert m["warp_length_cm"] == 230.0  # 150 x 1.2 + 50

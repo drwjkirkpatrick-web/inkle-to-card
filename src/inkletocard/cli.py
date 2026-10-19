@@ -47,6 +47,23 @@ def _load_pattern(name: str) -> InkleDraft:
     return parse_draft(paths[name])
 
 
+def _resolve_finished_cm(args) -> float:
+    """Accept --finished-cm or --finished-in (mutually exclusive); default 150 cm."""
+    fin_in = getattr(args, "finished_in", None)
+    fin_cm = getattr(args, "finished_cm", None)
+    if fin_in is not None and fin_cm is not None:
+        raise DraftError("give either --finished-cm or --finished-in, not both")
+    if fin_in is not None:
+        if fin_in <= 0:
+            raise DraftError("--finished-in must be a positive length in inches")
+        return fin_in * 2.54
+    if fin_cm is not None:
+        if fin_cm <= 0:
+            raise DraftError("--finished-cm must be a positive length in centimeters")
+        return fin_cm
+    return 150.0
+
+
 def _run_conversion(draft: InkleDraft, args, deck=None) -> int:
     # NOTE: imported decks arrive pre-built (cards + picks attached); drafts
     # from our own parsers run the conversion engine here.
@@ -76,7 +93,7 @@ def _run_conversion(draft: InkleDraft, args, deck=None) -> int:
         return 0
 
     out = Path(args.out) if args.out else Path(f"{draft.name}.pdf")
-    materials = materials_report(deck, draft, finished_cm=args.finished_cm)
+    materials = materials_report(deck, draft, finished_cm=_resolve_finished_cm(args))
     result = build_pdf(deck, draft, out, materials=materials)
     print(f"PDF report: {result['path']} ({result['pages']} pages)")
     return 0
@@ -97,8 +114,10 @@ def main(argv=None) -> int:
     p_convert.add_argument("--mapping", choices=("A", "B"), default="A",
                            help="A: one end per card (full width, default); "
                                 "B: four ends per card (quarter width)")
-    p_convert.add_argument("--finished-cm", type=float, default=150.0,
+    p_convert.add_argument("--finished-cm", type=float, default=None,
                            help="finished band length in cm (warp-length math)")
+    p_convert.add_argument("--finished-in", type=float, default=None,
+                           help="finished band length in inches (alternative to --finished-cm)")
     p_convert.add_argument("--no-pdf", action="store_true",
                            help="print deck summary and ascii preview instead of a PDF")
 
@@ -107,7 +126,8 @@ def main(argv=None) -> int:
                         help="bundled pattern name (see --list)")
     p_demo.add_argument("-o", "--out", default=None, help="output PDF path")
     p_demo.add_argument("--mapping", choices=("A", "B"), default="A")
-    p_demo.add_argument("--finished-cm", type=float, default=150.0)
+    p_demo.add_argument("--finished-cm", type=float, default=None)
+    p_demo.add_argument("--finished-in", type=float, default=None)
     p_demo.add_argument("--no-pdf", action="store_true")
     p_demo.add_argument("--list", action="store_true", help="list bundled patterns")
 
@@ -119,7 +139,8 @@ def main(argv=None) -> int:
     p_tdd.add_argument("-o", "--out", default=None, help="output PDF path")
     p_tdd.add_argument("--save-draft", default=None,
                        help="save the imported deck's inkle view as JSON here")
-    p_tdd.add_argument("--finished-cm", type=float, default=150.0)
+    p_tdd.add_argument("--finished-cm", type=float, default=None)
+    p_tdd.add_argument("--finished-in", type=float, default=None)
     p_tdd.add_argument("--no-pdf", action="store_true")
 
     p_palette = sub.add_parser("palette", help="extract a draft-ready palette from a photo")
@@ -142,7 +163,8 @@ def main(argv=None) -> int:
                         help="also save the imported draft as JSON here")
     p_grid.add_argument("-o", "--out", default=None, help="output PDF path")
     p_grid.add_argument("--mapping", choices=("A", "B"), default="A")
-    p_grid.add_argument("--finished-cm", type=float, default=150.0)
+    p_grid.add_argument("--finished-cm", type=float, default=None)
+    p_grid.add_argument("--finished-in", type=float, default=None)
     p_grid.add_argument("--no-pdf", action="store_true")
 
     args = parser.parse_args(argv)

@@ -72,3 +72,32 @@ def test_version_flag():
     with pytest.raises(SystemExit) as excinfo:
         main(["--version"])
     assert excinfo.value.code == 0
+
+
+class TestImperialUnits:
+    def test_finished_in_runs_end_to_end(self, tmp_path, capsys):
+        draft = tmp_path / "d.json"
+        draft.write_text(
+            '{"name": "belt", "palette": {"navy": "#1B2A4A", "cream": "#F5F0E6"}, '
+            '"order": "navy cream navy cream navy cream navy cream"}'
+        )
+        assert main(["convert", str(draft), "--finished-in", "78", "-o", str(tmp_path / "b.pdf")]) == 0
+        assert (tmp_path / "b.pdf").exists()
+
+    def test_finished_flags_mutually_exclusive(self, tmp_path, capsys):
+        draft = tmp_path / "d.json"
+        draft.write_text(
+            '{"name": "belt", "palette": {"navy": "#1B2A4A", "cream": "#F5F0E6"}, '
+            '"order": "navy cream navy cream navy cream navy cream"}'
+        )
+        assert main(["convert", str(draft), "--finished-cm", "200", "--finished-in", "78"]) == 1
+        assert "not both" in capsys.readouterr().err
+
+    def test_negative_finished_rejected(self, tmp_path, capsys):
+        draft = tmp_path / "d.json"
+        draft.write_text(
+            '{"name": "belt", "palette": {"navy": "#1B2A4A", "cream": "#F5F0E6"}, '
+            '"order": "navy cream navy cream navy cream navy cream"}'
+        )
+        assert main(["convert", str(draft), "--finished-in", "-5"]) == 1
+        assert "positive" in capsys.readouterr().err
