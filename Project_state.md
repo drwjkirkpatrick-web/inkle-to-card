@@ -18,12 +18,13 @@ render them as a PDF report.
 - [x] Build plan: 10 prompts (PROMPTS.md)
 - [x] Mapping design decision: Mapping A (1 end = 1 card, width-preserving) default; Mapping B (4 ends/card) optional
 - [x] Prompt 1: scaffold + domain model (models.py) - 18 tests green
+- [x] Prompt 2: inkle draft parsers (parsers.py) - JSON (2 shapes) + text format - 46 tests green total
 
 ### In Progress
-- [ ] Prompt 2: inkle draft parsers (parsers.py)
+- [ ] Prompt 3: conversion engine (engine.py)
 
 ### Not Started
-- [ ] Prompts 3-10 (see PROMPTS.md dependency table)
+- [ ] Prompts 4-10 (see PROMPTS.md dependency table)
 
 ## 3. Architecture & Key Decisions
 | Decision | Rationale | Date |
@@ -39,7 +40,7 @@ render them as a PDF report.
 - **Risk:** value-contrast warning threshold uncalibrated - pick 1.8:1 default, revisit in P6 tests.
 
 ## 5. Next Step (only ONE)
-> **Next:** Execute Prompt 2 (parsers.py + tests/test_parsers.py) per PROMPTS.md.
+> **Next:** Execute Prompt 3 (engine.py + tests/test_engine.py) per PROMPTS.md.
 
 ## 6. Environment & Tooling Notes
 - Python 3.14.7; project venv at .venv (`.venv/bin/python -m pytest -q`)
@@ -51,6 +52,7 @@ render them as a PDF report.
 - 2026-10-18: Research Step 1 (domain foundations) grounded + verified; saved RESEARCH.md, README.md.
 - 2026-10-18: Research Step 2 (tablet styles, color selection) added as sections 11-12; mapping corrected to A-default; PROMPTS.md build plan; scaffold.
 - 2026-10-18: Prompt 1 executed: models.py + 18 tests green; repo published.
+- 2026-10-18: Prompt 2 executed: parsers.py (JSON ends/order shapes + text format, format sniffing) + 28 tests.
 
 ## 8. References
 - Research: research/RESEARCH.md (grounded, citation-verified)
