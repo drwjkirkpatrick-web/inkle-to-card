@@ -345,6 +345,10 @@ def warnings_list(deck: CardDeck, draft: InkleDraft, preview=None, extra=None) -
     return unique
 
 
+# How many pick rows the pages can show before they stop being readable.
+_MAX_CHART_ROWS = 64
+
+
 def _draw_turning_chart_page(c: pdfcanvas.Canvas, deck: CardDeck) -> None:
     _heading(c, "R5 - Turning chart (one row per pick, one column per card)")
     data = turning_chart_data(deck)
@@ -356,6 +360,11 @@ def _draw_turning_chart_page(c: pdfcanvas.Canvas, deck: CardDeck) -> None:
     else:
         c.drawString(MARGIN, PAGE_H - 70,
                      "Cards turn individually - read every cell before each pick.")
+    rows = data["rows"][:_MAX_CHART_ROWS]
+    truncated = len(data["rows"]) > len(rows)
+    # Keep long charts on one page by shrinking row height; never below 7.5 pt.
+    row_h = 14.0 if len(rows) <= 28 else max(7.5, (PAGE_H - 170) / len(rows))
+    font_size = 10 if row_h >= 12 else 7
     x0 = MARGIN + 34
     cell_w = min(24.0, (PAGE_W - MARGIN - x0) / max(data["cards"], 1))
     top = PAGE_H - 100
@@ -364,16 +373,19 @@ def _draw_turning_chart_page(c: pdfcanvas.Canvas, deck: CardDeck) -> None:
     for i in range(data["cards"]):
         c.setFont("Helvetica", 7)
         c.drawCentredString(x0 + i * cell_w + cell_w / 2, top + 4, str(i + 1)[-3:])
-    for r, row in enumerate(data["rows"]):
-        y = top - (r + 1) * 14
-        c.setFont("Helvetica", 9)
+    for r, row in enumerate(rows):
+        y = top - (r + 1) * row_h
+        c.setFont("Helvetica", min(9, font_size + 1))
         c.drawString(MARGIN, y, str(r + 1))
-        c.setFont("Helvetica", 10)
+        c.setFont("Helvetica", font_size)
         for i, turn in enumerate(row):
             c.drawCentredString(x0 + i * cell_w + cell_w / 2, y, turn)
     c.setFont("Helvetica-Oblique", 9)
-    c.drawString(MARGIN, top - (data["picks"] + 1) * 14 - 10,
+    c.drawString(MARGIN, top - (len(rows) + 1) * row_h - 10,
                  "Turn the pack, pass the weft, beat - one pick per row. 4F-4B is twist-neutral.")
+    if truncated:
+        c.drawString(MARGIN, top - (len(rows) + 1) * row_h - 24,
+                     f"First {len(rows)} of {data['picks']} picks shown - the sequence repeats.")
 
 
 def _draw_preview_page(c: pdfcanvas.Canvas, deck: CardDeck, draft: InkleDraft, preview) -> None:
@@ -382,11 +394,13 @@ def _draw_preview_page(c: pdfcanvas.Canvas, deck: CardDeck, draft: InkleDraft, p
         c.setFont("Helvetica", 12)
         c.drawString(MARGIN, PAGE_H - 80, "No preview available - attach a turning sequence first.")
         return
-    picks = len(preview.grid)
+    grid = preview.grid[:_MAX_CHART_ROWS]
+    truncated = len(preview.grid) > len(grid)
+    picks = len(grid)
     n = len(preview.card_numbers)
     usable_w = PAGE_W - 2 * MARGIN
     usable_h = PAGE_H - 2 * MARGIN - 60
-    cell = max(4.0, min(18.0, usable_w / max(n, 1), usable_h / max(picks, 1)))
+    cell = max(3.0, min(18.0, usable_w / max(n, 1), usable_h / max(picks, 1)))
     x0 = MARGIN + 30
     y0 = PAGE_H - MARGIN - 50 - picks * cell
     for r, row in enumerate(preview.grid):
@@ -400,6 +414,9 @@ def _draw_preview_page(c: pdfcanvas.Canvas, deck: CardDeck, draft: InkleDraft, p
                  "pick 1 at the bottom, growing upward as woven; card 1 at the left")
     c.drawString(MARGIN, y0 - 28,
                  "this prediction assumes the home position from page R4 and the attached turning sequence")
+    if truncated:
+        c.drawString(MARGIN, y0 - 40,
+                     f"first {picks} of {len(preview.grid)} picks shown - the sequence repeats")
 
 
 def _draw_materials_page(c: pdfcanvas.Canvas, deck: CardDeck, draft: InkleDraft,

@@ -68,8 +68,11 @@ def _run_conversion(draft: InkleDraft, args, deck=None) -> int:
     # NOTE: imported decks arrive pre-built (cards + picks attached); drafts
     # from our own parsers run the conversion engine here.
     if deck is None:
+        repeats = getattr(args, "repeats", 1)
+        if repeats < 1:
+            raise DraftError("--repeats must be at least 1")
         deck = convert_draft(draft, mapping=args.mapping)
-        attach_turning(deck, gen_4f4b(len(deck.cards)))
+        attach_turning(deck, gen_4f4b(len(deck.cards), repeats=repeats))
     preview = simulate_band(deck)
     n_warnings = len(warnings_list(deck, draft, preview=preview))  # deduped, same list as the PDF
 
@@ -118,6 +121,8 @@ def main(argv=None) -> int:
                            help="finished band length in cm (warp-length math)")
     p_convert.add_argument("--finished-in", type=float, default=None,
                            help="finished band length in inches (alternative to --finished-cm)")
+    p_convert.add_argument("--repeats", type=int, default=1,
+                           help="8-pick 4F-4B cycles to chart (default 1)")
     p_convert.add_argument("--no-pdf", action="store_true",
                            help="print deck summary and ascii preview instead of a PDF")
 
@@ -128,6 +133,7 @@ def main(argv=None) -> int:
     p_demo.add_argument("--mapping", choices=("A", "B"), default="A")
     p_demo.add_argument("--finished-cm", type=float, default=None)
     p_demo.add_argument("--finished-in", type=float, default=None)
+    p_demo.add_argument("--repeats", type=int, default=1)
     p_demo.add_argument("--no-pdf", action="store_true")
     p_demo.add_argument("--list", action="store_true", help="list bundled patterns")
 
@@ -165,6 +171,7 @@ def main(argv=None) -> int:
     p_grid.add_argument("--mapping", choices=("A", "B"), default="A")
     p_grid.add_argument("--finished-cm", type=float, default=None)
     p_grid.add_argument("--finished-in", type=float, default=None)
+    p_grid.add_argument("--repeats", type=int, default=1)
     p_grid.add_argument("--no-pdf", action="store_true")
 
     args = parser.parse_args(argv)

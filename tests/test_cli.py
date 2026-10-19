@@ -101,3 +101,44 @@ class TestImperialUnits:
         )
         assert main(["convert", str(draft), "--finished-in", "-5"]) == 1
         assert "positive" in capsys.readouterr().err
+
+
+class TestRepeats:
+    def test_repeats_extends_shorthand(self, tmp_path, capsys):
+        draft = tmp_path / "d.json"
+        draft.write_text(
+            '{"name": "belt", "palette": {"navy": "#1B2A4A", "cream": "#F5F0E6"}, '
+            '"order": "navy cream navy cream navy cream navy cream"}'
+        )
+        assert main(["convert", str(draft), "--repeats", "3", "--no-pdf"]) == 0
+        out = capsys.readouterr().out
+        assert "Turning: 4F 4B 4F 4B 4F 4B" in out
+
+    def test_repeats_one_is_default(self, tmp_path, capsys):
+        draft = tmp_path / "d.json"
+        draft.write_text(
+            '{"name": "belt", "palette": {"navy": "#1B2A4A", "cream": "#F5F0E6"}, '
+            '"order": "navy cream navy cream navy cream navy cream"}'
+        )
+        assert main(["convert", str(draft), "--no-pdf"]) == 0
+        assert "Turning: 4F 4B" in capsys.readouterr().out
+
+    def test_repeats_zero_rejected(self, tmp_path, capsys):
+        draft = tmp_path / "d.json"
+        draft.write_text(
+            '{"name": "belt", "palette": {"navy": "#1B2A4A", "cream": "#F5F0E6"}, '
+            '"order": "navy cream navy cream navy cream navy cream"}'
+        )
+        assert main(["convert", str(draft), "--repeats", "0"]) == 1
+        assert "at least 1" in capsys.readouterr().err
+
+    def test_long_chart_builds_pdf(self, tmp_path, capsys):
+        draft = tmp_path / "d.json"
+        draft.write_text(
+            '{"name": "belt", "palette": {"navy": "#1B2A4A", "cream": "#F5F0E6"}, '
+            '"order": "navy cream navy cream navy cream navy cream"}'
+        )
+        out = tmp_path / "long.pdf"
+        assert main(["convert", str(draft), "--repeats", "12", "-o", str(out)]) == 0
+        data = out.read_bytes()
+        assert data[:4] == b"%PDF" and len(data) > 5000
